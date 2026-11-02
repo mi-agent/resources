@@ -1,0 +1,522 @@
+[
+ {
+  "category": "免费服务器",
+  "name": "Oracle Cloud Always Free",
+  "quota": "ARM 最高 4 核/24GB 内存，另有 2 台小型 AMD 机，约 200GB 块存储",
+  "term": "长期",
+  "fit": "长期挂机、自建网关",
+  "url": "https://www.oracle.com/cloud/free/",
+  "probe": "https://www.oracle.com/cloud/free/",
+  "steps": "1 注册并绑定信用卡验证（不扣费）；2 主区域选定后不可更改；3 创建实例时选带 Always Free 标识的规格；4 用 SSH 密钥登录并开放所需端口"
+ },
+ {
+  "category": "免费服务器",
+  "name": "Google Cloud e2-micro",
+  "quota": "每月 1 台 e2-micro，30GB 标准磁盘，限美国部分区域",
+  "term": "长期",
+  "fit": "小型服务、跑脚本",
+  "url": "https://cloud.google.com/free",
+  "probe": "https://cloud.google.com/free",
+  "steps": "1 开通账号并绑定付款方式；2 创建 VM，区域选 us-west1/us-central1/us-east1；3 机型 e2-micro，磁盘不超过 30GB；4 注意出站流量超额会计费"
+ },
+ {
+  "category": "免费服务器",
+  "name": "Cloudflare Workers / Pages",
+  "quota": "Workers 每天约 10 万次请求，Pages 静态站点",
+  "term": "有限制",
+  "fit": "API 代理、静态站、短脚本",
+  "url": "https://dash.cloudflare.com/",
+  "probe": "https://dash.cloudflare.com/",
+  "steps": "1 注册 Cloudflare；2 Workers & Pages 创建项目；3 连接 GitHub 自动部署，或 npx wrangler deploy"
+ },
+ {
+  "category": "免费服务器",
+  "name": "Hugging Face Spaces",
+  "quota": "免费 CPU 实例，闲置会休眠",
+  "term": "有限制",
+  "fit": "Demo、Gradio/Docker 应用",
+  "url": "https://huggingface.co/spaces",
+  "probe": "https://huggingface.co/spaces",
+  "steps": "1 注册并 Create new Space；2 选 Gradio、Streamlit 或 Docker；3 推送代码，自动构建并分配公开网址"
+ },
+ {
+  "category": "免费服务器",
+  "name": "Render Free Web Service",
+  "quota": "每月 750 小时，闲置约 15 分钟后休眠",
+  "term": "有限制",
+  "fit": "后端 API、Bot",
+  "url": "https://render.com/",
+  "probe": "https://render.com/",
+  "steps": "1 用 GitHub 登录；2 New → Web Service 选仓库；3 实例类型选 Free，设置启动命令后部署"
+ },
+ {
+  "category": "免费域名/DNS/证书",
+  "name": "DigitalPlat FreeDomain",
+  "quota": "免费二级域名后缀（如 dpdns.org、us.kg），以官网当前开放为准",
+  "term": "有限制",
+  "fit": "个人站、实验项目",
+  "url": "https://dash.domain.digitalplat.org/",
+  "probe": "https://dash.domain.digitalplat.org/",
+  "steps": "1 注册并验证邮箱；2 搜索名称并申领；3 把 NS 指向 Cloudflare 再加 DNS 记录"
+ },
+ {
+  "category": "免费域名/DNS/证书",
+  "name": "is-a.dev / js.org 子域名",
+  "quota": "免费 *.is-a.dev，JS 项目可申请 *.js.org",
+  "term": "长期",
+  "fit": "开发者作品集、开源项目",
+  "url": "https://www.is-a.dev/",
+  "probe": "https://www.is-a.dev/",
+  "steps": "1 Fork 对应 GitHub 仓库；2 新增文件写入你的 DNS 记录；3 提交 Pull Request 等待合并"
+ },
+ {
+  "category": "免费域名/DNS/证书",
+  "name": "FreeDNS（afraid.org）",
+  "quota": "大量共享域名可注册免费子域，附带 DNS 托管",
+  "term": "有限制",
+  "fit": "临时测试",
+  "url": "https://freedns.afraid.org/",
+  "probe": "https://freedns.afraid.org/",
+  "steps": "1 注册并激活邮件；2 Subdomains → Add 选共享域名；3 填目标 IP 或 CNAME，定期登录以免被回收"
+ },
+ {
+  "category": "免费域名/DNS/证书",
+  "name": "eu.org",
+  "quota": "免费 *.eu.org 域名，人工审核，需耐心等待",
+  "term": "长期",
+  "fit": "长期自用的小站",
+  "url": "https://nic.eu.org/",
+  "probe": "https://nic.eu.org/",
+  "steps": "1 注册账号；2 提交申请并写明用途；3 通过后配置 NS"
+ },
+ {
+  "category": "免费路由",
+  "name": "OmniRoute",
+  "quota": "MIT 开源自托管网关；项目自述数百家供应商，其中 90+ 有免费层",
+  "term": "长期",
+  "fit": "把多个免费额度合成一个入口",
+  "url": "https://github.com/diegosouzapw/OmniRoute",
+  "probe": "https://github.com/diegosouzapw/OmniRoute",
+  "steps": "1 npm i -g omniroute，或 Docker 镜像 diegosouzapw/omniroute；2 打开 http://localhost:20128/dashboard；3 添加各供应商密钥（免费层优先）；4 工具的 Base URL 设为 http://localhost:20128/v1；5 出问题先运行 omniroute doctor"
+ },
+ {
+  "category": "免费路由",
+  "name": "Magpie",
+  "quota": "MIT 开源，本地网关 127.0.0.1:3425，支持菜单栏/TUI/Web/CLI",
+  "term": "长期",
+  "fit": "给多个编程 Agent 统一切换模型",
+  "url": "https://github.com/yetone/magpie",
+  "probe": "https://github.com/yetone/magpie",
+  "steps": "1 按官方 README 安装，或 Docker 镜像 ghcr.io/yetone/magpie:latest；2 在 Providers 添加 API Key、中转地址或本地模型；3 为每个 Agent 选模型或建 Profile；4 第三方插件 Our Free Model 非官方，使用前自行评估"
+ },
+ {
+  "category": "免费VPN",
+  "name": "AimiliVPN",
+  "quota": "基于 VPNGate 公共节点的 Linux 代理网关，Web 面板 + HTTP/SOCKS5 本地代理",
+  "term": "长期",
+  "fit": "有一台 Linux 服务器的人",
+  "url": "https://github.com/baoweise-bot/aimili-vpngate",
+  "probe": "https://github.com/baoweise-bot/aimili-vpngate",
+  "steps": "1 先阅读 install.sh；2 root 执行 bash <(curl -Ls https://raw.githubusercontent.com/baoweise-bot/aimili-vpngate/main/install.sh)；3 终端会给出带随机后缀的管理网址，输入 ml 调出菜单；4 后台点“更新节点”，测速后选节点连接"
+ },
+ {
+  "category": "免费VPN",
+  "name": "VPNGate",
+  "quota": "筑波大学学术项目，志愿者公共节点，免费",
+  "term": "有限制",
+  "fit": "临时、轻度使用",
+  "url": "https://www.vpngate.net/",
+  "probe": "https://www.vpngate.net/",
+  "steps": "1 打开官网节点列表；2 下载 OpenVPN 配置；3 用 OpenVPN 客户端导入连接"
+ },
+ {
+  "category": "免费VPN",
+  "name": "Proton VPN Free",
+  "quota": "免费且不限流量，节点国家较少",
+  "term": "长期",
+  "fit": "日常隐私保护",
+  "url": "https://protonvpn.com/free-vpn",
+  "probe": "https://protonvpn.com/free-vpn",
+  "steps": "1 注册 Proton 账号；2 下载客户端；3 登录后选免费节点连接"
+ },
+ {
+  "category": "免费VPN",
+  "name": "Windscribe Free",
+  "quota": "注册并确认邮箱后每月 10GB",
+  "term": "有限制",
+  "fit": "偶尔使用",
+  "url": "https://windscribe.com/",
+  "probe": "https://windscribe.com/",
+  "steps": "1 注册并确认邮箱；2 安装客户端登录；3 选免费位置连接"
+ },
+ {
+  "category": "免费服务器",
+  "name": "GitHub Codespaces",
+  "quota": "个人账号每月约 120 core-hours 与 15GB 存储（2 核约 60 小时），以官网为准",
+  "term": "有限制",
+  "fit": "云端开发环境、临时跑任务",
+  "url": "https://github.com/features/codespaces",
+  "probe": "https://github.com/features/codespaces",
+  "steps": "1 登录 GitHub；2 仓库页点 Code → Codespaces → Create；3 用完及时停止或删除，避免耗尽额度"
+ },
+ {
+  "category": "免费服务器",
+  "name": "Azure for Students",
+  "quota": "学生认证后约 $100 额度，无需信用卡，以官网为准",
+  "term": "试用",
+  "fit": "学生、课程项目",
+  "url": "https://azure.microsoft.com/free/students/",
+  "probe": "https://azure.microsoft.com/free/students/",
+  "steps": "1 用学校邮箱验证学生身份；2 在门户创建 VM 或应用服务；3 留意额度与有效期"
+ },
+ {
+  "category": "免费服务器",
+  "name": "AWS 免费计划",
+  "quota": "2025 年 7 月后新账号以试用额度为主（约 $100-200，6 个月内），以官网为准",
+  "term": "试用",
+  "fit": "学习云服务、短期实验",
+  "url": "https://aws.amazon.com/free/",
+  "probe": "https://aws.amazon.com/free/",
+  "steps": "1 注册并绑定付款方式；2 在计费页确认剩余额度；3 到期前删除资源或升级"
+ },
+ {
+  "category": "免费服务器",
+  "name": "Koyeb",
+  "quota": "免费实例（小规格单服务），以官网为准",
+  "term": "有限制",
+  "fit": "小型 Web 服务、Bot",
+  "url": "https://www.koyeb.com/",
+  "probe": "https://www.koyeb.com/",
+  "steps": "1 用 GitHub 登录；2 Create Service 选仓库或 Docker 镜像；3 实例规格选 Free"
+ },
+ {
+  "category": "免费服务器",
+  "name": "Vercel / Netlify",
+  "quota": "个人非商用免费套餐，含 Serverless 函数与静态托管",
+  "term": "有限制",
+  "fit": "前端站点、轻量 API",
+  "url": "https://vercel.com/",
+  "probe": "https://vercel.com/",
+  "steps": "1 用 GitHub 登录；2 Import 仓库；3 推送代码自动部署并分配二级域名"
+ },
+ {
+  "category": "免费服务器",
+  "name": "PythonAnywhere 免费账号",
+  "quota": "1 个 Web 应用，仅限 Python，有外网访问白名单",
+  "term": "有限制",
+  "fit": "小型 Flask/Django 站点",
+  "url": "https://www.pythonanywhere.com/",
+  "probe": "https://www.pythonanywhere.com/",
+  "steps": "1 注册 Beginner 账号；2 Web 标签创建应用；3 上传代码并 Reload"
+ },
+ {
+  "category": "免费服务器",
+  "name": "国内云新用户试用",
+  "quota": "阿里云、腾讯云等有新用户免费试用，规格与时长以活动页为准",
+  "term": "试用",
+  "fit": "国内访问、备案前测试",
+  "url": "https://free.aliyun.com/",
+  "probe": "https://free.aliyun.com/",
+  "steps": "1 实名认证；2 在免费试用中心选择产品；3 注意试用到期时间与是否自动续费"
+ },
+ {
+  "category": "免费GPU/算力",
+  "name": "Google Colab",
+  "quota": "免费 GPU（如 T4），会话时长与可用性不保证",
+  "term": "有限制",
+  "fit": "模型微调、推理实验",
+  "url": "https://colab.research.google.com/",
+  "probe": "https://colab.research.google.com/",
+  "steps": "1 登录 Google 账号；2 新建笔记本；3 运行时 → 更改运行时类型 → 选 GPU"
+ },
+ {
+  "category": "免费GPU/算力",
+  "name": "Kaggle Notebooks",
+  "quota": "每周约 30 小时 GPU，需手机验证，以官网为准",
+  "term": "有限制",
+  "fit": "训练小模型、比赛",
+  "url": "https://www.kaggle.com/code",
+  "probe": "https://www.kaggle.com/code",
+  "steps": "1 注册并验证手机；2 New Notebook；3 Settings → Accelerator 选 GPU"
+ },
+ {
+  "category": "免费GPU/算力",
+  "name": "Lightning AI Studios",
+  "quota": "免费层每月有积分额度，以官网为准",
+  "term": "有限制",
+  "fit": "云端 IDE + GPU 实验",
+  "url": "https://lightning.ai/",
+  "probe": "https://lightning.ai/",
+  "steps": "1 注册账号；2 创建 Studio；3 按积分消耗切换 CPU/GPU"
+ },
+ {
+  "category": "免费GPU/算力",
+  "name": "Modal",
+  "quota": "每月有免费额度（Starter），以官网为准",
+  "term": "有限制",
+  "fit": "Serverless GPU 推理/批处理",
+  "url": "https://modal.com/",
+  "probe": "https://modal.com/",
+  "steps": "1 注册；2 pip install modal；3 `modal setup` 后用装饰器声明函数并运行"
+ },
+ {
+  "category": "免费GPU/算力",
+  "name": "魔搭 ModelScope Notebook",
+  "quota": "新用户有免费算力时长，以官网为准",
+  "term": "有限制",
+  "fit": "国内访问、开源模型试用",
+  "url": "https://www.modelscope.cn/",
+  "probe": "https://www.modelscope.cn/",
+  "steps": "1 注册并登录；2 我的 Notebook 里启动免费实例；3 在实例中直接加载魔搭模型"
+ },
+ {
+  "category": "免费GPU/算力",
+  "name": "百度 AI Studio",
+  "quota": "提供免费算力卡/时长，以官网为准",
+  "term": "有限制",
+  "fit": "学习与小规模训练",
+  "url": "https://aistudio.baidu.com/",
+  "probe": "https://aistudio.baidu.com/",
+  "steps": "1 注册；2 创建项目选择免费环境；3 领取并使用算力卡"
+ },
+ {
+  "category": "免费数据库/存储",
+  "name": "Supabase Free",
+  "quota": "约 500MB 数据库，闲置项目会暂停，以官网为准",
+  "term": "有限制",
+  "fit": "Postgres + 认证 + 存储",
+  "url": "https://supabase.com/",
+  "probe": "https://supabase.com/",
+  "steps": "1 用 GitHub 登录；2 New project；3 在 Settings → API 取连接信息"
+ },
+ {
+  "category": "免费数据库/存储",
+  "name": "Neon Free",
+  "quota": "免费 Serverless Postgres，存储有上限",
+  "term": "有限制",
+  "fit": "轻量 Postgres",
+  "url": "https://neon.tech/",
+  "probe": "https://neon.tech/",
+  "steps": "1 注册；2 创建项目与数据库；3 复制连接串"
+ },
+ {
+  "category": "免费数据库/存储",
+  "name": "MongoDB Atlas M0",
+  "quota": "免费 512MB 共享集群",
+  "term": "长期",
+  "fit": "文档型数据库",
+  "url": "https://www.mongodb.com/atlas",
+  "probe": "https://www.mongodb.com/atlas",
+  "steps": "1 注册；2 创建 M0 免费集群；3 白名单 IP 并建用户后连接"
+ },
+ {
+  "category": "免费数据库/存储",
+  "name": "Cloudflare R2 / D1 / KV",
+  "quota": "R2 约 10GB 免费存储且出站免费，D1、KV 有免费层",
+  "term": "有限制",
+  "fit": "对象存储、边缘数据库",
+  "url": "https://developers.cloudflare.com/r2/",
+  "probe": "https://developers.cloudflare.com/r2/",
+  "steps": "1 登录 Cloudflare 控制台；2 R2 里创建存储桶；3 用 S3 兼容 API 访问"
+ },
+ {
+  "category": "免费数据库/存储",
+  "name": "Qdrant Cloud Free",
+  "quota": "免费 1GB 向量集群",
+  "term": "长期",
+  "fit": "向量检索、RAG",
+  "url": "https://qdrant.tech/cloud/",
+  "probe": "https://qdrant.tech/cloud/",
+  "steps": "1 注册；2 创建 Free 集群；3 复制 URL 与 API Key"
+ },
+ {
+  "category": "免费数据库/存储",
+  "name": "Upstash Redis / Kafka",
+  "quota": "免费层，按每日/每月命令数限制",
+  "term": "有限制",
+  "fit": "缓存、队列、Serverless",
+  "url": "https://upstash.com/",
+  "probe": "https://upstash.com/",
+  "steps": "1 注册；2 创建数据库；3 用 REST 或标准客户端连接"
+ },
+ {
+  "category": "免费域名/DNS/证书",
+  "name": "Cloudflare DNS + CDN",
+  "quota": "免费 DNS 托管、基础 CDN 与 DDoS 防护",
+  "term": "长期",
+  "fit": "给免费域名接入 DNS 与加速",
+  "url": "https://www.cloudflare.com/",
+  "probe": "https://www.cloudflare.com/",
+  "steps": "1 添加站点；2 把域名 NS 改为 Cloudflare 提供的；3 在 DNS 页添加记录"
+ },
+ {
+  "category": "免费域名/DNS/证书",
+  "name": "Let’s Encrypt / ZeroSSL",
+  "quota": "免费 HTTPS 证书，90 天自动续期",
+  "term": "长期",
+  "fit": "站点 HTTPS",
+  "url": "https://letsencrypt.org/",
+  "probe": "https://letsencrypt.org/",
+  "steps": "1 服务器装 certbot；2 `certbot --nginx -d 你的域名`；3 确认自动续期任务正常"
+ },
+ {
+  "category": "免费域名/DNS/证书",
+  "name": "托管平台自带子域",
+  "quota": "github.io、pages.dev、workers.dev、vercel.app、netlify.app 等",
+  "term": "长期",
+  "fit": "没有域名也能上线",
+  "url": "https://pages.github.com/",
+  "probe": "https://pages.github.com/",
+  "steps": "1 在对应平台部署站点；2 使用分配的二级域名；3 之后可再绑定自己的域名"
+ },
+ {
+  "category": "免费路由",
+  "name": "FreeLLMAPI",
+  "quota": "自托管聚合多家免费层，OpenAI 兼容，自动故障转移，开源",
+  "term": "长期",
+  "fit": "把多家免费额度合成一个入口",
+  "url": "https://github.com/tashfeenahmed/freellmapi",
+  "probe": "https://github.com/tashfeenahmed/freellmapi",
+  "steps": "1 按 README 部署；2 填入各提供商的密钥；3 客户端 Base URL 指向本地服务（示例端口 3001），model 填 auto"
+ },
+ {
+  "category": "免费路由",
+  "name": "LiteLLM Proxy",
+  "quota": "开源 LLM 网关，统一 100+ 提供商接口，含路由与降级",
+  "term": "长期",
+  "fit": "企业/团队统一出口",
+  "url": "https://github.com/BerriAI/litellm",
+  "probe": "https://github.com/BerriAI/litellm",
+  "steps": "1 `pip install 'litellm[proxy]'`；2 编写 config.yaml 列出模型与密钥；3 `litellm --config config.yaml` 启动"
+ },
+ {
+  "category": "免费路由",
+  "name": "One API / New API",
+  "quota": "开源 API 网关，常用于国内多渠道聚合与额度管理",
+  "term": "长期",
+  "fit": "自建中转、分发密钥",
+  "url": "https://github.com/songquanpeng/one-api",
+  "probe": "https://github.com/songquanpeng/one-api",
+  "steps": "1 用 Docker 部署；2 后台添加渠道与密钥；3 生成令牌给客户端使用"
+ },
+ {
+  "category": "免费路由",
+  "name": "Cloudflare AI Gateway",
+  "quota": "免费使用缓存、限流与日志等核心功能",
+  "term": "长期",
+  "fit": "给任意 API 加缓存与监控",
+  "url": "https://developers.cloudflare.com/ai-gateway/",
+  "probe": "https://developers.cloudflare.com/ai-gateway/",
+  "steps": "1 控制台创建 Gateway；2 把请求地址换成 Gateway 提供的地址；3 在面板看日志与用量"
+ },
+ {
+  "category": "免费AI工具",
+  "name": "Gemini CLI",
+  "quota": "用 Google 账号登录可获免费额度，以官网为准",
+  "term": "有限制",
+  "fit": "终端里的编程 Agent",
+  "url": "https://github.com/google-gemini/gemini-cli",
+  "probe": "https://github.com/google-gemini/gemini-cli",
+  "steps": "1 `npm i -g @google/gemini-cli`；2 运行 `gemini` 并登录 Google；3 在项目目录里直接对话"
+ },
+ {
+  "category": "免费AI工具",
+  "name": "GitHub Copilot Free",
+  "quota": "每月有限次代码补全与聊天，以官网为准",
+  "term": "有限制",
+  "fit": "VS Code 内补全与问答",
+  "url": "https://github.com/features/copilot",
+  "probe": "https://github.com/features/copilot",
+  "steps": "1 在 VS Code 安装 Copilot 扩展；2 用 GitHub 账号登录；3 选择 Free 方案"
+ },
+ {
+  "category": "免费AI工具",
+  "name": "OpenCode",
+  "quota": "开源终端编程 Agent，可接 Zen 免费模型与自带密钥",
+  "term": "长期",
+  "fit": "免费模型 + 编程 Agent",
+  "url": "https://opencode.ai/",
+  "probe": "https://opencode.ai/",
+  "steps": "1 按官网安装；2 `opencode auth` 登录或填入密钥；3 选择带 free 的模型"
+ },
+ {
+  "category": "免费AI工具",
+  "name": "Cline / Continue / Aider",
+  "quota": "开源编程助手，自带任意 OpenAI 兼容密钥",
+  "term": "长期",
+  "fit": "配合免费 API 做编程",
+  "url": "https://github.com/Aider-AI/aider",
+  "probe": "https://github.com/Aider-AI/aider",
+  "steps": "1 安装 VS Code 扩展或 `pip install aider-chat`；2 设置 Base URL 与 API Key；3 选择免费模型开始使用"
+ },
+ {
+  "category": "免费AI工具",
+  "name": "Ollama / LM Studio",
+  "quota": "本地离线运行开源模型，无调用费用",
+  "term": "长期",
+  "fit": "隐私场景、离线推理",
+  "url": "https://ollama.com/",
+  "probe": "https://ollama.com/",
+  "steps": "1 安装应用；2 `ollama run 模型名` 或在 LM Studio 下载 GGUF；3 本地暴露 OpenAI 兼容接口"
+ },
+ {
+  "category": "免费AI工具",
+  "name": "Open WebUI",
+  "quota": "开源自托管聊天界面，可接 Ollama 与各类 OpenAI 兼容 API",
+  "term": "长期",
+  "fit": "给免费 API 配一个好用的界面",
+  "url": "https://github.com/open-webui/open-webui",
+  "probe": "https://github.com/open-webui/open-webui",
+  "steps": "1 `docker run` 启动；2 Settings → Connections 添加 Base URL 与密钥；3 在界面里选择模型"
+ },
+ {
+  "category": "免费AI工具",
+  "name": "国内 AI 对话网页",
+  "quota": "DeepSeek、通义千问、Kimi、豆包等网页版可免费使用，有次数或功能限制",
+  "term": "有限制",
+  "fit": "日常问答、写作、检索",
+  "url": "https://chat.deepseek.com/",
+  "probe": "https://chat.deepseek.com/",
+  "steps": "1 访问对应网页；2 手机号登录；3 按需开启联网或深度思考"
+ },
+ {
+  "category": "免费图像/语音",
+  "name": "Pollinations.ai",
+  "quota": "无需密钥的图像与文本生成接口，稳定性以官方为准",
+  "term": "有限制",
+  "fit": "快速出图原型",
+  "url": "https://pollinations.ai/",
+  "probe": "https://pollinations.ai/",
+  "steps": "1 打开官网；2 按文档拼接请求地址或调用 API；3 商用前确认条款"
+ },
+ {
+  "category": "免费图像/语音",
+  "name": "edge-tts",
+  "quota": "调用微软 Edge 在线语音合成的开源库（非官方接口）",
+  "term": "有限制",
+  "fit": "配音、语音播报",
+  "url": "https://github.com/rany2/edge-tts",
+  "probe": "https://github.com/rany2/edge-tts",
+  "steps": "1 `pip install edge-tts`；2 `edge-tts --list-voices` 选声音；3 `edge-tts --text 你好 --write-media a.mp3`"
+ },
+ {
+  "category": "免费图像/语音",
+  "name": "Whisper 本地语音识别",
+  "quota": "开源 ASR，本地运行，无调用费用",
+  "term": "长期",
+  "fit": "会议转写、字幕",
+  "url": "https://github.com/openai/whisper",
+  "probe": "https://github.com/openai/whisper",
+  "steps": "1 `pip install openai-whisper`；2 安装 ffmpeg；3 `whisper 音频文件 --model small`"
+ },
+ {
+  "category": "免费图像/语音",
+  "name": "ComfyUI / Stable Diffusion",
+  "quota": "开源本地图像生成，需要自备显卡或用 Colab/Kaggle",
+  "term": "长期",
+  "fit": "本地可控的图像生成",
+  "url": "https://github.com/comfyanonymous/ComfyUI",
+  "probe": "https://github.com/comfyanonymous/ComfyUI",
+  "steps": "1 按官方指引安装；2 下载模型权重放入 models 目录；3 加载工作流生成图片"
+ }
+]
