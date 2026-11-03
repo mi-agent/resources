@@ -1,6 +1,6 @@
 # 免费 LLM API 一览（自动更新）
 
-生成：2026-11-02 11:34 UTC　上游数据：2026-10-20　有效提供商 30 个，免费模型 513 个
+生成：2026-11-03 11:13 UTC　上游数据：2026-10-20　有效提供商 29 个，免费模型 511 个
 
 | 提供商 | 地区 | 类型 | 免费模型 | 信用卡/验证 | 获取 Key |
 |---|---|---|---|---|---|
@@ -28,7 +28,6 @@
 | SambaNova | 🌐 海外 | 永久免费层 | 4 | 需注册 | [获取](https://cloud.sambanova.ai/apis) |
 | xAI | 🌐 海外 | 永久免费层 | 3 | 需注册 | [获取](https://console.x.ai) |
 | Chutes.ai | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](https://chutes.ai/) |
-| Glhf.chat | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](https://glhf.chat/) |
 | Grok (xAI) | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](https://console.x.ai/) |
 | AI21 Labs | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](https://studio.ai21.com/account/api-key) |
 | DeepSeek | 🇨🇳 国内 | 永久免费层 | 2 | 需注册 | [获取](https://platform.deepseek.com/api_keys) |
@@ -37,4 +36,7 @@
 
 ## 最近变更
 
+- 2026-11-03 **免费模型消失** 2 个：Glhf.chat|meta-llama-3.1-70b-instruct、Glhf.chat|mixtral-8x7b-instruct-v0.1
+- 2026-11-03 **上游陈旧** awesome-freellm-apis：README 标注更新日期 2026-10-20，已超过 7 天
+- 2026-11-03 **探测失败移除** Glhf.chat：连续 3 次探测失败
 - 2026-11-02 **上游陈旧** awesome-freellm-apis：README 标注更新日期 2026-10-20，已超过 7 天
