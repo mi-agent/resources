@@ -1,6 +1,6 @@
 # 免费 LLM API 一览（自动更新）
 
-生成：2026-11-05 06:38 UTC　上游数据：2026-10-20　有效提供商 29 个，免费模型 511 个
+生成：2026-11-05 07:00 UTC　上游数据：2026-10-20　有效提供商 49 个，免费模型 511 个
 
 | 提供商 | 地区 | 类型 | 免费模型 | 信用卡/验证 | 获取 Key |
 |---|---|---|---|---|---|
@@ -33,14 +33,41 @@
 | DeepSeek | 🇨🇳 国内 | 永久免费层 | 2 | 需注册 | [获取](https://platform.deepseek.com/api_keys) |
 | Nscale | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](https://console.nscale.com/) |
 | Nebius | 🌐 海外 | 永久免费层 | 1 | 需注册 | [获取](https://studio.nebius.com/settings/api-keys) |
+| NLP Cloud | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
+| Upstage | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
+| OpenCode | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
+| Kilo Gateway | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
+| Pollinations | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
+| Together AI | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
+| Google | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
+| Ollama | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
+| GitHub Models | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
+| NVIDIA | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
+| Hyperbolic | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
+| Alibaba | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
+| AI21 | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
+| Modal | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
+| Novita | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
+| Fireworks | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
+| Anthropic | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
+| Mistral | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
+| OpenAI | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
+| Kiro AI | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
 
 ## 最近变更
 
-- 2026-11-05 **免费模型消失** 2 个：OpenRouter|inkling、OpenRouter|inkling-small
-- 2026-11-05 **上游陈旧** awesome-freellm-apis：README 标注更新日期 2026-10-20，已超过 7 天
-- 2026-11-04 **新增免费模型** 2 个：Cerebras|llama3.1-70b、OpenRouter|crouton-alpha
-- 2026-11-04 **上游陈旧** awesome-freellm-apis：README 标注更新日期 2026-10-20，已超过 7 天
-- 2026-11-03 **免费模型消失** 2 个：Glhf.chat|meta-llama-3.1-70b-instruct、Glhf.chat|mixtral-8x7b-instruct-v0.1
-- 2026-11-03 **上游陈旧** awesome-freellm-apis：README 标注更新日期 2026-10-20，已超过 7 天
-- 2026-11-03 **探测失败移除** Glhf.chat：连续 3 次探测失败
-- 2026-11-02 **上游陈旧** awesome-freellm-apis：README 标注更新日期 2026-10-20，已超过 7 天
+- 2026-11-05 **新增提供商** NLP Cloud：0 个免费模型，多源确认
+- 2026-11-05 **新增提供商** Upstage：0 个免费模型，多源确认
+- 2026-11-05 **新增提供商** OpenCode：0 个免费模型，多源确认
+- 2026-11-05 **新增提供商** Kilo Gateway：0 个免费模型，多源确认
+- 2026-11-05 **新增提供商** Pollinations：0 个免费模型，多源确认
+- 2026-11-05 **新增提供商** Together AI：0 个免费模型，多源确认
+- 2026-11-05 **新增提供商** Google：0 个免费模型，多源确认
+- 2026-11-05 **新增提供商** Ollama：0 个免费模型，多源确认
+- 2026-11-05 **新增提供商** GitHub Models：0 个免费模型，多源确认
+- 2026-11-05 **新增提供商** NVIDIA：0 个免费模型，多源确认
+- 2026-11-05 **新增提供商** Hyperbolic：0 个免费模型，多源确认
+- 2026-11-05 **新增提供商** Alibaba：0 个免费模型，多源确认
+- 2026-11-05 **新增提供商** AI21：0 个免费模型，多源确认
+- 2026-11-05 **新增提供商** Modal：0 个免费模型，多源确认
+- 2026-11-05 **新增提供商** Novita：0 个免费模型，多源确认
