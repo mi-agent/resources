@@ -40,7 +40,9 @@ def merge_secondary(P):
         names |= normalize_secondary(fetch_secondary(url))
     for canon in names:
         if canon in P: continue
-        P[canon] = {"name": canon, "tier": "✅ 免费层（secondary）", "models": 0, "card": "多源确认", "ctx": "", "mod": "text", "key": "", "base": "", "top": []}
+        if canon not in getattr(catalog, "MOD", {}):
+            continue
+        P[canon] = {"name": canon, "tier": "✅ 免费层（secondary）", "models": 0, "card": "secondary source", "ctx": "", "mod": "text", "key": "", "base": "", "top": []}
     import sys as _sys
     _sys.stderr.write("secondary merged: %d new (total %d)\n" % (len([x for x in names if x not in P]), len(P)))
 
