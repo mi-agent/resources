@@ -518,5 +518,65 @@
   "url": "https://github.com/comfyanonymous/ComfyUI",
   "probe": "https://github.com/comfyanonymous/ComfyUI",
   "steps": "1 按官方指引安装；2 下载模型权重放入 models 目录；3 加载工作流生成图片"
+ },
+ {
+  "category": "免费 AI/模型 API（无卡、无密钥）",
+  "name": "Kiro AI",
+  "quota": "50 credits/月；Claude Sonnet 4.5 / Haiku 4.5 / Opus 4.6",
+  "term": "长期",
+  "fit": "无认证 AI 调试、Claude 系列探索",
+  "url": "https://kiro.ai/",
+  "probe": "https://kiro.ai/",
+  "steps": "1 打开 kiro.ai；2 末凭据直接使用（no auth）；3 在界面或 OpenAI 兼容端点发起请求；4 额度重置周期详见官网"
+ },
+ {
+  "category": "免费 AI/模型 API（无卡、无密钥）",
+  "name": "OpenCode Free",
+  "quota": "不限量：GPT-4o、Claude、Gemini 轮转",
+  "term": "长期",
+  "fit": "日常 chat、多模型 fallback",
+  "url": "https://opencode.ai/zen",
+  "probe": "https://opencode.ai/zen",
+  "steps": "1 打开 opencode.ai/zen；2 末凭据直接使用；3 高峰期轮转到可用模型；4 仅限聊天、不保证 QPS"
+ },
+ {
+  "category": "免费 AI/模型 API（无卡、无密钥）",
+  "name": "Pollinations (GPT-5 / Claude / Llama)",
+  "quota": "无 key：GPT-5、Claude、Gemini、DeepSeek、Llama 4",
+  "term": "长期",
+  "fit": "原型开发、短对话",
+  "url": "https://pollinations.ai",
+  "probe": "https://pollinations.ai",
+  "steps": "1 访问 pollinations.ai；2 直接调用 OpenAI 兼容 POST /v1/chat/completions；3 异步 retry；4生产风险自担"
+ },
+ {
+  "category": "免费 AI/模型 API（无卡、无密钥）",
+  "name": "LongCat (LongCat-2.0)",
+  "quota": "10M tokens 一次性 signup；KYC",
+  "term": "有限制",
+  "fit": "试用新模型、 Distillation 评估",
+  "url": "https://longcat.ai",
+  "probe": "https://longcat.ai",
+  "steps": "1 注册 longcat.ai；2 完成 KYC（含 binding）；3 领取 one-time 10M tokens；4 仅限体验、不 recurring"
+ },
+ {
+  "category": "免费 AI/模型 API（无卡、无密钥）",
+  "name": "Qoder AI",
+  "quota": "不限量：Kimi-K2、DeepSeek-R1、Qwen3-coder",
+  "term": "长期",
+  "fit": "编程 Agent、IDE 协作",
+  "url": "https://qoder.ai",
+  "probe": "https://qoder.ai",
+  "steps": "1 注册 qoder.ai；2 免费 unlimited 编码；3 设 IDE 插件或 OpenAI 兼容端点；4 检查地区限制"
+ },
+ {
+  "category": "免费 AI/模型 API（无卡、无密钥）",
+  "name": "Cloudflare Workers AI",
+  "quota": "10K neurons/day 共享、50+ 模型",
+  "term": "有限制",
+  "fit": " edge 推理、Worker 脚本",
+  "url": "https://developers.cloudflare.com/workers-ai/",
+  "probe": "https://developers.cloudflare.com/workers-ai/",
+  "steps": "1 注册 Cloudflare；2  Workers & Pages 创建项目；3 用 workers-ai binding；4 超配额限流"
  }
 ]
