@@ -17,6 +17,6 @@ jobs:
         run: |
           git config user.name "tracker-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add -A
+          git add free-resources.xlsx providers.csv state.json README.md
           git diff --cached --quiet || git commit -m "chore: daily update"
           git push
