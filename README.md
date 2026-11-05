@@ -1,6 +1,6 @@
 # 免费 LLM API 一览（自动更新）
 
-生成：2026-11-04 11:24 UTC　上游数据：2026-10-20　有效提供商 29 个，免费模型 511 个
+生成：2026-11-05 06:37 UTC　上游数据：2026-10-20　有效提供商 29 个，免费模型 511 个
 
 | 提供商 | 地区 | 类型 | 免费模型 | 信用卡/验证 | 获取 Key |
 |---|---|---|---|---|---|
@@ -36,6 +36,8 @@
 
 ## 最近变更
 
+- 2026-11-05 **免费模型消失** 2 个：OpenRouter|inkling、OpenRouter|inkling-small
+- 2026-11-05 **上游陈旧** awesome-freellm-apis：README 标注更新日期 2026-10-20，已超过 7 天
 - 2026-11-04 **新增免费模型** 2 个：Cerebras|llama3.1-70b、OpenRouter|crouton-alpha
 - 2026-11-04 **上游陈旧** awesome-freellm-apis：README 标注更新日期 2026-10-20，已超过 7 天
 - 2026-11-03 **免费模型消失** 2 个：Glhf.chat|meta-llama-3.1-70b-instruct、Glhf.chat|mixtral-8x7b-instruct-v0.1
