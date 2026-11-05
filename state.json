@@ -1,0 +1,742 @@
+{
+ "api": {
+  "NVIDIA NIM": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效",
+   "models": 134
+  },
+  "ModelScope": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效",
+   "models": 61
+  },
+  "Cloudflare Workers AI": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效",
+   "models": 41
+  },
+  "OpenCode Zen": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效",
+   "models": 34
+  },
+  "LLM7.io": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效",
+   "models": 24
+  },
+  "Kilo Code": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效",
+   "models": 23
+  },
+  "Google Gemini": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效",
+   "models": 19
+  },
+  "Ollama Cloud": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效",
+   "models": 17
+  },
+  "Mistral AI": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效",
+   "models": 15
+  },
+  "OVHcloud AI Endpoints": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效",
+   "models": 15
+  },
+  "Groq": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效",
+   "models": 12
+  },
+  "Cohere": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效",
+   "models": 12
+  },
+  "Aion Labs": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效",
+   "models": 11
+  },
+  "Hugging Face": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效",
+   "models": 9
+  },
+  "Z AI (Zhipu AI)": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效",
+   "models": 8
+  },
+  "Cerebras": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效",
+   "models": 6
+  },
+  "Agnes AI": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效",
+   "models": 5
+  },
+  "Alibaba Cloud Model Studio": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效",
+   "models": 5
+  },
+  "Cline": {
+   "fails": 0,
+   "last_ok": null,
+   "first_seen": "2026-11-02",
+   "status": "未探测",
+   "models": 5
+  },
+  "SiliconFlow": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效",
+   "models": 4
+  },
+  "SambaNova": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效",
+   "models": 4
+  },
+  "xAI": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效",
+   "models": 3
+  },
+  "Chutes.ai": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效",
+   "models": 2
+  },
+  "Glhf.chat": {
+   "fails": 4,
+   "last_ok": null,
+   "first_seen": "2026-11-02",
+   "status": "已移除",
+   "models": 2
+  },
+  "Grok (xAI)": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效",
+   "models": 2
+  },
+  "AI21 Labs": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效",
+   "models": 2
+  },
+  "DeepSeek": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效",
+   "models": 2
+  },
+  "Nscale": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效",
+   "models": 2
+  },
+  "Nebius": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效",
+   "models": 1
+  },
+  "OpenRouter": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效",
+   "models": 33
+  }
+ },
+ "other": {
+  "Oracle Cloud Always Free": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "Google Cloud e2-micro": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "Cloudflare Workers / Pages": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "Hugging Face Spaces": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "Render Free Web Service": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "DigitalPlat FreeDomain": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "is-a.dev / js.org 子域名": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "FreeDNS（afraid.org）": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "eu.org": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "OmniRoute": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "Magpie": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "AimiliVPN": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "VPNGate": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "Proton VPN Free": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "Windscribe Free": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "GitHub Codespaces": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "Azure for Students": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "AWS 免费计划": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "Koyeb": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "Vercel / Netlify": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "PythonAnywhere 免费账号": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "国内云新用户试用": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "Google Colab": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "Kaggle Notebooks": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "Lightning AI Studios": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "Modal": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "魔搭 ModelScope Notebook": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "百度 AI Studio": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "Supabase Free": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "Neon Free": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "MongoDB Atlas M0": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "Cloudflare R2 / D1 / KV": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "Qdrant Cloud Free": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "Upstash Redis / Kafka": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "Cloudflare DNS + CDN": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "Let’s Encrypt / ZeroSSL": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "托管平台自带子域": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "FreeLLMAPI": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "LiteLLM Proxy": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "One API / New API": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "Cloudflare AI Gateway": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "Gemini CLI": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "GitHub Copilot Free": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "OpenCode": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "Cline / Continue / Aider": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "Ollama / LM Studio": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "Open WebUI": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "国内 AI 对话网页": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "Pollinations.ai": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "edge-tts": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "Whisper 本地语音识别": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "ComfyUI / Stable Diffusion": {
+   "fails": 0,
+   "last_ok": "2026-11-04 11:24 UTC",
+   "first_seen": "2026-11-02",
+   "status": "有效"
+  }
+ },
+ "gone": {},
+ "log": [
+  [
+   "2026-11-04",
+   "新增免费模型",
+   "2 个",
+   "Cerebras|llama3.1-70b、OpenRouter|crouton-alpha"
+  ],
+  [
+   "2026-11-04",
+   "上游陈旧",
+   "awesome-freellm-apis",
+   "README 标注更新日期 2026-10-20，已超过 7 天"
+  ],
+  [
+   "2026-11-03",
+   "免费模型消失",
+   "2 个",
+   "Glhf.chat|meta-llama-3.1-70b-instruct、Glhf.chat|mixtral-8x7b-instruct-v0.1"
+  ],
+  [
+   "2026-11-03",
+   "上游陈旧",
+   "awesome-freellm-apis",
+   "README 标注更新日期 2026-10-20，已超过 7 天"
+  ],
+  [
+   "2026-11-03",
+   "探测失败移除",
+   "Glhf.chat",
+   "连续 3 次探测失败"
+  ],
+  [
+   "2026-11-02",
+   "上游陈旧",
+   "awesome-freellm-apis",
+   "README 标注更新日期 2026-10-20，已超过 7 天"
+  ]
+ ],
+ "last_run": "2026-11-04 11:24 UTC",
+ "free_ids": [
+  "AI21 Labs|jamba-large-1-7",
+  "AI21 Labs|jamba-mini-2",
+  "Agnes AI|agnes-1.5-flash",
+  "Agnes AI|agnes-2.0-flash",
+  "Agnes AI|agnes-image-2.0-flash",
+  "Aion Labs|aion-labs-aion-2-0",
+  "Aion Labs|aion-labs-aion-3-0",
+  "Aion Labs|aion-labs-aion-rp-llama-3-1-8b",
+  "Alibaba Cloud Model Studio|qwen3-max",
+  "Alibaba Cloud Model Studio|qwen3-plus",
+  "Alibaba Cloud Model Studio|qwen3-vl-plus",
+  "Cerebras|llama3.1-70b",
+  "Cerebras|zai-glm-4.7",
+  "Chutes.ai|deepseek-r1",
+  "Chutes.ai|meta-llama-3.1-70b-instruct",
+  "Cline|mimo-v2.6-flash",
+  "Cline|muse-spark-1.3-contributor",
+  "Cline|solar-mini4",
+  "Cloudflare Workers AI|gemma-2b-it-lora",
+  "Cloudflare Workers AI|gemma-7b-it-lora",
+  "Cloudflare Workers AI|llama-2-7b-chat-hf-lora",
+  "Cloudflare Workers AI|llama-3.3-70b-instruct-fp8-fast",
+  "Cloudflare Workers AI|mistral-7b-instruct-v0.1",
+  "Cloudflare Workers AI|mistral-7b-instruct-v0.2-lora",
+  "Cloudflare Workers AI|qwen1.5-7b-chat",
+  "Cohere|command-a-111b",
+  "Cohere|command-a-218b",
+  "Cohere|command-a-plus-05-2026",
+  "Cohere|command-r",
+  "Cohere|north-mini-code-1-0",
+  "Cohere|north-small-translate-09-2026",
+  "DeepSeek|deepseek-chat-v3-2",
+  "DeepSeek|deepseek-reasoner-r1",
+  "Google Gemini|gemini-3.6-flash",
+  "Google Gemini|gemini-3.7-flash",
+  "Google Gemini|gemini-3.8-flash",
+  "Google Gemini|gemini-exp-1114",
+  "Google Gemini|gemini-exp-1206",
+  "Google Gemini|gemma-3-27b-it",
+  "Google Gemini|gemma-4-26b-a4b-it",
+  "Google Gemini|gemma-4-31b-it",
+  "Google Gemini|learnlm-1.5-pro-experimental",
+  "Google Gemini|lyria-3-clip-preview",
+  "Google Gemini|lyria-3-pro-preview",
+  "Google Gemini|lyria-3.5",
+  "Google Gemini|lyria-3.5-clip-preview",
+  "Google Gemini|lyria-3.5-pro-preview",
+  "Google Gemini|lyria-realtime-exp",
+  "Grok (xAI)|grok-2",
+  "Grok (xAI)|grok-2-mini",
+  "Groq|allam-2-7b",
+  "Groq|compound",
+  "Groq|kimi-k2-instruct",
+  "Groq|kimi-k2-instruct-0905",
+  "Hugging Face|gemma-3-4b-it",
+  "Hugging Face|glm-4.7-flash",
+  "Hugging Face|meta-llama-3-1-8b-instruct",
+  "Hugging Face|phi-4",
+  "Kilo Code|nemotron-3-super-120b-a12b",
+  "Kilo Code|nemotron-3-ultra-550b-a55b",
+  "Kilo Code|step-3.7-flash",
+  "LLM7.io|gpt-oss-20b",
+  "LLM7.io|minimax-m2.7",
+  "LLM7.io|mistral-nemo-instruct-2407",
+  "Mistral AI|labs-devstral-small-2512",
+  "Mistral AI|labs-leanstral-1-5-1",
+  "Mistral AI|mistral-medium-3-5-128b",
+  "Mistral AI|open-mistral-7b",
+  "Mistral AI|open-mixtral-8x7b",
+  "ModelScope|glm-4.5",
+  "ModelScope|glm-4.6",
+  "ModelScope|minimax-m2.5",
+  "ModelScope|qwen-qwen3-5-27b",
+  "ModelScope|qwen-qwen3-5-35b-a3b",
+  "ModelScope|qwen3-235b-a22b-instruct-2507",
+  "ModelScope|qwen3-235b-a22b-thinking-2507",
+  "ModelScope|qwen3-30b-a3b-instruct-2507",
+  "ModelScope|qwen3-30b-a3b-thinking-2507",
+  "ModelScope|qwen3-coder-30b-a3b-instruct",
+  "NVIDIA NIM|active-speaker-detection",
+  "NVIDIA NIM|bevformer",
+  "NVIDIA NIM|cosmos-reason2-8b",
+  "NVIDIA NIM|cosmos-transfer2_5-2b",
+  "NVIDIA NIM|deepseek-v4.1-flash",
+  "NVIDIA NIM|diffusiongemma-26b-a4b-it",
+  "NVIDIA NIM|gemma-3-12b-it",
+  "NVIDIA NIM|gemma-3-4b-it",
+  "NVIDIA NIM|gemma-4-31b-it",
+  "NVIDIA NIM|glm-5.1",
+  "NVIDIA NIM|glm-5.2",
+  "NVIDIA NIM|glm-5.3",
+  "NVIDIA NIM|glm-5.3-flash",
+  "NVIDIA NIM|google-paligemma",
+  "NVIDIA NIM|gpt-oss-20b",
+  "NVIDIA NIM|kimi-k2.6",
+  "NVIDIA NIM|kimi-k3",
+  "NVIDIA NIM|laguna-xs-2.1",
+  "NVIDIA NIM|llama-3.1-nemotron-70b-instruct",
+  "NVIDIA NIM|llama-3.1-nemotron-safety-guard-8b-v3",
+  "NVIDIA NIM|llama-3.1-nemotron-ultra-253b-v1",
+  "NVIDIA NIM|llama-3.2-11b-vision-instruct",
+  "NVIDIA NIM|llama-3.2-90b-vision-instruct",
+  "NVIDIA NIM|llama-guard-4-12b",
+  "NVIDIA NIM|llama-nemotron-embed-vl-1b-v2",
+  "NVIDIA NIM|llama-nemotron-rerank-vl-1b-v2",
+  "NVIDIA NIM|magistral-small-2506",
+  "NVIDIA NIM|magpie-tts-zeroshot",
+  "NVIDIA NIM|minimax-m3.1-flash",
+  "NVIDIA NIM|mistral-7b-instruct-v0.3",
+  "NVIDIA NIM|mistral-medium-3-instruct",
+  "NVIDIA NIM|muse-glimmer-30b",
+  "NVIDIA NIM|nemotron-3-nano-omni-30b-a3b-reasoning",
+  "NVIDIA NIM|nemotron-3-ultra-550b-a55b",
+  "NVIDIA NIM|nemotron-3.5-content-safety",
+  "NVIDIA NIM|nemotron-3.5-lightning-30b-a3b",
+  "NVIDIA NIM|nemotron-3.5-super-vl-120b-a12b",
+  "NVIDIA NIM|nemotron-voicechat",
+  "NVIDIA NIM|rerank-qa-mistral-4b",
+  "NVIDIA NIM|riva-translate-4b-instruct-v1.1",
+  "NVIDIA NIM|sparsedrive",
+  "NVIDIA NIM|step-5-preview",
+  "NVIDIA NIM|streampetr",
+  "NVIDIA NIM|studiovoice",
+  "NVIDIA NIM|synthetic-video-detector",
+  "NVIDIA NIM|usdcode",
+  "NVIDIA NIM|usdvalidate",
+  "NVIDIA NIM|whisper-large-v3",
+  "Nebius|qwen3-235b-a22b",
+  "Nscale|deepseek-r1-distill-llama-70b",
+  "Nscale|llama-3-3-70b-instruct",
+  "OVHcloud AI Endpoints|meta-llama-3_3-70b-instruct",
+  "OVHcloud AI Endpoints|qwen3.5-397b-a17b",
+  "OVHcloud AI Endpoints|qwen3.8-27b",
+  "OVHcloud AI Endpoints|qwen3guard-gen-0.6b",
+  "OVHcloud AI Endpoints|qwen3guard-gen-8b",
+  "Ollama Cloud|deepseek-v4-flash",
+  "Ollama Cloud|deepseek-v4-pro",
+  "Ollama Cloud|minimax-m3",
+  "OpenCode Zen|big-pickle",
+  "OpenCode Zen|deepseek-v4-flash-free",
+  "OpenCode Zen|mimo-v2.5-free",
+  "OpenRouter|crouton-alpha",
+  "OpenRouter|dots-3-note-preview",
+  "OpenRouter|flint-v1.0",
+  "OpenRouter|free",
+  "OpenRouter|gemma-4-26b-a4b-it",
+  "OpenRouter|gemma-4-31b-it",
+  "OpenRouter|inkling",
+  "OpenRouter|inkling-small",
+  "OpenRouter|lfm-2.5-2.6b",
+  "OpenRouter|lyria-3-clip-preview",
+  "OpenRouter|lyria-3-pro-preview",
+  "OpenRouter|minimax-m3.1-flash",
+  "OpenRouter|nemotron-3-nano-omni-30b-a3b-reasoning",
+  "OpenRouter|nemotron-3-ultra-550b-a55b",
+  "OpenRouter|nemotron-3.5-content-safety",
+  "OpenRouter|nemotron-3.5-lightning",
+  "OpenRouter|nemotron-3.5-super-vl",
+  "OpenRouter|north-mini-code",
+  "OpenRouter|xing4.0-29b-a4b",
+  "SambaNova|deepseek-v3-1",
+  "SambaNova|deepseek-v3-2-preview",
+  "SambaNova|minimax-m2-7",
+  "SiliconFlow|abbreviation",
+  "SiliconFlow|deepseek-ai-deepseek-r1-distill-qwen-7b",
+  "SiliconFlow|qwen3-8b",
+  "Z AI (Zhipu AI)|glm-4.5-flash",
+  "Z AI (Zhipu AI)|glm-4.6v-flash",
+  "Z AI (Zhipu AI)|glm-4.7-flash",
+  "xAI|grok-3-mini",
+  "xAI|grok-4-1-fast",
+  "xAI|grok-4-3"
+ ]
+}
