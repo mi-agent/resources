@@ -1,6 +1,6 @@
 # 免费 LLM API 一览（自动更新）
 
-生成：2026-11-05 07:00 UTC　上游数据：2026-10-20　有效提供商 49 个，免费模型 511 个
+生成：2026-11-05 07:35 UTC　上游数据：2026-10-20　有效提供商 49 个，免费模型 511 个
 
 | 提供商 | 地区 | 类型 | 免费模型 | 信用卡/验证 | 获取 Key |
 |---|---|---|---|---|---|
@@ -33,26 +33,26 @@
 | DeepSeek | 🇨🇳 国内 | 永久免费层 | 2 | 需注册 | [获取](https://platform.deepseek.com/api_keys) |
 | Nscale | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](https://console.nscale.com/) |
 | Nebius | 🌐 海外 | 永久免费层 | 1 | 需注册 | [获取](https://studio.nebius.com/settings/api-keys) |
-| NLP Cloud | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
-| Upstage | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
-| OpenCode | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
-| Kilo Gateway | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
-| Pollinations | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
-| Together AI | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
-| Google | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
-| Ollama | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
-| GitHub Models | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
-| NVIDIA | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
-| Hyperbolic | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
-| Alibaba | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
-| AI21 | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
-| Modal | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
 | Novita | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
-| Fireworks | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
+| Hyperbolic | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
+| Ollama | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
+| Upstage | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
+| Modal | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
+| Kilo Gateway | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
+| NVIDIA | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
 | Anthropic | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
-| Mistral | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
-| OpenAI | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
+| GitHub Models | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
 | Kiro AI | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
+| Fireworks | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
+| AI21 | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
+| Google | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
+| Alibaba | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
+| NLP Cloud | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
+| OpenAI | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
+| Together AI | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
+| Pollinations | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
+| OpenCode | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
+| Mistral | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
 
 ## 最近变更
 
