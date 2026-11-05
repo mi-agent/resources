@@ -5,8 +5,48 @@
 用法：python build.py [--no-probe]"""
 import json,re,ssl,sys,csv,os,math,time,datetime,urllib.request,urllib.error
 import catalog
-from concurrent.futures import ThreadPoolExecutor
+SECONDARY_URLS = {
+  "OmniRoute Free Tiers Guide": "https://raw.githubusercontent.com/diegosouzapw/OmniRoute/main/docs/getting-started/FREE-TIERS-GUIDE.md",
+  "cheahjs free-llm-api-resources": "https://raw.githubusercontent.com/lloydchang/cheahjs-free-llm-api-resources/main/README.md",
+  "ClawLabsAI free-ai-models": "https://raw.githubusercontent.com/ClawLabsAI/free-ai-models/main/README.md",
+  "awesome-free-byok-models": "https://raw.githubusercontent.com/velo4705/awesome-free-byok-models/main/README.md",
+}
+def fetch_secondary(url):
+    try:
+        with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent":"free-resources-build/1.0"}), timeout=40) as r:
+            return r.read().decode("utf-8", "replace")
+    except Exception:
+        return ""
+def normalize_secondary(txt):
+    low = txt.lower(); out = set()
+    aliases = {
+      "OpenAI": ["openai", "gpt"], "Anthropic": ["anthropic", "claude"], "Google": ["google", "gemini"],
+      "NVIDIA": ["nvidia"], "Mistral": ["mistral"], "Cohere": ["cohere"], "Groq": ["groq"],
+      "Together AI": ["together"], "Hugging Face": ["hugging face", "huggingface"], "Cloudflare Workers AI": ["cloudflare"],
+      "SiliconFlow": ["siliconflow", "silicon flow"], "OpenRouter": ["openrouter"], "DeepSeek": ["deepseek"],
+      "Cerebras": ["cerebras"], "Kilo Gateway": ["kilo gateway", "kilo code"], "OpenCode": ["opencode"],
+      "xAI": ["xai", "grok"], "Fireworks": ["fireworks"], "Hyperbolic": ["hyperbolic"], "Novita": ["novita"],
+      "Upstage": ["upstage"], "NLP Cloud": ["nlp cloud"], "Alibaba": ["alibaba"], "Modal": ["modal"],
+      "Inference.net": ["inference.net"], "SambaNova": ["sambanova"], "AI21": ["ai21"],
+      "Scaleway": ["scaleway"], "Pollinations": ["pollinations"], "Kiro AI": ["kiro"],
+      "Ollama": ["ollama"], "GitHub Models": ["github models"], "Z AI (Zhipu AI)": ["z ai", "zhipu", "z.ai"],
+    }
+    for canon, al in aliases.items():
+        if any(a in low for a in al): out.add(canon)
+    return out
+def merge_secondary(P):
+    names = set()
+    for url in SECONDARY_URLS.values():
+        names |= normalize_secondary(fetch_secondary(url))
+    for canon in names:
+        if canon in P: continue
+        P[canon] = {"name": canon, "tier": "✅ 免费层（secondary）", "models": 0, "card": "多源确认", "ctx": "", "mod": "text", "key": "", "base": "", "top": []}
+    import sys as _sys
+    _sys.stderr.write("secondary merged: %d new (total %d)\n" % (len([x for x in names if x not in P]), len(P)))
+
+UP="https://raw.githubusercontent.com/open-free-llm-api/awesome-freellm-apis/main/README.md"
 from openpyxl import Workbook,load_workbook
+from concurrent.futures import ThreadPoolExecutor
 from openpyxl.styles import Font,PatternFill,Alignment,Border,Side
 from openpyxl.worksheet.datavalidation import DataValidation
 from openpyxl.formatting.rule import FormulaRule,DataBarRule
@@ -183,6 +223,7 @@ def mk(wb,title,banner,sub,headers,widths,rows,tab,links=(),chips=(),status=None
     return ws
 def main():
     md=fetch(UP);P,M,upd=parse(md)
+    merge_secondary(P)
     if len(P)<10: sys.exit("上游格式可能已变化：解析到的提供商过少，已中止以免覆盖现有数据")
     recs,srcs=catalog.build(set(P)|set(catalog.EXTRA),M)
     for n,x in catalog.EXTRA.items():
