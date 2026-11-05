@@ -1,6 +1,6 @@
 # 免费 LLM API 一览（自动更新）
 
-生成：2026-11-05 07:54 UTC　上游数据：2026-10-20　有效提供商 47 个，免费模型 553 个
+生成：2026-11-05 11:22 UTC　上游数据：2026-10-20　有效提供商 47 个，免费模型 553 个
 
 | 提供商 | 地区 | 类型 | 免费模型 | 信用卡/验证 | 获取 Key |
 |---|---|---|---|---|---|
@@ -28,27 +28,27 @@
 | SiliconFlow | 🇨🇳 国内 | 永久免费层 | 4 | 需注册 | [获取](https://cloud.siliconflow.cn/account/ak) |
 | SambaNova | 🌐 海外 | 永久免费层 | 4 | 需注册 | [获取](https://cloud.sambanova.ai/apis) |
 | xAI | 🌐 海外 | 永久免费层 | 3 | 需注册 | [获取](https://console.x.ai) |
-| Google | 🌐 海外 | 免费层（secondary） | 3 | 多源确认 | [获取](Google AI Studio) |
-| Together AI | 🌐 海外 | 免费层（secondary） | 3 | 多源确认 | [获取](Together console) |
-| Kiro AI | 🌐 海外 | 免费层（secondary） | 3 | 多源确认 | [获取](Kiro docs) |
 | Pollinations | 🌐 海外 | 免费层（secondary） | 3 | 多源确认 | [获取](Pollinations) |
+| Google | 🌐 海外 | 免费层（secondary） | 3 | 多源确认 | [获取](Google AI Studio) |
+| Kiro AI | 🌐 海外 | 免费层（secondary） | 3 | 多源确认 | [获取](Kiro docs) |
+| Together AI | 🌐 海外 | 免费层（secondary） | 3 | 多源确认 | [获取](Together console) |
 | Chutes.ai | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](https://chutes.ai/) |
 | Grok (xAI) | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](https://console.x.ai/) |
 | AI21 Labs | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](https://studio.ai21.com/account/api-key) |
 | DeepSeek | 🇨🇳 国内 | 永久免费层 | 2 | 需注册 | [获取](https://platform.deepseek.com/api_keys) |
 | Nscale | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](https://console.nscale.com/) |
-| Fireworks | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Fireworks docs) |
-| GitHub Models | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](GitHub Models) |
-| Upstage | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Upstage console) |
-| Novita | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Novita console) |
-| Anthropic | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Anthropic console) |
-| Kilo Gateway | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Kilo) |
-| Mistral | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Mistral docs) |
-| Ollama | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Ollama) |
-| Hyperbolic | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Hyperbolic docs) |
 | NLP Cloud | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](NLP Cloud docs) |
 | AI21 | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](AI21) |
+| Ollama | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Ollama) |
+| Hyperbolic | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Hyperbolic docs) |
+| GitHub Models | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](GitHub Models) |
+| Anthropic | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Anthropic console) |
+| Fireworks | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Fireworks docs) |
+| Kilo Gateway | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Kilo) |
+| Upstage | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Upstage console) |
+| Novita | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Novita console) |
 | OpenAI | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](OpenAI platform) |
+| Mistral | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Mistral docs) |
 | Nebius | 🌐 海外 | 永久免费层 | 1 | 需注册 | [获取](https://studio.nebius.com/settings/api-keys) |
 | Modal | 🌐 海外 | 免费层（secondary） | 1 | 多源确认 | [获取](Modal console) |
 
