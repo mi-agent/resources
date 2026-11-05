@@ -2,126 +2,126 @@
  "api": {
   "NVIDIA NIM": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 134
   },
   "ModelScope": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 61
   },
   "Cloudflare Workers AI": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 41
   },
   "OpenCode Zen": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 34
   },
   "LLM7.io": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 24
   },
   "Kilo Code": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 23
   },
   "Google Gemini": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 19
   },
   "Ollama Cloud": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 17
   },
   "Mistral AI": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 15
   },
   "OVHcloud AI Endpoints": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 15
   },
   "Groq": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 12
   },
   "Cohere": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 12
   },
   "Aion Labs": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 11
   },
   "Hugging Face": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 9
   },
   "Z AI (Zhipu AI)": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 8
   },
   "Cerebras": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 6
   },
   "Agnes AI": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 5
   },
   "Alibaba Cloud Model Studio": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 5
@@ -135,34 +135,34 @@
   },
   "SiliconFlow": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 4
   },
   "SambaNova": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 4
   },
   "xAI": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 3
   },
   "Chutes.ai": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 2
   },
   "Glhf.chat": {
-   "fails": 4,
+   "fails": 6,
    "last_ok": null,
    "first_seen": "2026-11-02",
    "status": "已移除",
@@ -170,42 +170,42 @@
   },
   "Grok (xAI)": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 2
   },
   "AI21 Labs": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 2
   },
   "DeepSeek": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 2
   },
   "Nscale": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 2
   },
   "Nebius": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 1
   },
   "OpenRouter": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 33
@@ -214,319 +214,367 @@
  "other": {
   "Oracle Cloud Always Free": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Google Cloud e2-micro": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Cloudflare Workers / Pages": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Hugging Face Spaces": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Render Free Web Service": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "DigitalPlat FreeDomain": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "is-a.dev / js.org 子域名": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "FreeDNS（afraid.org）": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "eu.org": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "OmniRoute": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Magpie": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "AimiliVPN": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "VPNGate": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Proton VPN Free": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Windscribe Free": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "GitHub Codespaces": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Azure for Students": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "AWS 免费计划": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Koyeb": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Vercel / Netlify": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "PythonAnywhere 免费账号": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "国内云新用户试用": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Google Colab": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Kaggle Notebooks": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Lightning AI Studios": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Modal": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "魔搭 ModelScope Notebook": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "百度 AI Studio": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Supabase Free": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Neon Free": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "MongoDB Atlas M0": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Cloudflare R2 / D1 / KV": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Qdrant Cloud Free": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Upstash Redis / Kafka": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Cloudflare DNS + CDN": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Let’s Encrypt / ZeroSSL": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "托管平台自带子域": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "FreeLLMAPI": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "LiteLLM Proxy": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "One API / New API": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Cloudflare AI Gateway": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Gemini CLI": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "GitHub Copilot Free": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "OpenCode": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Cline / Continue / Aider": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Ollama / LM Studio": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Open WebUI": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "国内 AI 对话网页": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Pollinations.ai": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "edge-tts": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Whisper 本地语音识别": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "ComfyUI / Stable Diffusion": {
    "fails": 0,
-   "last_ok": "2026-11-04 11:24 UTC",
+   "last_ok": "2026-11-05 06:38 UTC",
    "first_seen": "2026-11-02",
+   "status": "有效"
+  },
+  "Kiro AI": {
+   "fails": 0,
+   "last_ok": "2026-11-05 06:38 UTC",
+   "first_seen": "2026-11-05",
+   "status": "有效"
+  },
+  "OpenCode Free": {
+   "fails": 0,
+   "last_ok": "2026-11-05 06:38 UTC",
+   "first_seen": "2026-11-05",
+   "status": "有效"
+  },
+  "Pollinations (GPT-5 / Claude / Llama)": {
+   "fails": 0,
+   "last_ok": "2026-11-05 06:38 UTC",
+   "first_seen": "2026-11-05",
+   "status": "有效"
+  },
+  "LongCat (LongCat-2.0)": {
+   "fails": 0,
+   "last_ok": "2026-11-05 06:38 UTC",
+   "first_seen": "2026-11-05",
+   "status": "有效"
+  },
+  "Qoder AI": {
+   "fails": 0,
+   "last_ok": "2026-11-05 06:38 UTC",
+   "first_seen": "2026-11-05",
+   "status": "有效"
+  },
+  "Cloudflare Workers AI": {
+   "fails": 0,
+   "last_ok": "2026-11-05 06:38 UTC",
+   "first_seen": "2026-11-05",
    "status": "有效"
   }
  },
  "gone": {},
  "log": [
+  [
+   "2026-11-05",
+   "免费模型消失",
+   "2 个",
+   "OpenRouter|inkling、OpenRouter|inkling-small"
+  ],
+  [
+   "2026-11-05",
+   "上游陈旧",
+   "awesome-freellm-apis",
+   "README 标注更新日期 2026-10-20，已超过 7 天"
+  ],
   [
    "2026-11-04",
    "新增免费模型",
@@ -564,7 +612,7 @@
    "README 标注更新日期 2026-10-20，已超过 7 天"
   ]
  ],
- "last_run": "2026-11-04 11:24 UTC",
+ "last_run": "2026-11-05 06:38 UTC",
  "free_ids": [
   "AI21 Labs|jamba-large-1-7",
   "AI21 Labs|jamba-mini-2",
@@ -713,8 +761,6 @@
   "OpenRouter|free",
   "OpenRouter|gemma-4-26b-a4b-it",
   "OpenRouter|gemma-4-31b-it",
-  "OpenRouter|inkling",
-  "OpenRouter|inkling-small",
   "OpenRouter|lfm-2.5-2.6b",
   "OpenRouter|lyria-3-clip-preview",
   "OpenRouter|lyria-3-pro-preview",
