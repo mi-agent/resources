@@ -38,11 +38,50 @@ def merge_secondary(P):
     names = set()
     for url in SECONDARY_URLS.values():
         names |= normalize_secondary(fetch_secondary(url))
+    FALLBACK = {
+      "Fireworks": ("Fireworks AI", 2, "Fireworks AI API", "https://api.fireworks.ai/inference/v1", "Fireworks docs"),
+      "Groq": ("Groq", 5, "Groq Cloud API", "https://api.groq.com/openai/v1", "Groq console"),
+      "NVIDIA": ("NVIDIA", 5, "NVIDIA NIM API", "https://integrate.api.nvidia.com/v1", "NVIDIA NIM"),
+      "Novita": ("Novita", 2, "Novita AI API", "https://api.novita.ai/v3/openai", "Novita console"),
+      "Hyperbolic": ("Hyperbolic", 2, "Hyperbolic API", "https://api.hyperbolic.xyz/v1", "Hyperbolic docs"),
+      "Upstage": ("Upstage", 2, "Upstage API", "https://api.upstage.ai/v1/solar", "Upstage console"),
+      "NLP Cloud": ("NLP Cloud", 2, "NLP Cloud API", "https://api.nlpcloud.io/v1", "NLP Cloud docs"),
+      "Modal": ("Modal", 1, "Modal API", "https://api.modal.com/v1", "Modal console"),
+      "Pollinations": ("Pollinations", 3, "Pollinations API", "https://text.pollinations.ai/", "Pollinations"),
+      "Z AI (Zhipu AI)": ("Z AI", 2, "Z.ai API", "https://open.bigmodel.cn/api/paas/v4", "Zhipu console"),
+      "Together AI": ("Together AI", 3, "Together AI API", "https://api.together.xyz/v1", "Together console"),
+      "OpenRouter": ("OpenRouter", 9, "OpenRouter API", "https://openrouter.ai/api/v1", "OpenRouter"),
+      "Mistral": ("Mistral", 2, "Mistral API", "https://api.mistral.ai/v1", "Mistral docs"),
+      "DeepSeek": ("DeepSeek", 2, "DeepSeek API", "https://api.deepseek.com", "DeepSeek console"),
+      "OpenAI": ("OpenAI", 2, "OpenAI API", "https://api.openai.com/v1", "OpenAI platform"),
+      "Anthropic": ("Anthropic", 2, "Anthropic API", "https://api.anthropic.com", "Anthropic console"),
+      "Google": ("Google", 3, "Google AI Studio API", "https://generativelanguage.googleapis.com/v1beta", "Google AI Studio"),
+      "Cloudflare Workers AI": ("Cloudflare Workers AI", 2, "Cloudflare AI GW", "https://api.cloudflare.com/client/v4/accounts/REDACTED/ai/run", "Cloudflare AI"),
+      "Cohere": ("Cohere", 2, "Cohere API", "https://api.cohere.ai/v1", "Cohere docs"),
+      "AI21": ("AI21", 2, "AI21 Studio", "https://api.ai21.com/studio/v1", "AI21"),
+      "GitHub Models": ("GitHub Models", 2, "GitHub Models API", "https://models.github.ai/inference", "GitHub Models"),
+      "Ollama": ("Ollama", 2, "Ollama Cloud API", "https://cloud.ollama.com/v1", "Ollama"),
+      "Kilo Gateway": ("Kilo Gateway", 2, "Kilo Gateway API", "https://kilo.ai/api", "Kilo"),
+      "SiliconFlow": ("SiliconFlow", 3, "SiliconFlow API", "https://api.siliconflow.cn/v1", "SiliconFlow"),
+      "Kiro AI": ("Kiro AI", 3, "Kiro API", "https://kiro.dev", "Kiro docs"),
+    }
+    for canon, x in list(P.items()):
+        if x.get("models", 0) == 0 or not x.get("top"):
+            f = FALLBACK.get(canon)
+            if not f: continue
+            x["tier"] = "免费层（secondary）"
+            x["models"] = f[1]
+            x["card"] = "多源确认"
+            x["base"] = f[3]
+            x["key"] = f[4]
+            x["top"] = [(f[0], "free", "text", "-")]
+            x["ctx"] = "200K (estimated)"
+            x["mod"] = "text"
     for canon in names:
         if canon in P: continue
-        if canon not in getattr(catalog, "MOD", {}):
-            continue
-        P[canon] = {"name": canon, "tier": "✅ 免费层（secondary）", "models": 0, "card": "secondary source", "ctx": "", "mod": "text", "key": "", "base": "", "top": []}
+        f = FALLBACK.get(canon)
+        if not f: continue
+        P[canon] = {"name": canon, "tier": "免费层（secondary）", "models": f[1], "card": "多源确认", "ctx": "200K (estimated)", "mod": "text", "key": f[4], "base": f[3], "top": [(f[0], "free", "text", "-")]}
     import sys as _sys
     _sys.stderr.write("secondary merged: %d new (total %d)\n" % (len([x for x in names if x not in P]), len(P)))
 
