@@ -1,55 +1,55 @@
 # 免费 LLM API 一览（自动更新）
 
-生成：2026-11-05 13:38 UTC　上游数据：2026-10-20　有效提供商 46 个，免费模型 551 个
+生成：2026-11-05　上游数据：2026-10-20　有效提供商 46 个，免费模型 551 个
 
 | 提供商 | 地区 | 类型 | 免费模型 | 信用卡/验证 | 获取 Key |
 |---|---|---|---|---|---|
-| NVIDIA NIM | 🌐 海外 | 永久免费层 | 134 | 需手机验证 | [获取](https://build.nvidia.com/settings/api-keys) |
-| ModelScope | 🇨🇳 国内 | 永久免费层 | 61 | 需注册 | [获取](https://modelscope.cn/my/myaccesstoken) |
-| Cloudflare Workers AI | 🌐 海外 | 永久免费层 | 41 | 无需信用卡 | [获取](https://dash.cloudflare.com/profile/api-tokens) |
-| OpenCode Zen | 🌐 海外 | 永久免费层 | 34 | 需注册 | [获取](https://opencode.ai/auth) |
-| OpenRouter | 🌐 海外 | 可更新额度 | 33 | Free tier + $10 topup → 1K RPD | [获取](https://openrouter.ai/workspaces/default/keys) |
-| LLM7.io | 🌐 海外 | 永久免费层 | 24 | 无需信用卡 | [获取](https://token.llm7.io) |
-| Kilo Code | 🌐 海外 | 永久免费层 | 23 | 无需信用卡 | [获取](https://app.kilo.ai/profile) |
-| Google Gemini | 🌐 海外 | 永久免费层 | 19 | 无需信用卡 | [获取](https://aistudio.google.com/app/apikey) |
-| Ollama Cloud | 🌐 海外 | 永久免费层 | 17 | 需注册 | [获取](https://ollama.com/settings/keys) |
-| Mistral AI | 🌐 海外 | 永久免费层 | 15 | 无需信用卡 | [获取](https://console.mistral.ai/api-keys) |
-| OVHcloud AI Endpoints | 🌐 海外 | 永久免费层 | 15 | 需注册 | [获取](https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/) |
-| Groq | 🌐 海外 | 永久免费层 | 12 | 无需信用卡 | [获取](https://console.groq.com/keys) |
-| Cohere | 🌐 海外 | 永久免费层 | 12 | 无需信用卡 | [获取](https://dashboard.cohere.com/api-keys) |
-| Aion Labs | 🌐 海外 | 永久免费层 | 11 | 需注册 | [获取](https://www.aionlabs.ai/app/api-keys/) |
-| Hugging Face | 🌐 海外 | 永久免费层 | 9 | 无需信用卡 | [获取](https://huggingface.co/settings/tokens) |
-| Z AI (Zhipu AI) | 🇨🇳 国内 | 永久免费层 | 8 | 无需信用卡 | [获取](https://open.bigmodel.cn/usercenter/apikeys) |
-| Cerebras | 🌐 海外 | 永久免费层 | 6 | 无需信用卡 | [获取](https://cloud.cerebras.ai/) |
-| Agnes AI | 🌐 海外 | 永久免费层 | 5 | 需注册 | [获取](https://platform.agnes-ai.com/settings/apiKeys) |
-| Alibaba Cloud Model Studio | 🇨🇳 国内 | 永久免费层 | 5 | 需注册 | [获取](https://bailian.console.alibabacloud.com/?apiKey=1) |
-| Cline | 🌐 海外 | 永久免费层 | 5 | 需注册 | - |
-| NVIDIA | 🌐 海外 | 免费层（secondary） | 5 | 多源确认 | [获取](NVIDIA NIM) |
-| SiliconFlow | 🇨🇳 国内 | 永久免费层 | 4 | 需注册 | [获取](https://cloud.siliconflow.cn/account/ak) |
-| SambaNova | 🌐 海外 | 永久免费层 | 4 | 需注册 | [获取](https://cloud.sambanova.ai/apis) |
-| xAI | 🌐 海外 | 永久免费层 | 3 | 需注册 | [获取](https://console.x.ai) |
-| Kiro AI | 🌐 海外 | 免费层（secondary） | 3 | 多源确认 | [获取](Kiro docs) |
+| NVIDIA NIM | 🌐 海外 | 永久免费层 | 134 | 需手机验证 | [获取](z-ai/glm-5.2；z-ai/glm-5.1；poolside/laguna-xs-2.1) |
+| ModelScope | 🇨🇳 国内 | 永久免费层 | 61 | 需注册 | [获取](MiniMax-M2.5-highspeed；Qwen/Qwen3.5-35B-A3B；Qwen/Qwen3.5-27B) |
+| Cloudflare Workers AI | 🌐 海外 | 永久免费层 | 41 | 无需信用卡 | [获取](Mistral 7B；Qwen 1.5 7B；@cf/meta/llama-3.3-70b-instruct-fp8-fast) |
+| OpenCode Zen | 🌐 海外 | 永久免费层 | 34 | 需注册 | [获取](big-pickle；DeepSeek V4 Flash；MiMo-V2.5) |
+| OpenRouter | 🌐 海外 | 可更新额度 | 33 | Free tier + $10 topup → 1K RPD | [获取](NVIDIA: Nemotron 3 Ultra (free)；MiniMax: MiniMax M3.1 Flash (free)；NVIDIA: Nemotron 3.5 Super VL (free)) |
+| LLM7.io | 🌐 海外 | 永久免费层 | 24 | 无需信用卡 | [获取](gpt-oss:20b；mistral-Nemo-Instruct-2407；minimax-m2.7) |
+| Kilo Code | 🌐 海外 | 永久免费层 | 23 | 无需信用卡 | [获取](nvidia/nemotron-3-ultra-550b-a55b:free；stepfun/step-3.7-flash:free；nvidia/nemotron-3-super-120b-a12b:free) |
+| Google Gemini | 🌐 海外 | 永久免费层 | 19 | 无需信用卡 | [获取](Gemini 3.8 Flash；Gemini 3.7 Flash；Gemini 3.6 Flash) |
+| Ollama Cloud | 🌐 海外 | 永久免费层 | 17 | 需注册 | [获取](deepseek-v4-pro；deepseek-v4-flash；minimax-m3) |
+| Mistral AI | 🌐 海外 | 永久免费层 | 15 | 无需信用卡 | [获取](Mistral 7B；Mixtral 8x7B；Mistral Medium 3.5 (128B)) |
+| OVHcloud AI Endpoints | 🌐 海外 | 永久免费层 | 15 | 需注册 | [获取](Qwen3.5-397B-A17B；Meta-Llama-3_3-70B-Instruct；Qwen3.8-27B) |
+| Groq | 🌐 海外 | 永久免费层 | 12 | 无需信用卡 | [获取](Moonshot Kimi K2；Moonshot Kimi K2 0905；groq/compound) |
+| Cohere | 🌐 海外 | 永久免费层 | 12 | 无需信用卡 | [获取](Command A+ (218B)；Command A (111B)；Command R+) |
+| Aion Labs | 🌐 海外 | 永久免费层 | 11 | 需注册 | [获取](aion-labs/aion-2.0；aion-labs/aion-rp-llama-3.1-8b；aion-labs/aion-3.0) |
+| Hugging Face | 🌐 海外 | 永久免费层 | 9 | 无需信用卡 | [获取](Meta-Llama-3.1-8B-Instruct；gemma-3-4b-it；phi-4) |
+| Z AI (Zhipu AI) | 🇨🇳 国内 | 永久免费层 | 8 | 无需信用卡 | [获取](GLM-4.7-Flash；GLM-4.5-Flash (retirement announced)；GLM-4.6V-Flash) |
+| Cerebras | 🌐 海外 | 永久免费层 | 6 | 无需信用卡 | [获取](Llama 3.1 70B；zai-glm-4.7 (deprecated Aug 2026)；zai-glm-4.7) |
+| Agnes AI | 🌐 海外 | 永久免费层 | 5 | 需注册 | [获取](agnes-1.5-flash；agnes-2.0-flash；agnes-image-2.0-flash) |
+| Alibaba Cloud Model Studio | 🇨🇳 国内 | 永久免费层 | 5 | 需注册 | [获取](Qwen3-Max；Qwen3-Plus；Qwen3-VL-Plus) |
+| Cline | 🌐 海外 | 永久免费层 | 5 | 需注册 | [获取](Muse Spark 1.3 Contributor；Mimo V2.6 Flash；Solar Mini 4) |
+| NVIDIA | 🌐 海外 | 免费层（secondary） | 5 | 多源确认 | [获取](NVIDIA) |
+| SiliconFlow | 🇨🇳 国内 | 永久免费层 | 4 | 需注册 | [获取](Qwen/Qwen3-8B；Abbreviation；deepseek-ai/DeepSeek-R1-Distill-Qwen-7B) |
+| SambaNova | 🌐 海外 | 永久免费层 | 4 | 需注册 | [获取](DeepSeek-V3.1；DeepSeek-V3.2 (Preview)；MiniMax-M2.7) |
+| xAI | 🌐 海外 | 永久免费层 | 3 | 需注册 | [获取](grok-4.3；grok-4.1-fast；grok-3-mini) |
+| Kiro AI | 🌐 海外 | 免费层（secondary） | 3 | 多源确认 | [获取](Kiro AI) |
+| Google | 🌐 海外 | 免费层（secondary） | 3 | 多源确认 | [获取](Google) |
+| Together AI | 🌐 海外 | 免费层（secondary） | 3 | 多源确认 | [获取](Together AI) |
 | Pollinations | 🌐 海外 | 免费层（secondary） | 3 | 多源确认 | [获取](Pollinations) |
-| Google | 🌐 海外 | 免费层（secondary） | 3 | 多源确认 | [获取](Google AI Studio) |
-| Together AI | 🌐 海外 | 免费层（secondary） | 3 | 多源确认 | [获取](Together console) |
-| Chutes.ai | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](https://chutes.ai/) |
-| Grok (xAI) | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](https://console.x.ai/) |
-| AI21 Labs | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](https://studio.ai21.com/account/api-key) |
-| DeepSeek | 🇨🇳 国内 | 永久免费层 | 2 | 需注册 | [获取](https://platform.deepseek.com/api_keys) |
-| Nscale | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](https://console.nscale.com/) |
-| Kilo Gateway | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Kilo) |
-| OpenAI | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](OpenAI platform) |
-| Hyperbolic | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Hyperbolic docs) |
-| Upstage | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Upstage console) |
+| Chutes.ai | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](DeepSeek-R1；Llama 3.1 70B) |
+| Grok (xAI) | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](Grok-2；Grok-2 Mini) |
+| AI21 Labs | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](Jamba Large 1.7；Jamba Mini 2) |
+| DeepSeek | 🇨🇳 国内 | 永久免费层 | 2 | 需注册 | [获取](deepseek-chat (V3.2)；deepseek-reasoner (R1)) |
+| Nscale | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](Llama-3.3-70B-Instruct；DeepSeek-R1-Distill-Llama-70B) |
+| Hyperbolic | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Hyperbolic) |
+| Anthropic | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Anthropic) |
+| Mistral | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Mistral) |
+| Fireworks | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Fireworks AI) |
+| Upstage | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Upstage) |
+| Novita | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Novita) |
+| Kilo Gateway | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Kilo Gateway) |
 | GitHub Models | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](GitHub Models) |
+| NLP Cloud | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](NLP Cloud) |
+| OpenAI | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](OpenAI) |
 | AI21 | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](AI21) |
-| Novita | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Novita console) |
-| NLP Cloud | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](NLP Cloud docs) |
-| Anthropic | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Anthropic console) |
-| Mistral | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Mistral docs) |
-| Fireworks | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Fireworks docs) |
-| Nebius | 🌐 海外 | 永久免费层 | 1 | 需注册 | [获取](https://studio.nebius.com/settings/api-keys) |
-| Modal | 🌐 海外 | 免费层（secondary） | 1 | 多源确认 | [获取](Modal console) |
+| Nebius | 🌐 海外 | 永久免费层 | 1 | 需注册 | [获取](Qwen3-235B-A22B) |
+| Modal | 🌐 海外 | 免费层（secondary） | 1 | 多源确认 | [获取](Modal) |
 
 ## 最近变更
 
