@@ -288,16 +288,15 @@ def main():
     def capline(mod): return " ".join(e for e,k in (("💬","text"),("🧠","reasoning"),("💻","code"),("👁","vision"),("🖼","image"),("🎙","audio|speech"),("🎬","video"),("🔎","embedding|rerank"),("📄","pdf")) if re.search(k,mod))
     for p,rs in zip(P.values(),ra):
         st,lo=judge(S["api"],p["name"],rs,log);S["api"][p["name"]]["models"]=p["models"]
-        us=old.get(("免费API",p["name"]),("未注册",""))
         top="；".join(f"{a}" for a,b,_,_ in p["top"][:3]);rate=next((t[3] for t in p["top"] if t[3] and t[3]!="See provider"),"")
         reg="🇨🇳 国内" if p["name"] in CN_PROV else "🌐 海外"
-        row=[p["name"],reg,p["tier"],p["models"],p["card"],p["ctx"],capline(p["mod"]),p["base"] or "-",p["key"],top,rate,st,lo,*us]
+        row=[p["name"],reg,p["tier"],p["models"],p["card"],p["ctx"],capline(p["mod"]),p["base"] or "-",p["key"],top,rate,st,lo]
         if st=="已移除": dead.append([p["name"],"探测连续失败",TODAY]);continue
         api.append(row);mat.append([p["name"],*["●" if re.search(k,p["mod"]) else "" for _,k in CAPS],p["models"],p["card"]])
     for r,rs in zip(R,rb):
-        st,lo=judge(S["other"],r["name"],rs,log);us=old.get(("其他免费资源",r["name"]),("未注册",""))
+        st,lo=judge(S["other"],r["name"],rs,log)
         if st=="已移除": dead.append([r["name"],"探测连续失败",TODAY]);continue
-        other.append([r["category"],r["name"],r["quota"],r["term"],r["fit"],r["url"],r["steps"],st,lo,*us])
+        other.append([r["category"],r["name"],r["quota"],r["term"],r["fit"],r["url"],r["steps"],st,lo])
     api.sort(key=lambda x:-x[3]);mat.sort(key=lambda x:-x[-2]);dead+=[[n,g["reason"],g["date"]] for n,g in S["gone"].items()]
     other.sort(key=lambda x:list(CAT).index(x[0]) if x[0] in CAT else 99)
     S["log"]=(log+S["log"])[:300];S["last_run"]=STAMP
@@ -344,8 +343,8 @@ def main():
         sc+=picks or [[title,desc,"（当前数据源中暂无匹配）","","","","","",""]]
     mk(wb,"场景推荐","🎯 按应用场景选模型","能力来自 LiteLLM / models.dev / OpenRouter 的结构化字段，编程、中文、轻量等标签按模型名推断。排序：确认免费 > 标价为 0 > 需核对，再看是否免信用卡与上下文；同一提供商最多 2 个。",
        ["场景","适用说明","推荐模型","提供商","免费状态","上下文","限速","信用卡/验证","获取 Key"],[22,24,38,20,13,10,22,14,10],sc,"E0772B",links=(9,),chips=(5,8),center=(6,))
-    mk(wb,"免费API","⚡ 免费 LLM API 提供商","数据来源：awesome-freellm-apis（freellm.net 每日刷新）。“我的状态/我的备注”可自行填写，重新生成时按名称保留。",
-       ["提供商","地区","类型","免费模型数","信用卡/验证","最大上下文","能力","Base URL","获取 Key","代表模型","限速参考","状态","最近正常","我的状态","我的备注"],[20,10,12,12,13,10,16,36,10,40,22,9,19,11,22],api,"2F5BEA",links=(9,),chips=(2,3,5,12),mine="N",bars=("D",),center=(2,3,5,6,12))
+    mk(wb,"免费API","⚡ 免费 LLM API 提供商","数据来源：awesome-freellm-apis（freellm.net 每日刷新）。",
+       ["提供商","地区","类型","免费模型数","信用卡/验证","最大上下文","能力","Base URL","获取 Key","代表模型","限速参考","状态","最近正常"],[20,10,12,12,13,10,16,36,10,40,22,9,19],api,"2F5BEA",links=(9,),chips=(2,3,5,12),mine="N",bars=("D",),center=(2,3,5,6,12))
     ws=mk(wb,"能力矩阵","🧩 提供商 × 能力矩阵","● 表示该提供商的免费模型中包含此类能力（来自上游模态字段）。",
        ["提供商",*[c for c,_ in CAPS],"免费模型数","信用卡/验证"],[22]+[9]*len(CAPS)+[12,14],mat,"7A4DE0",chips=(len(CAPS)+3,),bars=(get_column_letter(len(CAPS)+2),),center=tuple(range(2,len(CAPS)+3)))
     for row in ws.iter_rows(min_row=4,max_row=3+len(mat),min_col=2,max_col=len(CAPS)+1):
@@ -359,7 +358,7 @@ def main():
        [[m["prov"],m["name"],m["status"],m["mode"],catalog.fmt(m["ctx"]),catalog.fmt(m["maxout"]),T(m["vision"]),T(m["reasoning"]),T(m["tools"]),T(m["json"]),T(m["pdf"]),T(m["audio"]),pr(m["pin"]),pr(m["pout"]),m["fam"],m["size"],
          "  ".join(t for k,t in TAGTXT if k in m["tags"]),"+".join(sorted(m["src"])),m["released"]] for m in mods],"0E9F8E",chips=(3,7,8,9,10,11,12),center=(3,4,5,6,7,8,9,10,11,12,13,14))
     mk(wb,"其他免费资源","🧰 服务器 · 算力 · 数据库 · 域名 · 路由 · VPN · AI 工具","手工整理的补充资源，额度与政策变化快，以官网为准；状态来自每日存活探测。",
-       ["类别","名称","免费额度","时效","适合","官网","使用方法","状态","最近正常","我的状态","我的备注"],[16,26,44,9,24,10,70,9,19,11,22],other,"C93B6B",links=(6,),chips=(4,8),mine="J",cat=1,center=(4,8))
+       ["类别","名称","免费额度","时效","适合","官网","使用方法","状态","最近正常"],[16,26,44,9,24,10,70,9,19],other,"C93B6B",links=(6,),chips=(4,8),mine="J",cat=1,center=(4,8))
     mk(wb,"变更日志","📝 变更日志","新增/下架/模型数变化/探测失败与恢复，最近 300 条。",["日期","类型","对象","详情"],[12,16,28,60],S["log"],"B7791F")
     mk(wb,"已下架","🗑 已下架","上游移除，或连续 3 次探测失败的条目。恢复后会自动回到有效表。",["名称","原因","日期"],[30,24,12],dead,"5B6781")
     # ---- 总览仪表盘 ----
