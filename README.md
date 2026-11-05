@@ -1,6 +1,6 @@
 # 免费 LLM API 一览（自动更新）
 
-生成：2026-11-05 07:35 UTC　上游数据：2026-10-20　有效提供商 49 个，免费模型 511 个
+生成：2026-11-05 07:54 UTC　上游数据：2026-10-20　有效提供商 47 个，免费模型 553 个
 
 | 提供商 | 地区 | 类型 | 免费模型 | 信用卡/验证 | 获取 Key |
 |---|---|---|---|---|---|
@@ -24,50 +24,48 @@
 | Agnes AI | 🌐 海外 | 永久免费层 | 5 | 需注册 | [获取](https://platform.agnes-ai.com/settings/apiKeys) |
 | Alibaba Cloud Model Studio | 🇨🇳 国内 | 永久免费层 | 5 | 需注册 | [获取](https://bailian.console.alibabacloud.com/?apiKey=1) |
 | Cline | 🌐 海外 | 永久免费层 | 5 | 需注册 | - |
+| NVIDIA | 🌐 海外 | 免费层（secondary） | 5 | 多源确认 | [获取](NVIDIA NIM) |
 | SiliconFlow | 🇨🇳 国内 | 永久免费层 | 4 | 需注册 | [获取](https://cloud.siliconflow.cn/account/ak) |
 | SambaNova | 🌐 海外 | 永久免费层 | 4 | 需注册 | [获取](https://cloud.sambanova.ai/apis) |
 | xAI | 🌐 海外 | 永久免费层 | 3 | 需注册 | [获取](https://console.x.ai) |
+| Google | 🌐 海外 | 免费层（secondary） | 3 | 多源确认 | [获取](Google AI Studio) |
+| Together AI | 🌐 海外 | 免费层（secondary） | 3 | 多源确认 | [获取](Together console) |
+| Kiro AI | 🌐 海外 | 免费层（secondary） | 3 | 多源确认 | [获取](Kiro docs) |
+| Pollinations | 🌐 海外 | 免费层（secondary） | 3 | 多源确认 | [获取](Pollinations) |
 | Chutes.ai | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](https://chutes.ai/) |
 | Grok (xAI) | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](https://console.x.ai/) |
 | AI21 Labs | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](https://studio.ai21.com/account/api-key) |
 | DeepSeek | 🇨🇳 国内 | 永久免费层 | 2 | 需注册 | [获取](https://platform.deepseek.com/api_keys) |
 | Nscale | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](https://console.nscale.com/) |
+| Fireworks | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Fireworks docs) |
+| GitHub Models | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](GitHub Models) |
+| Upstage | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Upstage console) |
+| Novita | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Novita console) |
+| Anthropic | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Anthropic console) |
+| Kilo Gateway | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Kilo) |
+| Mistral | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Mistral docs) |
+| Ollama | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Ollama) |
+| Hyperbolic | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Hyperbolic docs) |
+| NLP Cloud | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](NLP Cloud docs) |
+| AI21 | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](AI21) |
+| OpenAI | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](OpenAI platform) |
 | Nebius | 🌐 海外 | 永久免费层 | 1 | 需注册 | [获取](https://studio.nebius.com/settings/api-keys) |
-| Novita | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
-| Hyperbolic | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
-| Ollama | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
-| Upstage | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
-| Modal | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
-| Kilo Gateway | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
-| NVIDIA | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
-| Anthropic | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
-| GitHub Models | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
-| Kiro AI | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
-| Fireworks | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
-| AI21 | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
-| Google | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
-| Alibaba | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
-| NLP Cloud | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
-| OpenAI | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
-| Together AI | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
-| Pollinations | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
-| OpenCode | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
-| Mistral | 🌐 海外 | ✅ 免费层（secondary） | 0 | 多源确认 | - |
+| Modal | 🌐 海外 | 免费层（secondary） | 1 | 多源确认 | [获取](Modal console) |
 
 ## 最近变更
 
-- 2026-11-05 **新增提供商** NLP Cloud：0 个免费模型，多源确认
-- 2026-11-05 **新增提供商** Upstage：0 个免费模型，多源确认
-- 2026-11-05 **新增提供商** OpenCode：0 个免费模型，多源确认
-- 2026-11-05 **新增提供商** Kilo Gateway：0 个免费模型，多源确认
-- 2026-11-05 **新增提供商** Pollinations：0 个免费模型，多源确认
-- 2026-11-05 **新增提供商** Together AI：0 个免费模型，多源确认
-- 2026-11-05 **新增提供商** Google：0 个免费模型，多源确认
-- 2026-11-05 **新增提供商** Ollama：0 个免费模型，多源确认
-- 2026-11-05 **新增提供商** GitHub Models：0 个免费模型，多源确认
-- 2026-11-05 **新增提供商** NVIDIA：0 个免费模型，多源确认
-- 2026-11-05 **新增提供商** Hyperbolic：0 个免费模型，多源确认
-- 2026-11-05 **新增提供商** Alibaba：0 个免费模型，多源确认
-- 2026-11-05 **新增提供商** AI21：0 个免费模型，多源确认
-- 2026-11-05 **新增提供商** Modal：0 个免费模型，多源确认
-- 2026-11-05 **新增提供商** Novita：0 个免费模型，多源确认
+- 2026-11-05 **模型数变化** Fireworks：0 → 2
+- 2026-11-05 **模型数变化** Modal：0 → 1
+- 2026-11-05 **模型数变化** Google：0 → 3
+- 2026-11-05 **模型数变化** NVIDIA：0 → 5
+- 2026-11-05 **模型数变化** GitHub Models：0 → 2
+- 2026-11-05 **模型数变化** Upstage：0 → 2
+- 2026-11-05 **模型数变化** Together AI：0 → 3
+- 2026-11-05 **模型数变化** Novita：0 → 2
+- 2026-11-05 **模型数变化** Anthropic：0 → 2
+- 2026-11-05 **模型数变化** Kiro AI：0 → 3
+- 2026-11-05 **模型数变化** Kilo Gateway：0 → 2
+- 2026-11-05 **模型数变化** Mistral：0 → 2
+- 2026-11-05 **模型数变化** Pollinations：0 → 3
+- 2026-11-05 **模型数变化** Ollama：0 → 2
+- 2026-11-05 **模型数变化** Hyperbolic：0 → 2
