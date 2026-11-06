@@ -23,25 +23,25 @@ NVIDIA,🌐 海外,免费层-S,5,多源确认,200K (estimated),https://integrate
 SiliconFlow,🇨🇳 国内,永久免费层,4,需注册,131K,https://api.siliconflow.cn/v1,https://cloud.siliconflow.cn/account/ak,Qwen/Qwen3-8B；Abbreviation；deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,"1,000 RPM, 50,000 TPM",有效
 SambaNova,🌐 海外,永久免费层,4,需注册,128K,https://api.sambanova.ai/v1,https://cloud.sambanova.ai/apis,DeepSeek-V3.1；DeepSeek-V3.2 (Preview)；MiniMax-M2.7,"20 RPM, 20 RPD, 200K TPD",有效
 xAI,🌐 海外,永久免费层,3,需注册,2M,https://api.x.ai/v1,https://console.x.ai,grok-4.3；grok-4.1-fast；grok-3-mini,Credit-based,有效
-Pollinations,🌐 海外,免费层-S,3,多源确认,200K (estimated),https://text.pollinations.ai/,Pollinations,Pollinations,-,有效
-Google,🌐 海外,免费层-S,3,多源确认,200K (estimated),https://generativelanguage.googleapis.com/v1beta,Google AI Studio,Google,-,有效
-Kiro AI,🌐 海外,免费层-S,3,多源确认,200K (estimated),https://kiro.dev,Kiro docs,Kiro AI,-,有效
 Together AI,🌐 海外,免费层-S,3,多源确认,200K (estimated),https://api.together.xyz/v1,Together console,Together AI,-,有效
+Pollinations,🌐 海外,免费层-S,3,多源确认,200K (estimated),https://text.pollinations.ai/,Pollinations,Pollinations,-,有效
+Kiro AI,🌐 海外,免费层-S,3,多源确认,200K (estimated),https://kiro.dev,Kiro docs,Kiro AI,-,有效
+Google,🌐 海外,免费层-S,3,多源确认,200K (estimated),https://generativelanguage.googleapis.com/v1beta,Google AI Studio,Google,-,有效
 Chutes.ai,🌐 海外,永久免费层,2,需注册,131K,https://api.chutes.ai/v1,https://chutes.ai/,DeepSeek-R1；Llama 3.1 70B,"Community-powered, no h..",有效
 Grok (xAI),🌐 海外,永久免费层,2,需注册,131K,https://api.x.ai/v1,https://console.x.ai/,Grok-2；Grok-2 Mini,"$25/month free credits,..",有效
 AI21 Labs,🌐 海外,永久免费层,2,需注册,256K,https://api.ai21.com/studio/v1,https://studio.ai21.com/account/api-key,Jamba Large 1.7；Jamba Mini 2,"200 RPM, 10 RPS",有效
 DeepSeek,🇨🇳 国内,永久免费层,2,需注册,128K,https://api.deepseek.com/v1,https://platform.deepseek.com/api_keys,deepseek-chat (V3.2)；deepseek-reasoner (R1),Dynamic,有效
 Nscale,🌐 海外,永久免费层,2,需注册,128K,https://inference.api.nscale.com/v1,https://console.nscale.com/,Llama-3.3-70B-Instruct；DeepSeek-R1-Distill-Llama-70B,Fair-use,有效
+Fireworks,🌐 海外,免费层-S,2,多源确认,200K (estimated),https://api.fireworks.ai/inference/v1,Fireworks docs,Fireworks AI,-,有效
+OpenAI,🌐 海外,免费层-S,2,多源确认,200K (estimated),https://api.openai.com/v1,OpenAI platform,OpenAI,-,有效
 Novita,🌐 海外,免费层-S,2,多源确认,200K (estimated),https://api.novita.ai/v3/openai,Novita console,Novita,-,有效
-Hyperbolic,🌐 海外,免费层-S,2,多源确认,200K (estimated),https://api.hyperbolic.xyz/v1,Hyperbolic docs,Hyperbolic,-,有效
-Kilo Gateway,🌐 海外,免费层-S,2,多源确认,200K (estimated),https://kilo.ai/api,Kilo,Kilo Gateway,-,有效
-Upstage,🌐 海外,免费层-S,2,多源确认,200K (estimated),https://api.upstage.ai/v1/solar,Upstage console,Upstage,-,有效
-GitHub Models,🌐 海外,免费层-S,2,多源确认,200K (estimated),https://models.github.ai/inference,GitHub Models,GitHub Models,-,有效
-Mistral,🌐 海外,免费层-S,2,多源确认,200K (estimated),https://api.mistral.ai/v1,Mistral docs,Mistral,-,有效
+NLP Cloud,🌐 海外,免费层-S,2,多源确认,200K (estimated),https://api.nlpcloud.io/v1,NLP Cloud docs,NLP Cloud,-,有效
 Anthropic,🌐 海外,免费层-S,2,多源确认,200K (estimated),https://api.anthropic.com,Anthropic console,Anthropic,-,有效
 AI21,🌐 海外,免费层-S,2,多源确认,200K (estimated),https://api.ai21.com/studio/v1,AI21,AI21,-,有效
-Fireworks,🌐 海外,免费层-S,2,多源确认,200K (estimated),https://api.fireworks.ai/inference/v1,Fireworks docs,Fireworks AI,-,有效
-NLP Cloud,🌐 海外,免费层-S,2,多源确认,200K (estimated),https://api.nlpcloud.io/v1,NLP Cloud docs,NLP Cloud,-,有效
-OpenAI,🌐 海外,免费层-S,2,多源确认,200K (estimated),https://api.openai.com/v1,OpenAI platform,OpenAI,-,有效
+Hyperbolic,🌐 海外,免费层-S,2,多源确认,200K (estimated),https://api.hyperbolic.xyz/v1,Hyperbolic docs,Hyperbolic,-,有效
+GitHub Models,🌐 海外,免费层-S,2,多源确认,200K (estimated),https://models.github.ai/inference,GitHub Models,GitHub Models,-,有效
+Mistral,🌐 海外,免费层-S,2,多源确认,200K (estimated),https://api.mistral.ai/v1,Mistral docs,Mistral,-,有效
+Upstage,🌐 海外,免费层-S,2,多源确认,200K (estimated),https://api.upstage.ai/v1/solar,Upstage console,Upstage,-,有效
+Kilo Gateway,🌐 海外,免费层-S,2,多源确认,200K (estimated),https://kilo.ai/api,Kilo,Kilo Gateway,-,有效
 Nebius,🌐 海外,永久免费层,1,需注册,128K,https://api.studio.nebius.com/v1,https://studio.nebius.com/settings/api-keys,Qwen3-235B-A22B,Tier-based,有效
 Modal,🌐 海外,免费层-S,1,多源确认,200K (estimated),https://api.modal.com/v1,Modal console,Modal,-,有效
