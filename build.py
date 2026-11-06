@@ -69,7 +69,7 @@ def merge_secondary(P):
         if x.get("models", 0) == 0 or not x.get("top"):
             f = FALLBACK.get(canon)
             if not f: continue
-            x["tier"] = "免费层（secondary）"
+            x["tier"] = "免费层-S"
             x["models"] = f[1]
             x["card"] = "多源确认"
             x["base"] = f[3]
@@ -81,7 +81,7 @@ def merge_secondary(P):
         if canon in P: continue
         f = FALLBACK.get(canon)
         if not f: continue
-        P[canon] = {"name": canon, "tier": "免费层（secondary）", "models": f[1], "card": "多源确认", "ctx": "200K (estimated)", "mod": "text", "key": f[4], "base": f[3], "top": [(f[0], "free", "text", "-")]}
+        P[canon] = {"name": canon, "tier": "免费层-S", "models": f[1], "card": "多源确认", "ctx": "200K (estimated)", "mod": "text", "key": f[4], "base": f[3], "top": [(f[0], "free", "text", "-")]}
     import sys as _sys
     _sys.stderr.write("secondary merged: %d new (total %d)\n" % (len([x for x in names if x not in P]), len(P)))
 
