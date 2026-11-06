@@ -37,17 +37,17 @@
 | AI21 Labs | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](Jamba Large 1.7；Jamba Mini 2) |
 | DeepSeek | 🇨🇳 国内 | 永久免费层 | 2 | 需注册 | [获取](deepseek-chat (V3.2)；deepseek-reasoner (R1)) |
 | Nscale | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](Llama-3.3-70B-Instruct；DeepSeek-R1-Distill-Llama-70B) |
+| OpenAI | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](OpenAI) |
 | Mistral | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Mistral) |
-| NLP Cloud | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](NLP Cloud) |
-| Kilo Gateway | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Kilo Gateway) |
-| Hyperbolic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Hyperbolic) |
 | Fireworks | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Fireworks AI) |
-| GitHub Models | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](GitHub Models) |
+| Anthropic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Anthropic) |
 | Novita | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Novita) |
 | Upstage | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Upstage) |
-| OpenAI | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](OpenAI) |
-| Anthropic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Anthropic) |
+| Kilo Gateway | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Kilo Gateway) |
 | AI21 | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](AI21) |
+| GitHub Models | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](GitHub Models) |
+| NLP Cloud | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](NLP Cloud) |
+| Hyperbolic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Hyperbolic) |
 | Nebius | 🌐 海外 | 永久免费层 | 1 | 需注册 | [获取](Qwen3-235B-A22B) |
 | Modal | 🌐 海外 | 免费层-S | 1 | 多源确认 | [获取](Modal) |
 

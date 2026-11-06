@@ -32,16 +32,16 @@ Grok (xAI),🌐 海外,永久免费层,2,需注册,131K,https://api.x.ai/v1,http
 AI21 Labs,🌐 海外,永久免费层,2,需注册,256K,https://api.ai21.com/studio/v1,https://studio.ai21.com/account/api-key,Jamba Large 1.7；Jamba Mini 2,"200 RPM, 10 RPS",有效
 DeepSeek,🇨🇳 国内,永久免费层,2,需注册,128K,https://api.deepseek.com/v1,https://platform.deepseek.com/api_keys,deepseek-chat (V3.2)；deepseek-reasoner (R1),Dynamic,有效
 Nscale,🌐 海外,永久免费层,2,需注册,128K,https://inference.api.nscale.com/v1,https://console.nscale.com/,Llama-3.3-70B-Instruct；DeepSeek-R1-Distill-Llama-70B,Fair-use,有效
+OpenAI,🌐 海外,免费层-S,2,多源确认,200K (estimated),https://api.openai.com/v1,OpenAI platform,OpenAI,-,有效
 Mistral,🌐 海外,免费层-S,2,多源确认,200K (estimated),https://api.mistral.ai/v1,Mistral docs,Mistral,-,有效
-NLP Cloud,🌐 海外,免费层-S,2,多源确认,200K (estimated),https://api.nlpcloud.io/v1,NLP Cloud docs,NLP Cloud,-,有效
-Kilo Gateway,🌐 海外,免费层-S,2,多源确认,200K (estimated),https://kilo.ai/api,Kilo,Kilo Gateway,-,有效
-Hyperbolic,🌐 海外,免费层-S,2,多源确认,200K (estimated),https://api.hyperbolic.xyz/v1,Hyperbolic docs,Hyperbolic,-,有效
 Fireworks,🌐 海外,免费层-S,2,多源确认,200K (estimated),https://api.fireworks.ai/inference/v1,Fireworks docs,Fireworks AI,-,有效
-GitHub Models,🌐 海外,免费层-S,2,多源确认,200K (estimated),https://models.github.ai/inference,GitHub Models,GitHub Models,-,有效
+Anthropic,🌐 海外,免费层-S,2,多源确认,200K (estimated),https://api.anthropic.com,Anthropic console,Anthropic,-,有效
 Novita,🌐 海外,免费层-S,2,多源确认,200K (estimated),https://api.novita.ai/v3/openai,Novita console,Novita,-,有效
 Upstage,🌐 海外,免费层-S,2,多源确认,200K (estimated),https://api.upstage.ai/v1/solar,Upstage console,Upstage,-,有效
-OpenAI,🌐 海外,免费层-S,2,多源确认,200K (estimated),https://api.openai.com/v1,OpenAI platform,OpenAI,-,有效
-Anthropic,🌐 海外,免费层-S,2,多源确认,200K (estimated),https://api.anthropic.com,Anthropic console,Anthropic,-,有效
+Kilo Gateway,🌐 海外,免费层-S,2,多源确认,200K (estimated),https://kilo.ai/api,Kilo,Kilo Gateway,-,有效
 AI21,🌐 海外,免费层-S,2,多源确认,200K (estimated),https://api.ai21.com/studio/v1,AI21,AI21,-,有效
+GitHub Models,🌐 海外,免费层-S,2,多源确认,200K (estimated),https://models.github.ai/inference,GitHub Models,GitHub Models,-,有效
+NLP Cloud,🌐 海外,免费层-S,2,多源确认,200K (estimated),https://api.nlpcloud.io/v1,NLP Cloud docs,NLP Cloud,-,有效
+Hyperbolic,🌐 海外,免费层-S,2,多源确认,200K (estimated),https://api.hyperbolic.xyz/v1,Hyperbolic docs,Hyperbolic,-,有效
 Nebius,🌐 海外,永久免费层,1,需注册,128K,https://api.studio.nebius.com/v1,https://studio.nebius.com/settings/api-keys,Qwen3-235B-A22B,Tier-based,有效
 Modal,🌐 海外,免费层-S,1,多源确认,200K (estimated),https://api.modal.com/v1,Modal console,Modal,-,有效
