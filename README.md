@@ -1,6 +1,6 @@
 # 免费 LLM API 一览（自动更新）
 
-生成：2026-11-05　上游数据：2026-10-20　有效提供商 46 个，免费模型 551 个
+生成：2026-11-06　上游数据：2026-10-20　有效提供商 46 个，免费模型 551 个
 
 | 提供商 | 地区 | 类型 | 免费模型 | 信用卡/验证 | 获取 Key |
 |---|---|---|---|---|---|
@@ -24,35 +24,36 @@
 | Agnes AI | 🌐 海外 | 永久免费层 | 5 | 需注册 | [获取](agnes-1.5-flash；agnes-2.0-flash；agnes-image-2.0-flash) |
 | Alibaba Cloud Model Studio | 🇨🇳 国内 | 永久免费层 | 5 | 需注册 | [获取](Qwen3-Max；Qwen3-Plus；Qwen3-VL-Plus) |
 | Cline | 🌐 海外 | 永久免费层 | 5 | 需注册 | [获取](Muse Spark 1.3 Contributor；Mimo V2.6 Flash；Solar Mini 4) |
-| NVIDIA | 🌐 海外 | 免费层（secondary） | 5 | 多源确认 | [获取](NVIDIA) |
+| NVIDIA | 🌐 海外 | 免费层-S | 5 | 多源确认 | [获取](NVIDIA) |
 | SiliconFlow | 🇨🇳 国内 | 永久免费层 | 4 | 需注册 | [获取](Qwen/Qwen3-8B；Abbreviation；deepseek-ai/DeepSeek-R1-Distill-Qwen-7B) |
 | SambaNova | 🌐 海外 | 永久免费层 | 4 | 需注册 | [获取](DeepSeek-V3.1；DeepSeek-V3.2 (Preview)；MiniMax-M2.7) |
 | xAI | 🌐 海外 | 永久免费层 | 3 | 需注册 | [获取](grok-4.3；grok-4.1-fast；grok-3-mini) |
-| Pollinations | 🌐 海外 | 免费层（secondary） | 3 | 多源确认 | [获取](Pollinations) |
-| Google | 🌐 海外 | 免费层（secondary） | 3 | 多源确认 | [获取](Google) |
-| Kiro AI | 🌐 海外 | 免费层（secondary） | 3 | 多源确认 | [获取](Kiro AI) |
-| Together AI | 🌐 海外 | 免费层（secondary） | 3 | 多源确认 | [获取](Together AI) |
+| Together AI | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Together AI) |
+| Pollinations | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Pollinations) |
+| Kiro AI | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Kiro AI) |
+| Google | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Google) |
 | Chutes.ai | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](DeepSeek-R1；Llama 3.1 70B) |
 | Grok (xAI) | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](Grok-2；Grok-2 Mini) |
 | AI21 Labs | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](Jamba Large 1.7；Jamba Mini 2) |
 | DeepSeek | 🇨🇳 国内 | 永久免费层 | 2 | 需注册 | [获取](deepseek-chat (V3.2)；deepseek-reasoner (R1)) |
 | Nscale | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](Llama-3.3-70B-Instruct；DeepSeek-R1-Distill-Llama-70B) |
-| Upstage | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Upstage) |
-| AI21 | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](AI21) |
-| Kilo Gateway | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Kilo Gateway) |
-| Fireworks | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Fireworks AI) |
-| Hyperbolic | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Hyperbolic) |
-| Novita | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Novita) |
-| GitHub Models | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](GitHub Models) |
-| Mistral | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Mistral) |
-| Anthropic | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](Anthropic) |
-| NLP Cloud | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](NLP Cloud) |
-| OpenAI | 🌐 海外 | 免费层（secondary） | 2 | 多源确认 | [获取](OpenAI) |
+| Kilo Gateway | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Kilo Gateway) |
+| Upstage | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Upstage) |
+| Novita | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Novita) |
+| Hyperbolic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Hyperbolic) |
+| Anthropic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Anthropic) |
+| Mistral | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Mistral) |
+| OpenAI | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](OpenAI) |
+| Fireworks | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Fireworks AI) |
+| GitHub Models | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](GitHub Models) |
+| NLP Cloud | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](NLP Cloud) |
+| AI21 | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](AI21) |
 | Nebius | 🌐 海外 | 永久免费层 | 1 | 需注册 | [获取](Qwen3-235B-A22B) |
-| Modal | 🌐 海外 | 免费层（secondary） | 1 | 多源确认 | [获取](Modal) |
+| Modal | 🌐 海外 | 免费层-S | 1 | 多源确认 | [获取](Modal) |
 
 ## 最近变更
 
+- 2026-11-06 **上游陈旧** awesome-freellm-apis：README 标注更新日期 2026-10-20，已超过 7 天
 - 2026-11-05 **探测失败移除** Ollama：连续 3 次探测失败
 - 2026-11-05 **模型数变化** Fireworks：0 → 2
 - 2026-11-05 **模型数变化** Modal：0 → 1
@@ -67,4 +68,3 @@
 - 2026-11-05 **模型数变化** Kilo Gateway：0 → 2
 - 2026-11-05 **模型数变化** Mistral：0 → 2
 - 2026-11-05 **模型数变化** Pollinations：0 → 3
-- 2026-11-05 **模型数变化** Ollama：0 → 2
