@@ -28,31 +28,32 @@
 | SiliconFlow | 🇨🇳 国内 | 永久免费层 | 4 | 需注册 | [获取](Qwen/Qwen3-8B；Abbreviation；deepseek-ai/DeepSeek-R1-Distill-Qwen-7B) |
 | SambaNova | 🌐 海外 | 永久免费层 | 4 | 需注册 | [获取](DeepSeek-V3.1；DeepSeek-V3.2 (Preview)；MiniMax-M2.7) |
 | xAI | 🌐 海外 | 永久免费层 | 3 | 需注册 | [获取](grok-4.3；grok-4.1-fast；grok-3-mini) |
+| Pollinations | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Pollinations) |
+| Google | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Google) |
 | Kiro AI | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Kiro AI) |
 | Together AI | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Together AI) |
-| Google | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Google) |
-| Pollinations | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Pollinations) |
 | Chutes.ai | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](DeepSeek-R1；Llama 3.1 70B) |
 | Grok (xAI) | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](Grok-2；Grok-2 Mini) |
 | AI21 Labs | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](Jamba Large 1.7；Jamba Mini 2) |
 | DeepSeek | 🇨🇳 国内 | 永久免费层 | 2 | 需注册 | [获取](deepseek-chat (V3.2)；deepseek-reasoner (R1)) |
 | Nscale | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](Llama-3.3-70B-Instruct；DeepSeek-R1-Distill-Llama-70B) |
-| OpenAI | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](OpenAI) |
-| Mistral | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Mistral) |
-| Fireworks | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Fireworks AI) |
-| Anthropic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Anthropic) |
 | Novita | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Novita) |
-| Upstage | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Upstage) |
-| Kilo Gateway | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Kilo Gateway) |
-| AI21 | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](AI21) |
-| GitHub Models | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](GitHub Models) |
-| NLP Cloud | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](NLP Cloud) |
 | Hyperbolic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Hyperbolic) |
+| Kilo Gateway | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Kilo Gateway) |
+| Upstage | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Upstage) |
+| GitHub Models | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](GitHub Models) |
+| Mistral | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Mistral) |
+| Anthropic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Anthropic) |
+| AI21 | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](AI21) |
+| Fireworks | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Fireworks AI) |
+| NLP Cloud | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](NLP Cloud) |
+| OpenAI | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](OpenAI) |
 | Nebius | 🌐 海外 | 永久免费层 | 1 | 需注册 | [获取](Qwen3-235B-A22B) |
 | Modal | 🌐 海外 | 免费层-S | 1 | 多源确认 | [获取](Modal) |
 
 ## 最近变更
 
+- 2026-11-06 **免费模型消失** 1 个：OpenRouter|nemotron-3.5-content-safety
 - 2026-11-06 **上游陈旧** awesome-freellm-apis：README 标注更新日期 2026-10-20，已超过 7 天
 - 2026-11-05 **探测失败移除** Ollama：连续 3 次探测失败
 - 2026-11-05 **模型数变化** Fireworks：0 → 2
@@ -67,4 +68,3 @@
 - 2026-11-05 **模型数变化** Kiro AI：0 → 3
 - 2026-11-05 **模型数变化** Kilo Gateway：0 → 2
 - 2026-11-05 **模型数变化** Mistral：0 → 2
-- 2026-11-05 **模型数变化** Pollinations：0 → 3

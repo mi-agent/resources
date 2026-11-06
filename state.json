@@ -162,7 +162,7 @@
    "models": 2
   },
   "Glhf.chat": {
-   "fails": 17,
+   "fails": 18,
    "last_ok": null,
    "first_seen": "2026-11-02",
    "status": "已移除",
@@ -253,7 +253,7 @@
    "models": 3
   },
   "Ollama": {
-   "fails": 9,
+   "fails": 10,
    "last_ok": null,
    "first_seen": "2026-11-05",
    "status": "已移除",
@@ -698,6 +698,12 @@
   }
  },
  "log": [
+  [
+   "2026-11-06",
+   "免费模型消失",
+   "1 个",
+   "OpenRouter|nemotron-3.5-content-safety"
+  ],
   [
    "2026-11-06",
    "上游陈旧",
@@ -1154,7 +1160,6 @@
   "OpenRouter|minimax-m3.1-flash",
   "OpenRouter|nemotron-3-nano-omni-30b-a3b-reasoning",
   "OpenRouter|nemotron-3-ultra-550b-a55b",
-  "OpenRouter|nemotron-3.5-content-safety",
   "OpenRouter|nemotron-3.5-lightning",
   "OpenRouter|nemotron-3.5-super-vl",
   "OpenRouter|north-mini-code",
