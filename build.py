@@ -311,7 +311,7 @@ def main():
         if r["vision"]: tags.add("vision")
         if r["reasoning"]: tags.add("reason")
         if r["ctx"]>=500000: tags.add("long")
-        pr=live[r["prov"]];mods.append({**r,"fam":fam,"size":size,"tags":tags,"card":pr[4],"key":pr[8],"n":r["ctx"]})
+        pr=live[r["prov"]];mods.append({**r,"fam":fam,"size":size,"tags":tags,"card":pr[4],"key":pr[7],"n":r["ctx"]})
     mods.sort(key=lambda m:(SO[m["status"]],m["prov"],-m["n"]))
     ids=sorted(f"{m['prov']}|{catalog.bkey(m['id'])}" for m in mods if m["status"]!="❔ 需核对")
     if all(srcs.values()):
