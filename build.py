@@ -344,7 +344,7 @@ def main():
     mk(wb,"场景推荐","🎯 按应用场景选模型","能力来自 LiteLLM / models.dev / OpenRouter 的结构化字段，编程、中文、轻量等标签按模型名推断。排序：确认免费 > 标价为 0 > 需核对，再看是否免信用卡与上下文；同一提供商最多 2 个。",
        ["场景","适用说明","推荐模型","提供商","免费状态","上下文","限速","信用卡/验证","获取 Key"],[22,24,38,20,13,10,22,14,10],sc,"E0772B",links=(9,),chips=(5,8),center=(6,))
     mk(wb,"免费API","⚡ 免费 LLM API 提供商","数据来源：awesome-freellm-apis（freellm.net 每日刷新）。",
-       ["提供商","地区","类型","免费模型数","信用卡/验证","最大上下文","Base URL","获取 Key","代表模型","限速参考","状态"],[20,10,12,12,13,10,36,10,40,22,9],api,"2F5BEA",links=(9,),chips=(2,3,5,12),mine="N",bars=("D",),center=(2,3,5,6,12))
+       ["提供商","地区","类型","模型数","信用卡/验证","上下文","Base URL","获取 Key","代表模型","限速参考","状态"],[20,10,12,12,13,10,36,10,40,22,9],api,"2F5BEA",links=(9,),chips=(2,3,5,12),mine="N",bars=("D",),center=(2,3,5,6,12))
     ws=mk(wb,"能力矩阵","🧩 提供商 × 能力矩阵","● 表示该提供商的免费模型中包含此类能力（来自上游模态字段）。",
        ["提供商",*[c for c,_ in CAPS],"免费模型数","信用卡/验证"],[22]+[9]*len(CAPS)+[12,14],mat,"7A4DE0",chips=(len(CAPS)+3,),bars=(get_column_letter(len(CAPS)+2),),center=tuple(range(2,len(CAPS)+3)))
     for row in ws.iter_rows(min_row=4,max_row=3+len(mat),min_col=2,max_col=len(CAPS)+1):
