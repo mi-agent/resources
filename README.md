@@ -28,25 +28,25 @@
 | SiliconFlow | 🇨🇳 国内 | 永久免费层 | 4 | 需注册 | [获取](Qwen/Qwen3-8B；Abbreviation；deepseek-ai/DeepSeek-R1-Distill-Qwen-7B) |
 | SambaNova | 🌐 海外 | 永久免费层 | 4 | 需注册 | [获取](DeepSeek-V3.1；DeepSeek-V3.2 (Preview)；MiniMax-M2.7) |
 | xAI | 🌐 海外 | 永久免费层 | 3 | 需注册 | [获取](grok-4.3；grok-4.1-fast；grok-3-mini) |
-| Together AI | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Together AI) |
-| Pollinations | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Pollinations) |
 | Kiro AI | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Kiro AI) |
+| Together AI | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Together AI) |
 | Google | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Google) |
+| Pollinations | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Pollinations) |
 | Chutes.ai | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](DeepSeek-R1；Llama 3.1 70B) |
 | Grok (xAI) | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](Grok-2；Grok-2 Mini) |
 | AI21 Labs | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](Jamba Large 1.7；Jamba Mini 2) |
 | DeepSeek | 🇨🇳 国内 | 永久免费层 | 2 | 需注册 | [获取](deepseek-chat (V3.2)；deepseek-reasoner (R1)) |
 | Nscale | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](Llama-3.3-70B-Instruct；DeepSeek-R1-Distill-Llama-70B) |
-| Kilo Gateway | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Kilo Gateway) |
-| Upstage | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Upstage) |
-| Novita | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Novita) |
-| Hyperbolic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Hyperbolic) |
-| Anthropic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Anthropic) |
 | Mistral | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Mistral) |
-| OpenAI | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](OpenAI) |
+| NLP Cloud | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](NLP Cloud) |
+| Kilo Gateway | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Kilo Gateway) |
+| Hyperbolic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Hyperbolic) |
 | Fireworks | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Fireworks AI) |
 | GitHub Models | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](GitHub Models) |
-| NLP Cloud | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](NLP Cloud) |
+| Novita | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Novita) |
+| Upstage | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Upstage) |
+| OpenAI | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](OpenAI) |
+| Anthropic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Anthropic) |
 | AI21 | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](AI21) |
 | Nebius | 🌐 海外 | 永久免费层 | 1 | 需注册 | [获取](Qwen3-235B-A22B) |
 | Modal | 🌐 海外 | 免费层-S | 1 | 多源确认 | [获取](Modal) |
