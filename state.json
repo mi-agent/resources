@@ -5,7 +5,7 @@
    "last_ok": "2026-11-07",
    "first_seen": "2026-11-02",
    "status": "有效",
-   "models": 134
+   "models": 139
   },
   "ModelScope": {
    "fails": 0,
@@ -19,7 +19,7 @@
    "last_ok": "2026-11-07",
    "first_seen": "2026-11-02",
    "status": "有效",
-   "models": 41
+   "models": 46
   },
   "OpenCode Zen": {
    "fails": 0,
@@ -33,14 +33,14 @@
    "last_ok": "2026-11-07",
    "first_seen": "2026-11-02",
    "status": "有效",
-   "models": 24
+   "models": 26
   },
   "Kilo Code": {
    "fails": 0,
    "last_ok": "2026-11-07",
    "first_seen": "2026-11-02",
    "status": "有效",
-   "models": 23
+   "models": 29
   },
   "Google Gemini": {
    "fails": 0,
@@ -131,14 +131,14 @@
    "last_ok": null,
    "first_seen": "2026-11-02",
    "status": "未探测",
-   "models": 5
+   "models": 4
   },
   "SiliconFlow": {
    "fails": 0,
    "last_ok": "2026-11-07",
    "first_seen": "2026-11-02",
    "status": "有效",
-   "models": 4
+   "models": 6
   },
   "SambaNova": {
    "fails": 0,
@@ -162,7 +162,7 @@
    "models": 2
   },
   "Glhf.chat": {
-   "fails": 20,
+   "fails": 21,
    "last_ok": null,
    "first_seen": "2026-11-02",
    "status": "已移除",
@@ -208,7 +208,7 @@
    "last_ok": "2026-11-07",
    "first_seen": "2026-11-02",
    "status": "有效",
-   "models": 33
+   "models": 36
   },
   "NLP Cloud": {
    "fails": 0,
@@ -253,7 +253,7 @@
    "models": 3
   },
   "Ollama": {
-   "fails": 12,
+   "fails": 13,
    "last_ok": null,
    "first_seen": "2026-11-05",
    "status": "已移除",
@@ -335,6 +335,13 @@
    "first_seen": "2026-11-05",
    "status": "有效",
    "models": 3
+  },
+  "Gonka Broker": {
+   "fails": 0,
+   "last_ok": "2026-11-07",
+   "first_seen": "2026-11-07",
+   "status": "有效",
+   "models": 4
   }
  },
  "other": {
@@ -700,6 +707,66 @@
  "log": [
   [
    "2026-11-07",
+   "免费模型消失",
+   "10 个",
+   "Cline|mimo-v2.6-flash、Cline|muse-spark-1.3-contributor、Google Gemini|gemini-3.7-flash、Kilo Code|nemotron-3-super-120b-a12b、Kilo Code|step-3.7-flash、Ollama Cloud|deepseek-v4-flash、Ollama Cloud|minimax-"
+  ],
+  [
+   "2026-11-07",
+   "新增免费模型",
+   "12 个",
+   "Cline|beam-free、Cline|nemotron-3.5-super-vl、Gonka Broker|deepseek-ai-deepseek-v4-flash-0731、Gonka Broker|minimaxai-minimax-m2-7、Gonka Broker|zai-org-glm-5-3-flash、Google Gemini|gemini-3.5-flash-lite、K"
+  ],
+  [
+   "2026-11-07",
+   "模型数变化",
+   "NVIDIA NIM",
+   "134 → 139"
+  ],
+  [
+   "2026-11-07",
+   "模型数变化",
+   "Cloudflare Workers AI",
+   "41 → 46"
+  ],
+  [
+   "2026-11-07",
+   "模型数变化",
+   "Kilo Code",
+   "23 → 29"
+  ],
+  [
+   "2026-11-07",
+   "模型数变化",
+   "LLM7.io",
+   "24 → 26"
+  ],
+  [
+   "2026-11-07",
+   "模型数变化",
+   "SiliconFlow",
+   "4 → 6"
+  ],
+  [
+   "2026-11-07",
+   "新增提供商",
+   "Gonka Broker",
+   "4 个免费模型，需注册"
+  ],
+  [
+   "2026-11-07",
+   "模型数变化",
+   "Cline",
+   "5 → 4"
+  ],
+  [
+   "2026-11-07",
+   "模型数变化",
+   "OpenRouter",
+   "33 → 36"
+  ],
+  [
+   "2026-11-07",
    "新增免费模型",
    "1 个",
    "OpenRouter|lfm-3-1.7b"
@@ -1034,8 +1101,8 @@
   "Cerebras|zai-glm-4.7",
   "Chutes.ai|deepseek-r1",
   "Chutes.ai|meta-llama-3.1-70b-instruct",
-  "Cline|mimo-v2.6-flash",
-  "Cline|muse-spark-1.3-contributor",
+  "Cline|beam-free",
+  "Cline|nemotron-3.5-super-vl",
   "Cline|solar-mini4",
   "Cloudflare Workers AI|gemma-2b-it-lora",
   "Cloudflare Workers AI|gemma-7b-it-lora",
@@ -1052,8 +1119,11 @@
   "Cohere|north-small-translate-09-2026",
   "DeepSeek|deepseek-chat-v3-2",
   "DeepSeek|deepseek-reasoner-r1",
+  "Gonka Broker|deepseek-ai-deepseek-v4-flash-0731",
+  "Gonka Broker|minimaxai-minimax-m2-7",
+  "Gonka Broker|zai-org-glm-5-3-flash",
+  "Google Gemini|gemini-3.5-flash-lite",
   "Google Gemini|gemini-3.6-flash",
-  "Google Gemini|gemini-3.7-flash",
   "Google Gemini|gemini-3.8-flash",
   "Google Gemini|gemini-exp-1114",
   "Google Gemini|gemini-exp-1206",
@@ -1077,9 +1147,9 @@
   "Hugging Face|glm-4.7-flash",
   "Hugging Face|meta-llama-3-1-8b-instruct",
   "Hugging Face|phi-4",
-  "Kilo Code|nemotron-3-super-120b-a12b",
+  "Kilo Code|laguna-s-2.1",
+  "Kilo Code|nemotron-3-nano-omni-30b-a3b-re..",
   "Kilo Code|nemotron-3-ultra-550b-a55b",
-  "Kilo Code|step-3.7-flash",
   "LLM7.io|gpt-oss-20b",
   "LLM7.io|minimax-m2.7",
   "LLM7.io|mistral-nemo-instruct-2407",
@@ -1154,9 +1224,9 @@
   "OVHcloud AI Endpoints|qwen3.8-27b",
   "OVHcloud AI Endpoints|qwen3guard-gen-0.6b",
   "OVHcloud AI Endpoints|qwen3guard-gen-8b",
-  "Ollama Cloud|deepseek-v4-flash",
   "Ollama Cloud|deepseek-v4-pro",
-  "Ollama Cloud|minimax-m3",
+  "Ollama Cloud|gpt-oss:120b",
+  "Ollama Cloud|nemotron-3-ultra",
   "OpenCode Zen|big-pickle",
   "OpenCode Zen|deepseek-v4-flash-free",
   "OpenCode Zen|mimo-v2.5-free",
@@ -1170,7 +1240,6 @@
   "OpenRouter|lfm-3-1.7b",
   "OpenRouter|lyria-3-clip-preview",
   "OpenRouter|lyria-3-pro-preview",
-  "OpenRouter|minimax-m3.1-flash",
   "OpenRouter|nemotron-3-nano-omni-30b-a3b-reasoning",
   "OpenRouter|nemotron-3-ultra-550b-a55b",
   "OpenRouter|nemotron-3.5-lightning",
@@ -1181,8 +1250,8 @@
   "SambaNova|deepseek-v3-2-preview",
   "SambaNova|minimax-m2-7",
   "SiliconFlow|abbreviation",
-  "SiliconFlow|deepseek-ai-deepseek-r1-distill-qwen-7b",
-  "SiliconFlow|qwen3-8b",
+  "SiliconFlow|tencent-hunyuan-mt-7b",
+  "SiliconFlow|xingchenagi-xing4-0-29b",
   "Z AI (Zhipu AI)|glm-4.5-flash",
   "Z AI (Zhipu AI)|glm-4.6v-flash",
   "Z AI (Zhipu AI)|glm-4.7-flash",
