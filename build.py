@@ -337,7 +337,6 @@ def main():
         for m in cand:
             if cnt.get(m["prov"],0)>=2: continue
             cnt[m["prov"]]=cnt.get(m["prov"],0)+1;picks.append([title,desc,m["name"],m["prov"],m["status"],catalog.fmt(m["ctx"]),m["rate"] or "见官方",m["card"],m["key"]])
-            if len(picks)>=6: break
         good=[p for p in picks if p[4]!="❔ 需核对"]
         if len(good)>=4: picks=good
         sc+=picks or [[title,desc,"（当前数据源中暂无匹配）","","","","","",""]]
