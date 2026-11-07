@@ -1,6 +1,6 @@
 # 免费 LLM API 一览（自动更新）
 
-生成：2026-11-06　上游数据：2026-10-20　有效提供商 46 个，免费模型 551 个
+生成：2026-11-07　上游数据：2026-10-20　有效提供商 46 个，免费模型 551 个
 
 | 提供商 | 地区 | 类型 | 免费模型 | 信用卡/验证 | 获取 Key |
 |---|---|---|---|---|---|
@@ -28,31 +28,33 @@
 | SiliconFlow | 🇨🇳 国内 | 永久免费层 | 4 | 需注册 | [获取](Qwen/Qwen3-8B；Abbreviation；deepseek-ai/DeepSeek-R1-Distill-Qwen-7B) |
 | SambaNova | 🌐 海外 | 永久免费层 | 4 | 需注册 | [获取](DeepSeek-V3.1；DeepSeek-V3.2 (Preview)；MiniMax-M2.7) |
 | xAI | 🌐 海外 | 永久免费层 | 3 | 需注册 | [获取](grok-4.3；grok-4.1-fast；grok-3-mini) |
-| Together AI | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Together AI) |
 | Pollinations | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Pollinations) |
 | Kiro AI | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Kiro AI) |
 | Google | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Google) |
+| Together AI | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Together AI) |
 | Chutes.ai | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](DeepSeek-R1；Llama 3.1 70B) |
 | Grok (xAI) | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](Grok-2；Grok-2 Mini) |
 | AI21 Labs | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](Jamba Large 1.7；Jamba Mini 2) |
 | DeepSeek | 🇨🇳 国内 | 永久免费层 | 2 | 需注册 | [获取](deepseek-chat (V3.2)；deepseek-reasoner (R1)) |
 | Nscale | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](Llama-3.3-70B-Instruct；DeepSeek-R1-Distill-Llama-70B) |
 | Fireworks | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Fireworks AI) |
-| OpenAI | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](OpenAI) |
-| Novita | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Novita) |
-| NLP Cloud | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](NLP Cloud) |
-| Anthropic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Anthropic) |
-| AI21 | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](AI21) |
 | Hyperbolic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Hyperbolic) |
-| GitHub Models | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](GitHub Models) |
-| Mistral | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Mistral) |
-| Upstage | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Upstage) |
 | Kilo Gateway | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Kilo Gateway) |
+| NLP Cloud | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](NLP Cloud) |
+| AI21 | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](AI21) |
+| GitHub Models | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](GitHub Models) |
+| Novita | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Novita) |
+| OpenAI | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](OpenAI) |
+| Upstage | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Upstage) |
+| Mistral | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Mistral) |
+| Anthropic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Anthropic) |
 | Nebius | 🌐 海外 | 永久免费层 | 1 | 需注册 | [获取](Qwen3-235B-A22B) |
 | Modal | 🌐 海外 | 免费层-S | 1 | 多源确认 | [获取](Modal) |
 
 ## 最近变更
 
+- 2026-11-07 **新增免费模型** 1 个：OpenRouter|lfm-3-1.7b
+- 2026-11-07 **上游陈旧** awesome-freellm-apis：README 标注更新日期 2026-10-20，已超过 7 天
 - 2026-11-06 **免费模型消失** 1 个：OpenRouter|nemotron-3.5-content-safety
 - 2026-11-06 **上游陈旧** awesome-freellm-apis：README 标注更新日期 2026-10-20，已超过 7 天
 - 2026-11-05 **探测失败移除** Ollama：连续 3 次探测失败
@@ -66,5 +68,3 @@
 - 2026-11-05 **模型数变化** Novita：0 → 2
 - 2026-11-05 **模型数变化** Anthropic：0 → 2
 - 2026-11-05 **模型数变化** Kiro AI：0 → 3
-- 2026-11-05 **模型数变化** Kilo Gateway：0 → 2
-- 2026-11-05 **模型数变化** Mistral：0 → 2
