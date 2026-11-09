@@ -284,7 +284,7 @@ def main():
     jobs=[p["base"] or p["key"] for p in P.values()]+[r["probe"] for r in R]
     with ThreadPoolExecutor(8) as ex: res=list(ex.map(probe,jobs))
     ra,rb=res[:len(P)],res[len(P):]
-    old=old_user();api=[];dead=[];other=[];mat=[]
+    old=old_user();api=[];dead=[];other=[];mat=[];alive=set()
     def capline(mod): return " ".join(e for e,k in (("💬","text"),("🧠","reasoning"),("💻","code"),("👁","vision"),("🖼","image"),("🎙","audio|speech"),("🎬","video"),("🔎","embedding|rerank"),("📄","pdf")) if re.search(k,mod))
     for p,rs in zip(P.values(),ra):
         st,lo=judge(S["api"],p["name"],rs,log);S["api"][p["name"]]["models"]=p["models"]
@@ -292,7 +292,7 @@ def main():
         reg="🇨🇳 国内" if p["name"] in CN_PROV else "🌐 海外"
         row=[p["name"],reg,p["tier"],p["models"],p["card"],p["ctx"],p["base"] or "-",p["key"],top,rate,st]
         if st=="已移除": dead.append([p["name"],"探测连续失败",TODAY]);continue
-        api.append(row);mat.append([p["name"],*["●" if re.search(k,p["mod"]) else "" for _,k in CAPS],p["models"],p["card"]])
+        api.append(row);alive.add(p["name"])
     for r,rs in zip(R,rb):
         st,lo=judge(S["other"],r["name"],rs,log)
         if st=="已移除": dead.append([r["name"],"探测连续失败",TODAY]);continue
@@ -313,6 +313,16 @@ def main():
         if r["ctx"]>=500000: tags.add("long")
         pr=live[r["prov"]];mods.append({**r,"fam":fam,"size":size,"tags":tags,"card":pr[4],"key":pr[7],"n":r["ctx"]})
     mods.sort(key=lambda m:(SO[m["status"]],m["prov"],-m["n"]))
+    ptags={}
+    for m in mods: ptags.setdefault(m["prov"],set()).update(m["tags"])
+    mat=[]
+    for p in P.values():
+        if p["name"] not in alive: continue
+        tags=ptags.get(p["name"],set())
+        blob=" ".join(tags)
+        caps=["●" if (h=="文本" or re.search(k,blob)) else "" for h,k in CAPS]
+        mat.append([p["name"],*caps,p["models"],p["card"]])
+    mat.sort(key=lambda x:-x[-2])
     ids=sorted(f"{m['prov']}|{catalog.bkey(m['id'])}" for m in mods if m["status"]!="❔ 需核对")
     if all(srcs.values()):
         prev=S.get("free_ids")
@@ -344,7 +354,7 @@ def main():
        ["场景","适用说明","推荐模型","提供商","免费状态","上下文","限速","信用卡/验证","获取 Key"],[22,24,38,20,13,10,22,14,10],sc,"E0772B",links=(9,),chips=(5,8),center=(6,))
     mk(wb,"免费API","⚡ 免费 LLM API 提供商","数据来源：awesome-freellm-apis（freellm.net 每日刷新）",["提供商","地区","类型","模型数","信用卡/验证","上下文","Base URL","获取 Key","代表模型","限速参考","状态"],[20,10,12,12,13,10,36,10,40,22,9],api,"2F5BEA",links=(8,),chips=(2,3,5,12),mine="N",bars=("D",),center=(2,3,5,6,12))
     ws=mk(wb,"能力矩阵","🧩 提供商 × 能力矩阵","● 表示该提供商的免费模型中包含此类能力（来自上游模态字段）。",
-       ["提供商",*[c for c,_ in CAPS],"免费模型数","信用卡/验证"],[22]+[9]*len(CAPS)+[12,14],mat,"7A4DE0",chips=(len(CAPS)+3,),bars=(get_column_letter(len(CAPS)+2),),center=tuple(range(2,len(CAPS)+3)))
+       ["提供商",*[c for c,_ in CAPS],"模型数","信用卡/验证"],[22]+[9]*len(CAPS)+[12,14],mat,"7A4DE0",chips=(len(CAPS)+3,),bars=(get_column_letter(len(CAPS)+2),),center=tuple(range(2,len(CAPS)+3)))
     for row in ws.iter_rows(min_row=4,max_row=3+len(mat),min_col=2,max_col=len(CAPS)+1):
         for c in row:
             c.alignment=Alignment(horizontal="center",vertical="center")
