@@ -162,7 +162,7 @@
    "models": 2
   },
   "Glhf.chat": {
-   "fails": 25,
+   "fails": 26,
    "last_ok": null,
    "first_seen": "2026-11-02",
    "status": "已移除",
@@ -253,7 +253,7 @@
    "models": 3
   },
   "Ollama": {
-   "fails": 17,
+   "fails": 18,
    "last_ok": null,
    "first_seen": "2026-11-05",
    "status": "已移除",
