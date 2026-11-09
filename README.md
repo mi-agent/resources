@@ -29,26 +29,26 @@
 | SambaNova | 🌐 海外 | 永久免费层 | 4 | 需注册 | [获取](DeepSeek-V3.1；DeepSeek-V3.2 (Preview)；MiniMax-M2.7) |
 | xAI | 🌐 海外 | 永久免费层 | 3 | 需注册 | [获取](grok-4.3；grok-4.1-fast；grok-3-mini) |
 | Cline | 🌐 海外 | 永久免费层 | 3 | 需注册 | [获取](Solar Mini 4；cline-free/nemotron-3.5-super-vl；Nemotron 3.5 Lightning) |
-| Pollinations | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Pollinations) |
+| Together AI | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Together AI) |
 | Google | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Google) |
 | Kiro AI | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Kiro AI) |
-| Together AI | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Together AI) |
+| Pollinations | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Pollinations) |
 | Chutes.ai | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](DeepSeek-R1；Llama 3.1 70B) |
 | Grok (xAI) | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](Grok-2；Grok-2 Mini) |
 | AI21 Labs | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](Jamba Large 1.7；Jamba Mini 2) |
 | DeepSeek | 🇨🇳 国内 | 永久免费层 | 2 | 需注册 | [获取](deepseek-chat (V3.2)；deepseek-reasoner (R1)) |
 | Nscale | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](Llama-3.3-70B-Instruct；DeepSeek-R1-Distill-Llama-70B) |
+| NLP Cloud | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](NLP Cloud) |
+| OpenAI | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](OpenAI) |
+| AI21 | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](AI21) |
+| Upstage | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Upstage) |
+| Anthropic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Anthropic) |
+| Novita | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Novita) |
+| Fireworks | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Fireworks AI) |
+| Kilo Gateway | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Kilo Gateway) |
+| GitHub Models | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](GitHub Models) |
 | Hyperbolic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Hyperbolic) |
 | Mistral | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Mistral) |
-| Novita | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Novita) |
-| GitHub Models | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](GitHub Models) |
-| NLP Cloud | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](NLP Cloud) |
-| Upstage | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Upstage) |
-| AI21 | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](AI21) |
-| Anthropic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Anthropic) |
-| Fireworks | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Fireworks AI) |
-| OpenAI | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](OpenAI) |
-| Kilo Gateway | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Kilo Gateway) |
 | Nebius | 🌐 海外 | 永久免费层 | 1 | 需注册 | [获取](Qwen3-235B-A22B) |
 | Modal | 🌐 海外 | 免费层-S | 1 | 多源确认 | [获取](Modal) |
 
