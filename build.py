@@ -35,9 +35,18 @@ def normalize_secondary(txt):
         if any(a in low for a in al): out.add(canon)
     return out
 def merge_secondary(P):
+    try: GUIDES=json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)),"key_guides.json"),encoding="utf-8"))
+    except Exception: GUIDES={}
+    def gurl(n):
+        g=GUIDES.get(n) or GUIDES.get("_default") or {}
+        return g.get("url","")
+    ALIAS={"NVIDIA":"NVIDIA NIM","Google":"Google Gemini","Grok (xAI)":"xAI","Mistral":"Mistral AI",
+      "AI21":"AI21 Labs","Ollama":"Ollama Cloud","Kilo Gateway":"Kilo Code","Zhipu":"Z AI (Zhipu AI)",
+      "Z AI":"Z AI (Zhipu AI)","Grok":"xAI","Gemini":"Google Gemini","Claude":"Anthropic"}
     names = set()
     for url in SECONDARY_URLS.values():
         names |= normalize_secondary(fetch_secondary(url))
+    names={ALIAS.get(n,n) for n in names}
     FALLBACK = {
       "Fireworks": ("Fireworks AI", 2, "Fireworks AI API", "https://api.fireworks.ai/inference/v1", "Fireworks docs"),
       "Groq": ("Groq", 5, "Groq Cloud API", "https://api.groq.com/openai/v1", "Groq console"),
@@ -73,15 +82,15 @@ def merge_secondary(P):
             x["models"] = f[1]
             x["card"] = "多源确认"
             x["base"] = f[3]
-            x["key"] = f[4]
+            x["key"] = gurl(canon) or f[4]
             x["top"] = [(f[0], "free", "text", "-")]
-            x["ctx"] = "200K (estimated)"
+            x["ctx"] = ""
             x["mod"] = "text"
     for canon in names:
         if canon in P: continue
         f = FALLBACK.get(canon)
         if not f: continue
-        P[canon] = {"name": canon, "tier": "免费层-S", "models": f[1], "card": "多源确认", "ctx": "200K (estimated)", "mod": "text", "key": f[4], "base": f[3], "top": [(f[0], "free", "text", "-")]}
+        P[canon] = {"name": canon, "tier": "免费层-S", "models": f[1], "card": "多源确认", "ctx": "", "mod": "text", "key": gurl(canon) or f[4], "base": f[3], "top": [(f[0], "free", "text", "-")]}
     import sys as _sys
     _sys.stderr.write("secondary merged: %d new (total %d)\n" % (len([x for x in names if x not in P]), len(P)))
 
@@ -250,7 +259,10 @@ def mk(wb,title,banner,sub,headers,widths,rows,tab,links=(),chips=(),status=None
             c=ws.cell(r,i,v);c.font=ft(size=10);c.alignment=Alignment(wrap_text=True,vertical="center",horizontal="center" if i in center else "left",indent=1);c.border=Border(bottom=thin)
             if r%2==1: c.fill=PatternFill("solid",fgColor=ZEBRA)
             if i in links and v:
-                c.value="打开 ↗";c.hyperlink=v;c.font=ft(size=10,color="2F5BEA",underline="single")
+                if isinstance(v,str) and v.startswith("http"):
+                    c.value="打开 ↗";c.hyperlink=v;c.font=ft(size=10,color="2F5BEA",underline="single")
+                else:
+                    c.value=v or "-";c.font=ft(size=10,color="5B6781")
             elif isinstance(v,str):
                 lines=max(lines,math.ceil(len(v)*1.7/widths[i-1]))
                 if i in chips and chip(v): fg,bg=chip(v);c.font=ft(size=10,bold=True,color=fg);c.fill=PatternFill("solid",fgColor=bg);c.alignment=Alignment(vertical="center",horizontal="center",wrap_text=True)
@@ -368,6 +380,28 @@ def main():
        ["提供商","模型","免费状态","类型","上下文","最大输出","视觉","推理","工具","JSON","PDF","音频输入","输入价","输出价","系列","规模","标签","来源","发布"],[18,38,13,10,9,9,7,7,7,7,7,9,9,9,11,17,32,20,11],
        [[m["prov"],m["name"],m["status"],m["mode"],catalog.fmt(m["ctx"]),catalog.fmt(m["maxout"]),T(m["vision"] or "vision" in m["tags"]),T(m["reasoning"] or "reason" in m["tags"]),T(m["tools"]),T(m["json"]),T(m["pdf"] or "pdf" in m["tags"]),T(m["audio"] or "audio" in m["tags"]),pr(m["pin"]),pr(m["pout"]),m["fam"],m["size"],
          "  ".join(t for k,t in TAGTXT if k in m["tags"]),"+".join(sorted(m["src"])),m["released"]] for m in mods],"0E9F8E",chips=(3,7,8,9,10,11,12),center=(3,4,5,6,7,8,9,10,11,12,13,14))
+    # ---- Key 获取指南 + 确认免费模型清单 ----
+    try: GUIDES=json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)),"key_guides.json"),encoding="utf-8"))
+    except Exception: GUIDES={}
+    def gu(n):
+        g=GUIDES.get(n) or GUIDES.get("_default") or {}
+        u=g.get("url") or ""
+        return u if u.startswith("http") else "",g.get("steps",""),g.get("note","")
+    gd=[]
+    for row in sorted(api,key=lambda x:x[0]):
+        name=row[0];u,steps,note=gu(name)
+        if not u and str(row[7]).startswith("http"): u=row[7]
+        gd.append([name,row[1],row[4],u,steps,note])
+    mk(wb,"🔑 Key 获取指南","🔑 每个免费 API Key 的详细获取步骤","按提供商逐家列出注册、验证、创建 Key、填入本机的完整流程。Key 控制台列为可点击超链接；拿到 Key 后填入本工作簿「🔐 我的密钥」对应行的 B 列。各站菜单会改版，以官网最新流程为准。",
+       ["提供商","地区","验证要求","Key 控制台","详细步骤","备注"],[22,10,16,42,88,34],gd,"B7791F",links=(4,),chips=(2,),center=(2,))
+    FREE={"✅ 确认免费","🆓 标价为0"}
+    fm=sorted([m for m in mods if m["status"] in FREE],key=lambda m:(m["prov"],m["status"],m["name"]))
+    frows=[]
+    for m in fm:
+        u,_,_=gu(m["prov"])
+        frows.append([m["prov"],m["name"],m["status"],m["mode"],catalog.fmt(m["ctx"]),"  ".join(t for k,t in TAGTXT if k in m["tags"]),u])
+    mk(wb,"✅ 免费可用模型",f"✅ 确认可免费使用的模型（共 {len(frows)} 个）",f"只列 ✅确认免费 / 🆓标价为0 的模型，共 {len(frows)} 个；判定依据：上游确认清单、OpenRouter 实时零价、models.dev / LiteLLM 零价。全量模型库中 {sum(1 for m in mods if m['status']=='❔ 需核对')} 个「❔需核对」模型不计入本表（该供应商有免费层，但此模型是否在免费层内未获确认，请以官网为准）。",
+       ["提供商","模型","免费状态","类型","上下文","能力标签","Key 控制台"],[22,38,13,10,9,34,42],frows,"16895C",links=(7,),chips=(3,),center=(3,4,5))
     mk(wb,"其他免费资源","🧰 服务器 · 算力 · 数据库 · 域名 · 路由 · VPN · AI 工具","手工整理的补充资源，额度与政策变化快，以官网为准；状态来自每日存活探测。",
        ["类别","名称","免费额度","时效","适合","官网","使用方法","状态","最近正常"],[16,26,44,9,24,10,70,9,19],other,"C93B6B",links=(6,),chips=(4,8),mine="J",cat=1,center=(4,8))
     mk(wb,"变更日志","📝 变更日志","新增/下架/模型数变化/探测失败与恢复，最近 300 条。",["日期","类型","对象","详情"],[12,16,28,60],S["log"],"B7791F")
@@ -384,7 +418,7 @@ def main():
     cards=[("有效 API 提供商","=COUNTA('免费API'!A4:A1000)","2F5BEA","个"),("确认免费的模型",'=COUNTIF(\'全量模型库\'!C4:C5000,"✅ 确认免费")',"7A4DE0","个"),
            ("无需信用卡的提供商",'=COUNTIF(\'免费API\'!E4:E1000,"无需信用卡")',"16895C","个"),("国内服务商",'=COUNTIF(\'免费API\'!B4:B1000,"🇨🇳 国内")',"C93B6B","个"),
            ("其他免费资源","=COUNTA('其他免费资源'!B4:B1000)","E0772B","条"),("全量模型库条目","=COUNTA('全量模型库'!A4:A5000)","0E9F8E","条"),
-           ("已下架",'=COUNTA(\'已下架\'!A4:A1000)',"5B6781","条"),("我标记为在用",'=COUNTIF(\'免费API\'!N4:N1000,"在用")+COUNTIF(\'其他免费资源\'!J4:J1000,"在用")',"B7791F","个")]
+           ("已下架",'=COUNTA(\'已下架\'!A4:A1000)',"5B6781","条"),("确认免费模型",'=COUNTA(\'✅ 免费可用模型\'!B4:B5000)',"16895C","个")]
     for i,(lab,f,col,unit) in enumerate(cards):
         r0=6+(i//4)*5;c0=2+(i%4)*2
         for rr in range(r0,r0+4):
@@ -396,7 +430,7 @@ def main():
         v=ov.cell(r0+2,c0,f);v.font=ft(size=28,bold=True,color=col);v.alignment=Alignment(horizontal="left",indent=1,vertical="center");ov.row_dimensions[r0+2].height=42
         ov.cell(r0+3,c0,unit).font=ft(size=9,color="9AA7C4");ov.cell(r0+3,c0).alignment=Alignment(horizontal="left",indent=1)
     ov.merge_cells("B17:I17");ov["B17"]="📚 工作表导航（点击跳转）";ov["B17"].font=ft(size=13,bold=True,color=NAVY)
-    nav=[("场景推荐","按编程、推理、看图、长文档、工具调用、中文、RAG、语音、生图等场景挑模型"),("免费API","30 家提供商的额度、信用卡要求、Base URL 与 Key 入口"),("能力矩阵","一眼看各提供商支持哪些能力"),("全量模型库","每个模型的类型、上下文、视觉/推理/工具等能力、价格与免费状态"),("其他免费资源","服务器、GPU、数据库、域名、路由、VPN、AI 工具"),("变更日志","每天新增、下架与变动"),("已下架","失效条目归档")]
+    nav=[("场景推荐","按编程、推理、看图、长文档、工具调用、中文、RAG、语音、生图等场景挑模型"),("免费API","各提供商的额度、信用卡要求、Base URL 与 Key 入口"),("✅ 免费可用模型","只列确认免费的模型，回答「哪些模型能免费用」"),("🔑 Key 获取指南","逐家的注册、验证、创建 Key 详细步骤"),("能力矩阵","一眼看各提供商支持哪些能力"),("全量模型库","每个模型的类型、上下文、视觉/推理/工具等能力、价格与免费状态"),("其他免费资源","服务器、GPU、数据库、域名、路由、VPN、AI 工具"),("变更日志","每天新增、下架与变动"),("已下架","失效条目归档")]
     for i,(sh,d) in enumerate(nav,18):
         ov.merge_cells(start_row=i,start_column=2,end_row=i,end_column=3);ov.merge_cells(start_row=i,start_column=4,end_row=i,end_column=9)
         ov.cell(i,2,f'=HYPERLINK("#\'{sh}\'!A1","→ {sh}")').font=ft(size=11,bold=True,color="2F5BEA",underline="single");ov.cell(i,4,d).font=ft(size=10,color="5B6781")
