@@ -182,9 +182,9 @@ def ctxn(c):
     return float(m.group(1))*{"":1,"k":1e3,"m":1e6}[m.group(2).lower()]
 def classify(name,mid,ctx):
     t=(name+" "+mid).lower();tags=set()
-    if re.search(r"code|coder|codestral|devstral|laguna|swe|kimi-k2-7-code",t): tags.add("code")
-    if re.search(r"r1|reason|think|qwq|magistral",t): tags.add("reason")
-    if re.search(r"\bvl\b|-vl|vl-|vision|\dv-|\d\.\dv|pixtral|vlm|omni|multimodal",t): tags.add("vision")
+    if re.search(r"\bcode\b|coder|codestral|devstral|laguna|swe|kimi-k2-7-code",t): tags.add("code")
+    if re.search(r"\br1\b|reason|think|qwq|magistral|deepseek-r1",t): tags.add("reason")
+    if re.search(r"vision|vl-|pixtral|vlm|omni|multimodal",t): tags.add("vision")
     if re.search(r"embed",t): tags.add("embed")
     if "rerank" in t: tags.add("rerank")
     if re.search(r"whisper|audio|speech|tts|asr|voice",t): tags.add("audio")
@@ -201,8 +201,9 @@ def classify(name,mid,ctx):
     if size.startswith(("超大","旗舰")): tags.add("big")
     if fam in CNFAM: tags.add("cn")
     if ctxn(ctx)>=500000: tags.add("long")
+    tags.add("text")
     return fam,size,tags
-TAGTXT=[("code","💻编程"),("reason","🧠推理"),("vision","👁视觉"),("long","📄长文档"),("light","⚡轻量"),("big","🏆旗舰"),("cn","🇨🇳中文友好"),("audio","🎙音频"),("imggen","🖼生图"),("embed","🔎嵌入"),("rerank","🔎重排")]
+TAGTXT=[("text","💬文本"),("code","💻编程"),("reason","🧠推理"),("vision","👁视觉"),("long","📄长文档"),("light","⚡轻量"),("big","🏆旗舰"),("cn","🇨🇳中文友好"),("audio","🎙音频"),("imggen","🖼生图"),("embed","🔎嵌入"),("rerank","🔎重排")]
 SCEN=[("💻 编程助手","写代码、补全、Agent 编程","code",None),("🧠 复杂推理 / 数学","多步推理、数学、分析","reason",None),
 ("🏆 高质量通用","追求回答质量，不太在意速度","big",None),("📄 超长上下文（≥500K）","长文档、整仓代码","long",None),
 ("👁 看图 / 多模态","图片理解、截图问答","vision",None),("⚡ 轻量快速 / 低延迟","简单对话、批量处理","light",None),
