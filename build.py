@@ -189,6 +189,8 @@ def classify(name,mid,ctx):
     if "rerank" in t: tags.add("rerank")
     if re.search(r"whisper|audio|speech|tts|asr|voice",t): tags.add("audio")
     if re.search(r"flux|diffusion|sdxl|imagen|image-\d|-image|text-to-image",t): tags.add("imggen")
+    if re.search(r"video|sora|veo|kling|movie|wan|hunyuanvideo|seedance",t): tags.add("video")
+    if re.search(r"pdf|docling|papermqa|gptpdf|mineru",t): tags.add("pdf")
     fam=next((v for k,v in FAM if re.search(k,t)),"其他")
     size="未标注";m=re.findall(r"(?<![a-z])(\d+(?:\.\d+)?)b(?![a-z])",t)
     if m:
@@ -206,7 +208,7 @@ SCEN=[("💻 编程助手","写代码、补全、Agent 编程","code",None),("�
 ("👁 看图 / 多模态","图片理解、截图问答","vision",None),("⚡ 轻量快速 / 低延迟","简单对话、批量处理","light",None),
 ("🇨🇳 中文场景","中文写作与问答","cn",None),("🔎 向量检索 / RAG","嵌入与重排序（按提供商）",None,"embedding|rerank"),
 ("🎙 语音 / 音频","语音识别与合成（按提供商）",None,"audio|speech"),("🖼 图像生成","含 image 模态的提供商（可能是图像输入或输出，请到官方核对）",None,"image")]
-CAPS=[("文本","text"),("推理","reasoning"),("代码","code"),("视觉","vision"),("图像","image"),("音频/语音","audio|speech"),("视频","video"),("嵌入","embedding"),("重排序","rerank"),("PDF","pdf")]
+CAPS=[("文本","__all__"),("推理","reason"),("代码","code"),("视觉","vision"),("图像","imggen"),("音频/语音","audio"),("视频","video"),("嵌入","embed"),("重排序","rerank"),("PDF","pdf")]
 CAT={"免费服务器":"2F5BEA","免费GPU/算力":"7A4DE0","免费数据库/存储":"0E9F8E","免费域名/DNS/证书":"2E9F55","免费路由":"E0772B","免费VPN":"C93B6B","免费AI工具":"B7791F","免费图像/语音":"B03AB0"}
 def old_user():
     out={}
@@ -320,7 +322,7 @@ def main():
         if p["name"] not in alive: continue
         tags=ptags.get(p["name"],set())
         blob=" ".join(tags)
-        caps=["●" if (h=="文本" or re.search(k,blob)) else "" for h,k in CAPS]
+        caps=["●" if (h=="文本" or k=="__all__" or re.search(k,blob)) else "" for h,k in CAPS]
         mat.append([p["name"],*caps,p["models"],p["card"]])
     mat.sort(key=lambda x:-x[-2])
     ids=sorted(f"{m['prov']}|{catalog.bkey(m['id'])}" for m in mods if m["status"]!="❔ 需核对")
@@ -363,7 +365,7 @@ def main():
     pr=lambda x:None if x is None else round(x,4)
     mk(wb,"全量模型库","📚 全量模型库（免费层提供商的模型 × 能力）",f"数据源：{'；'.join(k+('✓' if v else '✗') for k,v in srcs.items())}，另含上游确认清单。免费状态：✅确认免费 / 🆓标价为0 / ❔该提供商有免费层，但此模型是否在免费层内需到官网核对。价格单位：美元 / 百万 token。已弃用的模型已自动剔除。",
        ["提供商","模型","免费状态","类型","上下文","最大输出","视觉","推理","工具","JSON","PDF","音频输入","输入价","输出价","系列","规模","标签","来源","发布"],[18,38,13,10,9,9,7,7,7,7,7,9,9,9,11,17,32,20,11],
-       [[m["prov"],m["name"],m["status"],m["mode"],catalog.fmt(m["ctx"]),catalog.fmt(m["maxout"]),T(m["vision"]),T(m["reasoning"]),T(m["tools"]),T(m["json"]),T(m["pdf"]),T(m["audio"]),pr(m["pin"]),pr(m["pout"]),m["fam"],m["size"],
+       [[m["prov"],m["name"],m["status"],m["mode"],catalog.fmt(m["ctx"]),catalog.fmt(m["maxout"]),T(m["vision"] or "vision" in m["tags"]),T(m["reasoning"] or "reason" in m["tags"]),T(m["tools"]),T(m["json"]),T(m["pdf"] or "pdf" in m["tags"]),T(m["audio"] or "audio" in m["tags"]),pr(m["pin"]),pr(m["pout"]),m["fam"],m["size"],
          "  ".join(t for k,t in TAGTXT if k in m["tags"]),"+".join(sorted(m["src"])),m["released"]] for m in mods],"0E9F8E",chips=(3,7,8,9,10,11,12),center=(3,4,5,6,7,8,9,10,11,12,13,14))
     mk(wb,"其他免费资源","🧰 服务器 · 算力 · 数据库 · 域名 · 路由 · VPN · AI 工具","手工整理的补充资源，额度与政策变化快，以官网为准；状态来自每日存活探测。",
        ["类别","名称","免费额度","时效","适合","官网","使用方法","状态","最近正常"],[16,26,44,9,24,10,70,9,19],other,"C93B6B",links=(6,),chips=(4,8),mine="J",cat=1,center=(4,8))
