@@ -162,7 +162,7 @@
    "models": 2
   },
   "Glhf.chat": {
-   "fails": 26,
+   "fails": 27,
    "last_ok": null,
    "first_seen": "2026-11-02",
    "status": "已移除",
@@ -224,13 +224,6 @@
    "status": "有效",
    "models": 2
   },
-  "Kilo Gateway": {
-   "fails": 0,
-   "last_ok": "2026-11-09",
-   "first_seen": "2026-11-05",
-   "status": "有效",
-   "models": 2
-  },
   "Pollinations": {
    "fails": 0,
    "last_ok": "2026-11-09",
@@ -245,20 +238,6 @@
    "status": "有效",
    "models": 3
   },
-  "Google": {
-   "fails": 0,
-   "last_ok": "2026-11-09",
-   "first_seen": "2026-11-05",
-   "status": "有效",
-   "models": 3
-  },
-  "Ollama": {
-   "fails": 18,
-   "last_ok": null,
-   "first_seen": "2026-11-05",
-   "status": "已移除",
-   "models": 2
-  },
   "GitHub Models": {
    "fails": 0,
    "last_ok": "2026-11-09",
@@ -266,21 +245,7 @@
    "status": "有效",
    "models": 2
   },
-  "NVIDIA": {
-   "fails": 0,
-   "last_ok": "2026-11-09",
-   "first_seen": "2026-11-05",
-   "status": "有效",
-   "models": 5
-  },
   "Hyperbolic": {
-   "fails": 0,
-   "last_ok": "2026-11-09",
-   "first_seen": "2026-11-05",
-   "status": "有效",
-   "models": 2
-  },
-  "AI21": {
    "fails": 0,
    "last_ok": "2026-11-09",
    "first_seen": "2026-11-05",
@@ -309,13 +274,6 @@
    "models": 2
   },
   "Anthropic": {
-   "fails": 0,
-   "last_ok": "2026-11-09",
-   "first_seen": "2026-11-05",
-   "status": "有效",
-   "models": 2
-  },
-  "Mistral": {
    "fails": 0,
    "last_ok": "2026-11-09",
    "first_seen": "2026-11-05",
@@ -702,9 +660,69 @@
   "Alibaba": {
    "date": "2026-11-05",
    "reason": "上游已移除"
+  },
+  "Kilo Gateway": {
+   "date": "2026-11-09",
+   "reason": "上游已移除"
+  },
+  "Google": {
+   "date": "2026-11-09",
+   "reason": "上游已移除"
+  },
+  "Ollama": {
+   "date": "2026-11-09",
+   "reason": "上游已移除"
+  },
+  "NVIDIA": {
+   "date": "2026-11-09",
+   "reason": "上游已移除"
+  },
+  "AI21": {
+   "date": "2026-11-09",
+   "reason": "上游已移除"
+  },
+  "Mistral": {
+   "date": "2026-11-09",
+   "reason": "上游已移除"
   }
  },
  "log": [
+  [
+   "2026-11-09",
+   "下架提供商",
+   "Kilo Gateway",
+   "不再出现在上游列表"
+  ],
+  [
+   "2026-11-09",
+   "下架提供商",
+   "Google",
+   "不再出现在上游列表"
+  ],
+  [
+   "2026-11-09",
+   "下架提供商",
+   "Ollama",
+   "不再出现在上游列表"
+  ],
+  [
+   "2026-11-09",
+   "下架提供商",
+   "NVIDIA",
+   "不再出现在上游列表"
+  ],
+  [
+   "2026-11-09",
+   "下架提供商",
+   "AI21",
+   "不再出现在上游列表"
+  ],
+  [
+   "2026-11-09",
+   "下架提供商",
+   "Mistral",
+   "不再出现在上游列表"
+  ],
   [
    "2026-11-09",
    "免费模型消失",

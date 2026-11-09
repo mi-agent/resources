@@ -1,6 +1,6 @@
 # 免费 LLM API 一览（自动更新）
 
-生成：2026-11-09　上游数据：2026-11-09　有效提供商 47 个，免费模型 575 个
+生成：2026-11-09　上游数据：2026-11-09　有效提供商 42 个，免费模型 561 个
 
 | 提供商 | 地区 | 类型 | 免费模型 | 信用卡/验证 | 获取 Key |
 |---|---|---|---|---|---|
@@ -24,29 +24,24 @@
 | SiliconFlow | 🇨🇳 国内 | 永久免费层 | 6 | 需注册 | [获取](tencent/Hunyuan-MT-7B；XingChenAGI/Xing4.0-29B；Abbreviation) |
 | Agnes AI | 🌐 海外 | 永久免费层 | 5 | 需注册 | [获取](agnes-1.5-flash；agnes-2.0-flash；agnes-image-2.0-flash) |
 | Alibaba Cloud Model Studio | 🇨🇳 国内 | 永久免费层 | 5 | 需注册 | [获取](Qwen3-Max；Qwen3-Plus；Qwen3-VL-Plus) |
-| NVIDIA | 🌐 海外 | 免费层-S | 5 | 多源确认 | [获取](NVIDIA) |
 | Gonka Broker | 🌐 海外 | 永久免费层 | 4 | 需注册 | [获取](MiniMaxAI/MiniMax-M2.7；deepseek-ai/DeepSeek-V4-Flash-0731；zai-org/GLM-5.3-Flash) |
 | SambaNova | 🌐 海外 | 永久免费层 | 4 | 需注册 | [获取](DeepSeek-V3.1；DeepSeek-V3.2 (Preview)；MiniMax-M2.7) |
 | xAI | 🌐 海外 | 永久免费层 | 3 | 需注册 | [获取](grok-4.3；grok-4.1-fast；grok-3-mini) |
 | Cline | 🌐 海外 | 永久免费层 | 3 | 需注册 | [获取](Solar Mini 4；cline-free/nemotron-3.5-super-vl；Nemotron 3.5 Lightning) |
-| Pollinations | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Pollinations) |
-| Google | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Google) |
-| Together AI | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Together AI) |
 | Kiro AI | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Kiro AI) |
+| Pollinations | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Pollinations) |
+| Together AI | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Together AI) |
 | Chutes.ai | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](DeepSeek-R1；Llama 3.1 70B) |
 | Grok (xAI) | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](Grok-2；Grok-2 Mini) |
 | AI21 Labs | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](Jamba Large 1.7；Jamba Mini 2) |
 | DeepSeek | 🇨🇳 国内 | 永久免费层 | 2 | 需注册 | [获取](deepseek-chat (V3.2)；deepseek-reasoner (R1)) |
 | Nscale | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](Llama-3.3-70B-Instruct；DeepSeek-R1-Distill-Llama-70B) |
-| Kilo Gateway | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Kilo Gateway) |
-| Mistral | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Mistral) |
-| Fireworks | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Fireworks AI) |
+| OpenAI | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](OpenAI) |
 | Upstage | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Upstage) |
+| Anthropic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Anthropic) |
 | Hyperbolic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Hyperbolic) |
 | NLP Cloud | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](NLP Cloud) |
-| Anthropic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Anthropic) |
-| OpenAI | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](OpenAI) |
-| AI21 | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](AI21) |
+| Fireworks | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Fireworks AI) |
 | Novita | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Novita) |
 | GitHub Models | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](GitHub Models) |
 | Nebius | 🌐 海外 | 永久免费层 | 1 | 需注册 | [获取](Qwen3-235B-A22B) |
@@ -54,6 +49,12 @@
 
 ## 最近变更
 
+- 2026-11-09 **下架提供商** Kilo Gateway：不再出现在上游列表
+- 2026-11-09 **下架提供商** Google：不再出现在上游列表
+- 2026-11-09 **下架提供商** Ollama：不再出现在上游列表
+- 2026-11-09 **下架提供商** NVIDIA：不再出现在上游列表
+- 2026-11-09 **下架提供商** AI21：不再出现在上游列表
+- 2026-11-09 **下架提供商** Mistral：不再出现在上游列表
 - 2026-11-09 **免费模型消失** 4 个：Cline|beam-free、Kilo Code|laguna-s-2.1、LLM7.io|minimax-m2.7、OVHcloud AI Endpoints|qwen3.8-27b
 - 2026-11-09 **新增免费模型** 4 个：Cline|nemotron-3.5-lightning-free、Kilo Code|north-mini-code、LLM7.io|nemotron-3-nano-30b、OVHcloud AI Endpoints|gpt-oss-120b
 - 2026-11-09 **模型数变化** LLM7.io：26 → 24
@@ -63,9 +64,3 @@
 - 2026-11-07 **新增免费模型** 12 个：Cline|beam-free、Cline|nemotron-3.5-super-vl、Gonka Broker|deepseek-ai-deepseek-v4-flash-0731、Gonka Broker|minimaxai-minimax-m2-7、Gonka Broker|zai-org-glm-5-3-flash、Google Gemini|gemini-3.5-flash-lite、K
 - 2026-11-07 **模型数变化** NVIDIA NIM：134 → 139
 - 2026-11-07 **模型数变化** Cloudflare Workers AI：41 → 46
-- 2026-11-07 **模型数变化** Kilo Code：23 → 29
-- 2026-11-07 **模型数变化** LLM7.io：24 → 26
-- 2026-11-07 **模型数变化** SiliconFlow：4 → 6
-- 2026-11-07 **新增提供商** Gonka Broker：4 个免费模型，需注册
-- 2026-11-07 **模型数变化** Cline：5 → 4
-- 2026-11-07 **模型数变化** OpenRouter：33 → 36
