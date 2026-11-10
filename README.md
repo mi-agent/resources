@@ -1,6 +1,6 @@
 # 免费 LLM API 一览（自动更新）
 
-生成：2026-11-09　上游数据：2026-11-09　有效提供商 42 个，免费模型 561 个
+生成：2026-11-10　上游数据：2026-11-09　有效提供商 42 个，免费模型 561 个
 
 | 提供商 | 地区 | 类型 | 免费模型 | 信用卡/验证 | 获取 Key |
 |---|---|---|---|---|---|
@@ -29,26 +29,27 @@
 | xAI | 🌐 海外 | 永久免费层 | 3 | 需注册 | [获取](grok-4.3；grok-4.1-fast；grok-3-mini) |
 | Cline | 🌐 海外 | 永久免费层 | 3 | 需注册 | [获取](Solar Mini 4；cline-free/nemotron-3.5-super-vl；Nemotron 3.5 Lightning) |
 | Kiro AI | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Kiro AI) |
-| Pollinations | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Pollinations) |
 | Together AI | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Together AI) |
+| Pollinations | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Pollinations) |
 | Chutes.ai | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](DeepSeek-R1；Llama 3.1 70B) |
 | Grok (xAI) | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](Grok-2；Grok-2 Mini) |
 | AI21 Labs | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](Jamba Large 1.7；Jamba Mini 2) |
 | DeepSeek | 🇨🇳 国内 | 永久免费层 | 2 | 需注册 | [获取](deepseek-chat (V3.2)；deepseek-reasoner (R1)) |
 | Nscale | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](Llama-3.3-70B-Instruct；DeepSeek-R1-Distill-Llama-70B) |
-| OpenAI | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](OpenAI) |
 | Upstage | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Upstage) |
-| Anthropic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Anthropic) |
 | Hyperbolic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Hyperbolic) |
-| NLP Cloud | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](NLP Cloud) |
+| GitHub Models | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](GitHub Models) |
+| Anthropic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Anthropic) |
+| OpenAI | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](OpenAI) |
 | Fireworks | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Fireworks AI) |
 | Novita | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Novita) |
-| GitHub Models | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](GitHub Models) |
+| NLP Cloud | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](NLP Cloud) |
 | Nebius | 🌐 海外 | 永久免费层 | 1 | 需注册 | [获取](Qwen3-235B-A22B) |
 | Modal | 🌐 海外 | 免费层-S | 1 | 多源确认 | [获取](Modal) |
 
 ## 最近变更
 
+- 2026-11-10 **新增免费模型** 1 个：OpenRouter|inkling-2-small
 - 2026-11-09 **下架提供商** Kilo Gateway：不再出现在上游列表
 - 2026-11-09 **下架提供商** Google：不再出现在上游列表
 - 2026-11-09 **下架提供商** Ollama：不再出现在上游列表
@@ -63,4 +64,3 @@
 - 2026-11-07 **免费模型消失** 10 个：Cline|mimo-v2.6-flash、Cline|muse-spark-1.3-contributor、Google Gemini|gemini-3.7-flash、Kilo Code|nemotron-3-super-120b-a12b、Kilo Code|step-3.7-flash、Ollama Cloud|deepseek-v4-flash、Ollama Cloud|minimax-
 - 2026-11-07 **新增免费模型** 12 个：Cline|beam-free、Cline|nemotron-3.5-super-vl、Gonka Broker|deepseek-ai-deepseek-v4-flash-0731、Gonka Broker|minimaxai-minimax-m2-7、Gonka Broker|zai-org-glm-5-3-flash、Google Gemini|gemini-3.5-flash-lite、K
 - 2026-11-07 **模型数变化** NVIDIA NIM：134 → 139
-- 2026-11-07 **模型数变化** Cloudflare Workers AI：41 → 46
