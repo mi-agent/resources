@@ -2,7 +2,7 @@
 NVIDIA NIM,🌐 海外,永久免费层,139,需手机验证,1M,https://integrate.api.nvidia.com/v1,https://build.nvidia.com/settings/api-keys,z-ai/glm-5.2；z-ai/glm-5.1；poolside/laguna-xs-2.1,Up to 40 RPM,有效
 ModelScope,🇨🇳 国内,永久免费层,61,需注册,1M,https://api-inference.modelscope.cn/v1,https://modelscope.cn/my/myaccesstoken,MiniMax-M2.5-highspeed；Qwen/Qwen3.5-35B-A3B；Qwen/Qwen3.5-27B,"2,000 RPD total; &lt;=500..",有效
 Cloudflare Workers AI,🌐 海外,永久免费层,46,无需信用卡,262K,https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/run,https://dash.cloudflare.com/profile/api-tokens,Mistral 7B；Qwen 1.5 7B；@cf/meta/llama-3.3-70b-instruct-fp8-fast,10K neurons/day (shared),有效
-OpenRouter,🌐 海外,可更新额度,36,Free tier + $10 topup → 1K RPD,1M,https://openrouter.ai/api/v1,https://openrouter.ai/workspaces/default/keys,Crouton Alpha；NVIDIA: Nemotron 3 Ultra (free)；NVIDIA: Nemotron 3.5 Super VL (free),,有效
+OpenRouter,🌐 海外,可更新额度,37,Free tier + $10 topup → 1K RPD,1M,https://openrouter.ai/api/v1,https://openrouter.ai/workspaces/default/keys,Crouton Alpha；NVIDIA: Nemotron 3 Ultra (free)；NVIDIA: Nemotron 3.5 Super VL (free),,有效
 OpenCode Zen,🌐 海外,永久免费层,34,需注册,1M,https://opencode.ai/zen/v1,https://opencode.ai/auth,big-pickle；DeepSeek V4 Flash；MiMo-V2.5,-,有效
 Kilo Code,🌐 海外,永久免费层,29,无需信用卡,1M,https://api.kilo.ai/api/gateway,https://app.kilo.ai/profile,nvidia/nemotron-3-ultra-550b-a55b:free；nvidia/nemotron-3-nano-omni-30b-a3b-reasoni..；cohere/north-mini-code:free,200 req/hr,有效
 LLM7.io,🌐 海外,永久免费层,24,无需信用卡,1M,https://api.llm7.io/v1,https://token.llm7.io,gpt-oss:20b；mistral-Nemo-Instruct-2407；nemotron-3-nano:30b,"60 RPM, 250 req/hr",有效
@@ -23,21 +23,21 @@ Gonka Broker,🌐 海外,永久免费层,4,需注册,400K,https://proxy.gonkabro
 SambaNova,🌐 海外,永久免费层,4,需注册,128K,https://api.sambanova.ai/v1,https://cloud.sambanova.ai/apis,DeepSeek-V3.1；DeepSeek-V3.2 (Preview)；MiniMax-M2.7,"20 RPM, 20 RPD, 200K TPD",有效
 xAI,🌐 海外,永久免费层,3,需注册,2M,https://api.x.ai/v1,https://console.x.ai,grok-4.3；grok-4.1-fast；grok-3-mini,Credit-based,有效
 Cline,🌐 海外,永久免费层,3,需注册,0,-,,Solar Mini 4；cline-free/nemotron-3.5-super-vl；Nemotron 3.5 Lightning,,未探测
-Kiro AI,🌐 海外,免费层-S,3,多源确认,,https://kiro.dev,https://kiro.dev/,Kiro AI,-,有效
 Together AI,🌐 海外,免费层-S,3,多源确认,,https://api.together.xyz/v1,https://api.together.ai/settings/api-keys,Together AI,-,有效
 Pollinations,🌐 海外,免费层-S,3,多源确认,,https://text.pollinations.ai/,https://pollinations.ai/,Pollinations,-,有效
+Kiro AI,🌐 海外,免费层-S,3,多源确认,,https://kiro.dev,https://kiro.dev/,Kiro AI,-,有效
 Chutes.ai,🌐 海外,永久免费层,2,需注册,131K,https://api.chutes.ai/v1,https://chutes.ai/,DeepSeek-R1；Llama 3.1 70B,"Community-powered, no h..",有效
 Grok (xAI),🌐 海外,永久免费层,2,需注册,131K,https://api.x.ai/v1,https://console.x.ai/,Grok-2；Grok-2 Mini,"$25/month free credits,..",有效
 AI21 Labs,🌐 海外,永久免费层,2,需注册,256K,https://api.ai21.com/studio/v1,https://studio.ai21.com/account/api-key,Jamba Large 1.7；Jamba Mini 2,"200 RPM, 10 RPS",有效
 DeepSeek,🇨🇳 国内,永久免费层,2,需注册,128K,https://api.deepseek.com/v1,https://platform.deepseek.com/api_keys,deepseek-chat (V3.2)；deepseek-reasoner (R1),Dynamic,有效
 Nscale,🌐 海外,永久免费层,2,需注册,128K,https://inference.api.nscale.com/v1,https://console.nscale.com/,Llama-3.3-70B-Instruct；DeepSeek-R1-Distill-Llama-70B,Fair-use,有效
 Upstage,🌐 海外,免费层-S,2,多源确认,,https://api.upstage.ai/v1/solar,https://console.upstage.ai/,Upstage,-,有效
-Hyperbolic,🌐 海外,免费层-S,2,多源确认,,https://api.hyperbolic.xyz/v1,https://hyperbolic.xyz/,Hyperbolic,-,有效
-GitHub Models,🌐 海外,免费层-S,2,多源确认,,https://models.github.ai/inference,https://github.com/settings/tokens,GitHub Models,-,有效
-Anthropic,🌐 海外,免费层-S,2,多源确认,,https://api.anthropic.com,https://console.anthropic.com/settings/keys,Anthropic,-,有效
-OpenAI,🌐 海外,免费层-S,2,多源确认,,https://api.openai.com/v1,https://platform.openai.com/api-keys,OpenAI,-,有效
-Fireworks,🌐 海外,免费层-S,2,多源确认,,https://api.fireworks.ai/inference/v1,https://fireworks.ai/,Fireworks AI,-,有效
 Novita,🌐 海外,免费层-S,2,多源确认,,https://api.novita.ai/v3/openai,https://novita.ai/,Novita,-,有效
+Fireworks,🌐 海外,免费层-S,2,多源确认,,https://api.fireworks.ai/inference/v1,https://fireworks.ai/,Fireworks AI,-,有效
+Anthropic,🌐 海外,免费层-S,2,多源确认,,https://api.anthropic.com,https://console.anthropic.com/settings/keys,Anthropic,-,有效
+Hyperbolic,🌐 海外,免费层-S,2,多源确认,,https://api.hyperbolic.xyz/v1,https://hyperbolic.xyz/,Hyperbolic,-,有效
+OpenAI,🌐 海外,免费层-S,2,多源确认,,https://api.openai.com/v1,https://platform.openai.com/api-keys,OpenAI,-,有效
+GitHub Models,🌐 海外,免费层-S,2,多源确认,,https://models.github.ai/inference,https://github.com/settings/tokens,GitHub Models,-,有效
 NLP Cloud,🌐 海外,免费层-S,2,多源确认,,https://api.nlpcloud.io/v1,https://nlpcloud.io/,NLP Cloud,-,有效
 Nebius,🌐 海外,永久免费层,1,需注册,128K,https://api.studio.nebius.com/v1,https://studio.nebius.com/settings/api-keys,Qwen3-235B-A22B,Tier-based,有效
 Modal,🌐 海外,免费层-S,1,多源确认,,https://api.modal.com/v1,https://modal.com/,Modal,-,有效
