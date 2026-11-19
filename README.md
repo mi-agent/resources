@@ -1,6 +1,6 @@
 # 免费 LLM API 一览（自动更新）
 
-生成：2026-11-18　上游数据：2026-11-17　有效提供商 34 个，免费模型 337 个
+生成：2026-11-19　上游数据：2026-11-18　有效提供商 34 个，免费模型 337 个
 
 | 提供商 | 地区 | 类型 | 免费模型 | 信用卡/验证 | 获取 Key |
 |---|---|---|---|---|---|
@@ -23,24 +23,25 @@
 | Z AI (Zhipu AI) | 🇨🇳 国内 | 永久免费层 | 4 | 无需信用卡 | [获取](GLM-4.5-Air；GLM-4.7-Flash；GLM-4.5-Flash) |
 | Cline | 🌐 海外 | 永久免费层 | 3 | 需注册 | [获取](Solar Mini 4；cline-free/nemotron-3.5-super-vl；Nemotron 3.5 Lightning) |
 | Kiro AI | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Kiro AI) |
-| Pollinations | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Pollinations) |
 | Together AI | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Together AI) |
+| Pollinations | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Pollinations) |
 | Chutes.ai | 🌐 海外 | 永久免费层 | 2 | 无需信用卡 | [获取](DeepSeek-R1；Llama 3.1 70B) |
 | Grok (xAI) | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](Grok-2；Grok-2 Mini) |
 | SiliconFlow | 🇨🇳 国内 | 永久免费层 | 2 | 无需信用卡 | [获取](tencent/Hunyuan-MT-7B；XingChenAGI/Xing4.0-29B) |
-| Hyperbolic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Hyperbolic) |
-| NLP Cloud | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](NLP Cloud) |
 | Anthropic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Anthropic) |
 | DeepSeek | 🇨🇳 国内 | 免费层-S | 2 | 多源确认 | [获取](DeepSeek) |
+| Upstage | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Upstage) |
+| Hyperbolic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Hyperbolic) |
+| NLP Cloud | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](NLP Cloud) |
+| GitHub Models | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](GitHub Models) |
 | OpenAI | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](OpenAI) |
 | Novita | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Novita) |
-| Upstage | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Upstage) |
-| GitHub Models | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](GitHub Models) |
 | Fireworks | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Fireworks AI) |
 | Modal | 🌐 海外 | 免费层-S | 1 | 多源确认 | [获取](Modal) |
 
 ## 最近变更
 
+- 2026-11-19 **新增免费模型** 3 个：Cohere|command-a-reasoning-08-2025、Cohere|command-a-translate-08-2025、Cohere|command-a-vision-07-2025
 - 2026-11-18 **新增免费模型** 2 个：Cohere|north-mini-code-1.0、Cohere|north-small-translate-1.0
 - 2026-11-16 **模型数变化** LLM7.io：4 → 11
 - 2026-11-16 **模型数变化** Groq：6 → 9
@@ -55,4 +56,3 @@
 - 2026-11-15 **模型数变化** Mistral AI：15 → 10
 - 2026-11-15 **模型数变化** Cohere：12 → 10
 - 2026-11-15 **模型数变化** OVHcloud AI Endpoints：16 → 8
-- 2026-11-15 **模型数变化** Ollama Cloud：17 → 8
