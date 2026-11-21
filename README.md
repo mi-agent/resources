@@ -1,6 +1,6 @@
 # 免费 LLM API 一览（自动更新）
 
-生成：2026-11-20　上游数据：2026-11-19　有效提供商 34 个，免费模型 338 个
+生成：2026-11-21　上游数据：2026-11-20　有效提供商 34 个，免费模型 338 个
 
 | 提供商 | 地区 | 类型 | 免费模型 | 信用卡/验证 | 获取 Key |
 |---|---|---|---|---|---|
@@ -22,25 +22,26 @@
 | Gonka Broker | 🌐 海外 | 永久免费层 | 4 | 无需信用卡 | [获取](MiniMaxAI/MiniMax-M2.7；deepseek-ai/DeepSeek-V4-Flash-0731；zai-org/GLM-5.3-Flash) |
 | Z AI (Zhipu AI) | 🇨🇳 国内 | 永久免费层 | 4 | 无需信用卡 | [获取](GLM-4.5-Air；GLM-4.7-Flash；GLM-4.5-Flash) |
 | Cline | 🌐 海外 | 永久免费层 | 3 | 需注册 | [获取](Solar Mini 4；cline-free/nemotron-3.5-super-vl；Nemotron 3.5 Lightning) |
-| Together AI | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Together AI) |
 | Kiro AI | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Kiro AI) |
+| Together AI | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Together AI) |
 | Pollinations | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Pollinations) |
 | Chutes.ai | 🌐 海外 | 永久免费层 | 2 | 无需信用卡 | [获取](DeepSeek-R1；Llama 3.1 70B) |
 | Grok (xAI) | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](Grok-2；Grok-2 Mini) |
 | SiliconFlow | 🇨🇳 国内 | 永久免费层 | 2 | 无需信用卡 | [获取](tencent/Hunyuan-MT-7B；XingChenAGI/Xing4.0-29B) |
 | NLP Cloud | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](NLP Cloud) |
-| Hyperbolic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Hyperbolic) |
 | OpenAI | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](OpenAI) |
 | Novita | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Novita) |
-| Fireworks | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Fireworks AI) |
-| GitHub Models | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](GitHub Models) |
-| DeepSeek | 🇨🇳 国内 | 免费层-S | 2 | 多源确认 | [获取](DeepSeek) |
-| Anthropic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Anthropic) |
 | Upstage | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Upstage) |
+| DeepSeek | 🇨🇳 国内 | 免费层-S | 2 | 多源确认 | [获取](DeepSeek) |
+| Hyperbolic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Hyperbolic) |
+| GitHub Models | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](GitHub Models) |
+| Anthropic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Anthropic) |
+| Fireworks | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Fireworks AI) |
 | Modal | 🌐 海外 | 免费层-S | 1 | 多源确认 | [获取](Modal) |
 
 ## 最近变更
 
+- 2026-11-21 **免费模型消失** 1 个：OpenRouter|dots-3-note-preview
 - 2026-11-20 **免费模型消失** 2 个：OpenRouter|inkling-2-small、OpenRouter|north-mini-code
 - 2026-11-20 **模型数变化** NVIDIA NIM：81 → 82
 - 2026-11-19 **新增免费模型** 3 个：Cohere|command-a-reasoning-08-2025、Cohere|command-a-translate-08-2025、Cohere|command-a-vision-07-2025
@@ -55,4 +56,3 @@
 - 2026-11-15 **模型数变化** OpenCode Zen：34 → 22
 - 2026-11-15 **模型数变化** Kilo Code：29 → 16
 - 2026-11-15 **模型数变化** Google Gemini：20 → 12
-- 2026-11-15 **模型数变化** Mistral AI：15 → 10
