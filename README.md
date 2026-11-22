@@ -1,6 +1,6 @@
 # 免费 LLM API 一览（自动更新）
 
-生成：2026-11-21　上游数据：2026-11-20　有效提供商 34 个，免费模型 338 个
+生成：2026-11-22　上游数据：2026-11-21　有效提供商 34 个，免费模型 338 个
 
 | 提供商 | 地区 | 类型 | 免费模型 | 信用卡/验证 | 获取 Key |
 |---|---|---|---|---|---|
@@ -22,21 +22,21 @@
 | Gonka Broker | 🌐 海外 | 永久免费层 | 4 | 无需信用卡 | [获取](MiniMaxAI/MiniMax-M2.7；deepseek-ai/DeepSeek-V4-Flash-0731；zai-org/GLM-5.3-Flash) |
 | Z AI (Zhipu AI) | 🇨🇳 国内 | 永久免费层 | 4 | 无需信用卡 | [获取](GLM-4.5-Air；GLM-4.7-Flash；GLM-4.5-Flash) |
 | Cline | 🌐 海外 | 永久免费层 | 3 | 需注册 | [获取](Solar Mini 4；cline-free/nemotron-3.5-super-vl；Nemotron 3.5 Lightning) |
-| Kiro AI | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Kiro AI) |
 | Together AI | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Together AI) |
 | Pollinations | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Pollinations) |
+| Kiro AI | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Kiro AI) |
 | Chutes.ai | 🌐 海外 | 永久免费层 | 2 | 无需信用卡 | [获取](DeepSeek-R1；Llama 3.1 70B) |
 | Grok (xAI) | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](Grok-2；Grok-2 Mini) |
 | SiliconFlow | 🇨🇳 国内 | 永久免费层 | 2 | 无需信用卡 | [获取](tencent/Hunyuan-MT-7B；XingChenAGI/Xing4.0-29B) |
-| NLP Cloud | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](NLP Cloud) |
-| OpenAI | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](OpenAI) |
-| Novita | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Novita) |
 | Upstage | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Upstage) |
-| DeepSeek | 🇨🇳 国内 | 免费层-S | 2 | 多源确认 | [获取](DeepSeek) |
-| Hyperbolic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Hyperbolic) |
 | GitHub Models | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](GitHub Models) |
+| OpenAI | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](OpenAI) |
+| DeepSeek | 🇨🇳 国内 | 免费层-S | 2 | 多源确认 | [获取](DeepSeek) |
+| NLP Cloud | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](NLP Cloud) |
+| Novita | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Novita) |
 | Anthropic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Anthropic) |
 | Fireworks | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Fireworks AI) |
+| Hyperbolic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Hyperbolic) |
 | Modal | 🌐 海外 | 免费层-S | 1 | 多源确认 | [获取](Modal) |
 
 ## 最近变更
