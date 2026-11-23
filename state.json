@@ -2,105 +2,105 @@
  "api": {
   "NVIDIA NIM": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 82
   },
   "ModelScope": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 33
   },
   "Cloudflare Workers AI": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 41
   },
   "OpenCode Zen": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 22
   },
   "LLM7.io": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 11
   },
   "Kilo Code": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效",
-   "models": 16
+   "models": 18
   },
   "Google Gemini": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 12
   },
   "Ollama Cloud": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 8
   },
   "Mistral AI": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 10
   },
   "OVHcloud AI Endpoints": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 8
   },
   "Groq": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效",
-   "models": 9
+   "models": 6
   },
   "Cohere": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 10
   },
   "Aion Labs": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 4
   },
   "Z AI (Zhipu AI)": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 4
   },
   "Agnes AI": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 6
@@ -110,24 +110,24 @@
    "last_ok": null,
    "first_seen": "2026-11-02",
    "status": "未探测",
-   "models": 3
+   "models": 2
   },
   "SiliconFlow": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 2
   },
   "Chutes.ai": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 2
   },
   "Glhf.chat": {
-   "fails": 40,
+   "fails": 41,
    "last_ok": null,
    "first_seen": "2026-11-02",
    "status": "已移除",
@@ -135,112 +135,112 @@
   },
   "Grok (xAI)": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 2
   },
   "DeepSeek": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效",
    "models": 2
   },
   "OpenRouter": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效",
-   "models": 21
+   "models": 20
   },
   "NLP Cloud": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-05",
    "status": "有效",
    "models": 2
   },
   "Upstage": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-05",
    "status": "有效",
    "models": 2
   },
   "Pollinations": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-05",
    "status": "有效",
    "models": 3
   },
   "Together AI": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-05",
    "status": "有效",
    "models": 3
   },
   "GitHub Models": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-05",
    "status": "有效",
    "models": 2
   },
   "Hyperbolic": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-05",
    "status": "有效",
    "models": 2
   },
   "Modal": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-05",
    "status": "有效",
    "models": 1
   },
   "Novita": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-05",
    "status": "有效",
    "models": 2
   },
   "Fireworks": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-05",
    "status": "有效",
    "models": 2
   },
   "Anthropic": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-05",
    "status": "有效",
    "models": 2
   },
   "OpenAI": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-05",
    "status": "有效",
    "models": 2
   },
   "Kiro AI": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-05",
    "status": "有效",
    "models": 3
   },
   "Gonka Broker": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-07",
    "status": "有效",
    "models": 4
@@ -249,349 +249,349 @@
  "other": {
   "Oracle Cloud Always Free": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Google Cloud e2-micro": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Cloudflare Workers / Pages": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Hugging Face Spaces": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Render Free Web Service": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "DigitalPlat FreeDomain": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "is-a.dev / js.org 子域名": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "FreeDNS（afraid.org）": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "eu.org": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "OmniRoute": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Magpie": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "AimiliVPN": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "VPNGate": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Proton VPN Free": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Windscribe Free": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "GitHub Codespaces": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Azure for Students": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "AWS 免费计划": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Koyeb": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Vercel / Netlify": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "PythonAnywhere 免费账号": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "国内云新用户试用": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Google Colab": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Kaggle Notebooks": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Lightning AI Studios": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Modal": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "魔搭 ModelScope Notebook": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "百度 AI Studio": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Supabase Free": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Neon Free": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "MongoDB Atlas M0": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Cloudflare R2 / D1 / KV": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Qdrant Cloud Free": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Upstash Redis / Kafka": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Cloudflare DNS + CDN": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Let’s Encrypt / ZeroSSL": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "托管平台自带子域": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "FreeLLMAPI": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "LiteLLM Proxy": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "One API / New API": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Cloudflare AI Gateway": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Gemini CLI": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "GitHub Copilot Free": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "OpenCode": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Cline / Continue / Aider": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Ollama / LM Studio": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Open WebUI": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "国内 AI 对话网页": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Pollinations.ai": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "edge-tts": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Whisper 本地语音识别": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "ComfyUI / Stable Diffusion": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-02",
    "status": "有效"
   },
   "Kiro AI": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-05",
    "status": "有效"
   },
   "OpenCode Free": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-05",
    "status": "有效"
   },
   "Pollinations (GPT-5 / Claude / Llama)": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-05",
    "status": "有效"
   },
   "LongCat (LongCat-2.0)": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-05",
    "status": "有效"
   },
   "Qoder AI": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-05",
    "status": "有效"
   },
   "Cloudflare Workers AI": {
    "fails": 0,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "first_seen": "2026-11-05",
    "status": "有效"
   }
@@ -663,6 +663,42 @@
   }
  },
  "log": [
+  [
+   "2026-11-23",
+   "免费模型消失",
+   "32 个",
+   "Agnes AI|agnes-image-2.0-flash、Agnes AI|agnes-image-2.1-flash、Aion Labs|aion-labs-aion-rp-llama-3-1-8b、Cline|solar-mini4、Cloudflare Workers AI|gpt-oss-120b、Cloudflare Workers AI|llama-3.3-70b-instruct"
+  ],
+  [
+   "2026-11-23",
+   "新增免费模型",
+   "32 个",
+   "Agnes AI|agnes-3.0-flash、Agnes AI|agnes-video-2.5-flash、Aion Labs|aion-labs-aion-3-0-mini、Cloudflare Workers AI|glm-5.3、Cloudflare Workers AI|glm-5.3-flash、Cloudflare Workers AI|inkling-2-small、Cohere"
+  ],
+  [
+   "2026-11-23",
+   "模型数变化",
+   "Kilo Code",
+   "16 → 18"
+  ],
+  [
+   "2026-11-23",
+   "模型数变化",
+   "Groq",
+   "9 → 6"
+  ],
+  [
+   "2026-11-23",
+   "模型数变化",
+   "Cline",
+   "3 → 2"
+  ],
+  [
+   "2026-11-23",
+   "模型数变化",
+   "OpenRouter",
+   "21 → 20"
+  ],
   [
    "2026-11-21",
    "免费模型消失",
@@ -1402,33 +1438,32 @@
    "README 标注更新日期 2026-10-20，已超过 7 天"
   ]
  ],
- "last_run": "2026-11-22",
+ "last_run": "2026-11-23",
  "free_ids": [
   "Agnes AI|agnes-2.5-flash",
-  "Agnes AI|agnes-image-2.0-flash",
-  "Agnes AI|agnes-image-2.1-flash",
+  "Agnes AI|agnes-3.0-flash",
+  "Agnes AI|agnes-video-2.5-flash",
   "Aion Labs|aion-labs-aion-2-0",
   "Aion Labs|aion-labs-aion-3-0",
-  "Aion Labs|aion-labs-aion-rp-llama-3-1-8b",
+  "Aion Labs|aion-labs-aion-3-0-mini",
   "Chutes.ai|deepseek-r1",
   "Chutes.ai|meta-llama-3.1-70b-instruct",
   "Cline|nemotron-3.5-lightning-free",
   "Cline|nemotron-3.5-super-vl",
-  "Cline|solar-mini4",
   "Cloudflare Workers AI|gemma-2b-it-lora",
   "Cloudflare Workers AI|gemma-7b-it-lora",
-  "Cloudflare Workers AI|gpt-oss-120b",
+  "Cloudflare Workers AI|glm-5.3",
+  "Cloudflare Workers AI|glm-5.3-flash",
+  "Cloudflare Workers AI|inkling-2-small",
   "Cloudflare Workers AI|llama-2-7b-chat-hf-lora",
-  "Cloudflare Workers AI|llama-3.3-70b-instruct-fp8-fast",
-  "Cloudflare Workers AI|llama-4-scout-17b-16e-instruct",
   "Cloudflare Workers AI|mistral-7b-instruct-v0.2-lora",
-  "Cohere|command-a-111b",
-  "Cohere|command-a-218b",
   "Cohere|command-a-plus-05-2026",
   "Cohere|command-a-reasoning-08-2025",
   "Cohere|command-a-translate-08-2025",
   "Cohere|command-a-vision-07-2025",
   "Cohere|command-r",
+  "Cohere|command-r7b",
+  "Cohere|command-r7b-arabic",
   "Cohere|north-mini-code-1-0",
   "Cohere|north-mini-code-1.0",
   "Cohere|north-small-translate-09-2026",
@@ -1436,9 +1471,9 @@
   "Gonka Broker|deepseek-ai-deepseek-v4-flash-0731",
   "Gonka Broker|minimaxai-minimax-m2-7",
   "Gonka Broker|zai-org-glm-5-3-flash",
-  "Google Gemini|gemini-3.5-flash-lite",
-  "Google Gemini|gemini-3.6-flash",
+  "Google Gemini|gemini-3.7-flash",
   "Google Gemini|gemini-3.8-flash",
+  "Google Gemini|gemini-4-hydrogen",
   "Google Gemini|gemini-exp-1114",
   "Google Gemini|gemini-exp-1206",
   "Google Gemini|gemma-3-27b-it",
@@ -1454,25 +1489,25 @@
   "Grok (xAI)|grok-2",
   "Grok (xAI)|grok-2-mini",
   "Groq|allam-2-7b",
+  "Groq|llama-prompt-guard-2-22m",
+  "Groq|llama-prompt-guard-2-86m",
   "Groq|qwen3.8-27b",
-  "Groq|whisper-large-v3",
-  "Groq|whisper-large-v3-turbo",
-  "Kilo Code|nemotron-3-nano-omni-30b-a3b-re..",
-  "Kilo Code|nemotron-3-ultra-550b-a55b",
-  "Kilo Code|north-mini-code",
-  "LLM7.io|codestral-latest",
-  "LLM7.io|gpt-oss-20b",
-  "LLM7.io|mistral-nemo-instruct-2407",
+  "Kilo Code|cohere-north-mini-code-free",
+  "Kilo Code|dots-studio-dots-3-note-preview-free",
+  "Kilo Code|flint-v1.0",
+  "LLM7.io|deepseek-v4-flash-0731",
+  "LLM7.io|deepseek-v4-pro",
+  "LLM7.io|glm-5.3-flash",
+  "Mistral AI|codestral",
   "Mistral AI|labs-devstral-small-2512",
   "Mistral AI|labs-leanstral-1-5-1",
   "Mistral AI|mistral-medium-3-5-128b",
-  "Mistral AI|open-mistral-7b",
-  "Mistral AI|open-mixtral-8x7b",
-  "ModelScope|antangelmed",
+  "Mistral AI|mistral-small-4",
+  "ModelScope|deepseek-v4.1-flash",
   "ModelScope|glm-4.5",
   "ModelScope|glm-4.6",
-  "ModelScope|longcat-flash-lite",
-  "ModelScope|minimax-m1-80k",
+  "ModelScope|nex-n2.5-mini",
+  "ModelScope|nex-n2.5-pro",
   "ModelScope|qwen3-235b-a22b-instruct-2507",
   "ModelScope|qwen3-235b-a22b-thinking-2507",
   "ModelScope|qwen3-30b-a3b-instruct-2507",
@@ -1524,18 +1559,19 @@
   "NVIDIA NIM|usdcode",
   "NVIDIA NIM|usdvalidate",
   "NVIDIA NIM|whisper-large-v3",
-  "OVHcloud AI Endpoints|gpt-oss-120b",
-  "OVHcloud AI Endpoints|meta-llama-3_3-70b-instruct",
-  "OVHcloud AI Endpoints|qwen3.5-397b-a17b",
+  "OVHcloud AI Endpoints|qwen3.5-9b",
+  "OVHcloud AI Endpoints|qwen3.6-27b",
+  "OVHcloud AI Endpoints|qwen3.8-27b",
   "OVHcloud AI Endpoints|qwen3guard-gen-0.6b",
   "OVHcloud AI Endpoints|qwen3guard-gen-8b",
-  "Ollama Cloud|gpt-oss:120b",
+  "Ollama Cloud|deepseek-v4-pro:0813",
   "Ollama Cloud|minimax-m3",
   "Ollama Cloud|nemotron-3-ultra",
-  "OpenCode Zen|big-pickle",
-  "OpenCode Zen|deepseek-v4-flash",
-  "OpenCode Zen|nemotron-3.5-lightning-free",
+  "OpenCode Zen|deepseek-v4.1-flash",
+  "OpenCode Zen|mistral-large-4",
+  "OpenCode Zen|space-bunny-free",
   "OpenRouter|crouton-alpha",
+  "OpenRouter|dots-3-note-preview",
   "OpenRouter|ernie-5.5-flash-preview",
   "OpenRouter|flint-v1.0",
   "OpenRouter|free",
@@ -1552,9 +1588,9 @@
   "OpenRouter|particle-1",
   "SiliconFlow|tencent-hunyuan-mt-7b",
   "SiliconFlow|xingchenagi-xing4-0-29b",
-  "Z AI (Zhipu AI)|glm-4.5",
   "Z AI (Zhipu AI)|glm-4.5-air",
   "Z AI (Zhipu AI)|glm-4.5-flash",
+  "Z AI (Zhipu AI)|glm-4.6",
   "Z AI (Zhipu AI)|glm-4.6v-flash",
   "Z AI (Zhipu AI)|glm-4.7",
   "Z AI (Zhipu AI)|glm-4.7-flash"
