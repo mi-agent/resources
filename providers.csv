@@ -1,7 +1,7 @@
 ﻿provider,region,tier,free_models,card,max_context,capabilities,base_url,key_url,top_models,rate_limit,status,last_ok
-NVIDIA NIM,🌐 海外,永久免费层,82,需手机验证,1M,https://integrate.api.nvidia.com/v1,https://build.nvidia.com/settings/api-keys,z-ai/glm-5.3-flash；poolside/laguna-xs-2.1；moonshotai/kimi-k2.6,Up to 40 RPM,有效
-Cloudflare Workers AI,🌐 海外,永久免费层,41,无需信用卡,262K,https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/run,https://dash.cloudflare.com/profile/api-tokens,@cf/thinkingmachines/inkling-2-small；@cf/zai-org/glm-5.3；@cf/zai-org/glm-5.3-flash,-,有效
+NVIDIA NIM,🌐 海外,永久免费层,82,需手机验证,1M,https://integrate.api.nvidia.com/v1,https://build.nvidia.com/settings/api-keys,moonshotai/kimi-k3.1-pro；z-ai/glm-5.3-flash；poolside/laguna-xs-2.1,Up to 40 RPM,有效
 ModelScope,🇨🇳 国内,永久免费层,33,需注册,1M,https://api-inference.modelscope.cn/v1,https://modelscope.cn/my/myaccesstoken,deepseek-ai/DeepSeek-V4.1-Flash；nex-agi/Nex-N2.5-mini；nex-agi/Nex-N2.5-Pro,-,有效
+Cloudflare Workers AI,🌐 海外,永久免费层,24,无需信用卡,256K,https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/run,https://dash.cloudflare.com/profile/api-tokens,@cf/thinkingmachines/inkling-2-small；@cf/zai-org/glm-5.3；@cf/deepseek-ai/deepseek-v4.1-flash-1017,-,有效
 OpenCode Zen,🌐 海外,永久免费层,22,需注册,1M,https://opencode.ai/zen/v1,https://opencode.ai/auth,Mistral Large 4；DeepSeek V4.1 Flash；space-bunny-free,-,有效
 OpenRouter,🌐 海外,可更新额度,20,Free tier + $10 topup → 1K RPD,1M,https://openrouter.ai/api/v1,https://openrouter.ai/workspaces/default/keys,Crouton Alpha；NVIDIA: Nemotron 3 Ultra (free)；Baidu: ERNIE-5.5-Flash-Preview (free),,有效
 Kilo Code,🌐 海外,永久免费层,18,无需信用卡,1M,https://api.kilo.ai/api/gateway,https://app.kilo.ai/profile,cohere/north-mini-code:free；dots-studio/dots-3-note-preview:free；recursive/flint-v1.0:free,200 req/hr,有效
@@ -10,26 +10,27 @@ LLM7.io,🌐 海外,永久免费层,11,无需信用卡,1M,https://api.llm7.io/v1
 Mistral AI,🌐 海外,永久免费层,10,无需信用卡,256K,https://api.mistral.ai/v1,https://console.mistral.ai/api-keys,Codestral；Mistral Medium 3.5 (128B)；Mistral Small 4,"~1 RPS, 500K TPM",有效
 Cohere,🌐 海外,永久免费层,10,无需信用卡,256K,https://api.cohere.com/v2,https://dashboard.cohere.com/api-keys,Command R7B Arabic；Command R+；Command R7B,20 RPM,有效
 OVHcloud AI Endpoints,🌐 海外,永久免费层,8,无需信用卡,262K,https://oai.endpoints.kepler.ai.cloud.ovh.net/v1,https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/,Qwen3.8-27B；Qwen3.6-27B；Qwen3.5-9B,2 RPM (anonymous),有效
-Ollama Cloud,🌐 海外,永久免费层,8,无需信用卡,1M,https://ollama.com/v1,https://ollama.com/settings/keys,deepseek-v4-pro；nemotron-3-ultra；minimax-m3,Session/weekly limits,有效
 Agnes AI,🌐 海外,永久免费层,6,无需信用卡,256K,https://apihub.agnes-ai.com/v1,https://platform.agnes-ai.com/settings/apiKeys,agnes-video-2.5-flash；agnes-3.0-flash；agnes-2.5-flash,2 RPM,有效
 Groq,🌐 海外,永久免费层,6,无需信用卡,131K,https://api.groq.com/openai/v1,https://console.groq.com/keys,meta-llama/llama-prompt-guard-2-22m；meta-llama/llama-prompt-guard-2-86m；qwen/qwen3.8-27b,-,有效
 Aion Labs,🌐 海外,永久免费层,4,无需信用卡,128K,https://api.aionlabs.ai/v1,https://www.aionlabs.ai/app/api-keys/,aion-labs/aion-3.0-mini；aion-labs/aion-3.0；aion-labs/aion-2.0,"15 RPM, 20K TPD",有效
 Gonka Broker,🌐 海外,永久免费层,4,无需信用卡,400K,https://proxy.gonkabroker.com/v1,https://app.gonkabroker.com/signup,zai-org/GLM-5.3-Flash；deepseek-ai/DeepSeek-V4-Flash-0731；MiniMaxAI/MiniMax-M2.7,~1M tokens/mo,有效
 Z AI (Zhipu AI),🇨🇳 国内,永久免费层,4,无需信用卡,200K,https://open.bigmodel.cn/api/paas/v4,https://open.bigmodel.cn/usercenter/apikeys,GLM-4.7-Flash；GLM-4.6V-Flash；GLM-4.5-Air,1 concurrent request,有效
-Kiro AI,🌐 海外,免费层-S,3,多源确认,,https://kiro.dev,https://kiro.dev/,Kiro AI,-,有效
-Together AI,🌐 海外,免费层-S,3,多源确认,,https://api.together.xyz/v1,https://api.together.ai/settings/api-keys,Together AI,-,有效
+Perch AI,🌐 海外,永久免费层,3,无需信用卡,0,-,,DeepSeek V4.1 Flash 1017；GLM 5.3 Flash；Crouton Alpha,,未探测
 Pollinations,🌐 海外,免费层-S,3,多源确认,,https://text.pollinations.ai/,https://pollinations.ai/,Pollinations,-,有效
+Together AI,🌐 海外,免费层-S,3,多源确认,,https://api.together.xyz/v1,https://api.together.ai/settings/api-keys,Together AI,-,有效
+Kiro AI,🌐 海外,免费层-S,3,多源确认,,https://kiro.dev,https://kiro.dev/,Kiro AI,-,有效
 Chutes.ai,🌐 海外,永久免费层,2,无需信用卡,131K,https://api.chutes.ai/v1,https://chutes.ai/,DeepSeek-R1；Llama 3.1 70B,"Community-powered, no h..",有效
 Grok (xAI),🌐 海外,永久免费层,2,需注册,131K,https://api.x.ai/v1,https://console.x.ai/,Grok-2 Mini；Grok-2,"$25/month free credits,..",有效
 SiliconFlow,🇨🇳 国内,永久免费层,2,无需信用卡,0,https://api.siliconflow.cn/v1,https://cloud.siliconflow.cn/account/ak,tencent/Hunyuan-MT-7B；XingChenAGI/Xing4.0-29B,-,有效
+Ollama Cloud,🌐 海外,永久免费层,2,无需信用卡,1M,https://ollama.com/v1,https://ollama.com/settings/keys,deepseek-v4-pro；minimax-m3,Session/weekly limits,有效
 Cline,🌐 海外,永久免费层,2,需注册,0,-,,Nemotron 3.5 Lightning；cline-free/nemotron-3.5-super-vl,,未探测
-OpenAI,🌐 海外,免费层-S,2,多源确认,,https://api.openai.com/v1,https://platform.openai.com/api-keys,OpenAI,-,有效
-GitHub Models,🌐 海外,免费层-S,2,多源确认,,https://models.github.ai/inference,https://github.com/settings/tokens,GitHub Models,-,有效
-NLP Cloud,🌐 海外,免费层-S,2,多源确认,,https://api.nlpcloud.io/v1,https://nlpcloud.io/,NLP Cloud,-,有效
 Hyperbolic,🌐 海外,免费层-S,2,多源确认,,https://api.hyperbolic.xyz/v1,https://hyperbolic.xyz/,Hyperbolic,-,有效
-DeepSeek,🇨🇳 国内,免费层-S,2,多源确认,,https://api.deepseek.com,https://platform.deepseek.com/api_keys,DeepSeek,-,有效
-Novita,🌐 海外,免费层-S,2,多源确认,,https://api.novita.ai/v3/openai,https://novita.ai/,Novita,-,有效
+GitHub Models,🌐 海外,免费层-S,2,多源确认,,https://models.github.ai/inference,https://github.com/settings/tokens,GitHub Models,-,有效
 Anthropic,🌐 海外,免费层-S,2,多源确认,,https://api.anthropic.com,https://console.anthropic.com/settings/keys,Anthropic,-,有效
-Upstage,🌐 海外,免费层-S,2,多源确认,,https://api.upstage.ai/v1/solar,https://console.upstage.ai/,Upstage,-,有效
 Fireworks,🌐 海外,免费层-S,2,多源确认,,https://api.fireworks.ai/inference/v1,https://fireworks.ai/,Fireworks AI,-,有效
+OpenAI,🌐 海外,免费层-S,2,多源确认,,https://api.openai.com/v1,https://platform.openai.com/api-keys,OpenAI,-,有效
+Novita,🌐 海外,免费层-S,2,多源确认,,https://api.novita.ai/v3/openai,https://novita.ai/,Novita,-,有效
+NLP Cloud,🌐 海外,免费层-S,2,多源确认,,https://api.nlpcloud.io/v1,https://nlpcloud.io/,NLP Cloud,-,观察中
+Upstage,🌐 海外,免费层-S,2,多源确认,,https://api.upstage.ai/v1/solar,https://console.upstage.ai/,Upstage,-,有效
+DeepSeek,🇨🇳 国内,免费层-S,2,多源确认,,https://api.deepseek.com,https://platform.deepseek.com/api_keys,DeepSeek,-,有效
 Modal,🌐 海外,免费层-S,1,多源确认,,https://api.modal.com/v1,https://modal.com/,Modal,-,有效
