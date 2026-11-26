@@ -407,7 +407,7 @@ def main():
     # ---- 🛠️ 本地网关工具（Gateway Tools） ----
     # 这类工具本身不发 Key，需要你填入上游供应商的 Key
     tools=[]
-    for name in ("Magpie","FreeLLMAPI"):
+    for name in ("Magpie","FreeLLMAPI","Agent2API"):
         g=GUIDES.get(name) or {}
         if not g: continue
         ins=g.get("install","")

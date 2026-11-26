@@ -224,5 +224,11 @@
       "cli": "npm install -g freellmapi && freellmapi launch --ui"
     },
     "dashboard_url": "http://localhost:3001/"
+  },
+  "Agent2API": {
+    "url": "https://github.com/aimod-cc/Agent2API",
+    "steps": "1 下载桌面端 DMG（macOS）或 Docker 部署；2 打开 http://127.0.0.1:3065 注册管理员账号；3 在「网关 Key」页创建统一 API Key；4 在「账号」页添加上游供应商账号；5 在「Agent」页应用连接配置，或在客户端填入 BASE_URL=http://127.0.0.1:3065/v1；6 可查看请求报表（Token/成功率/缓存命中率）。",
+    "note": "本地网关不发放 Key，需要你填入各供应商的真实账号凭证。支持 OpenAI Chat/Responses/Images 与 Anthropic Messages 协议。中文界面，支持 Agent 客户端配置导入与切换。",
+    "dashboard_url": "http://127.0.0.1:3065/"
   }
 }
