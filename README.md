@@ -1,6 +1,6 @@
 # 免费 LLM API 一览（自动更新）
 
-生成：2026-11-25　上游数据：未知　有效提供商 35 个，免费模型 320 个
+生成：2026-11-26　上游数据：未知　有效提供商 35 个，免费模型 320 个
 
 | 提供商 | 地区 | 类型 | 免费模型 | 信用卡/验证 | 获取 Key |
 |---|---|---|---|---|---|
@@ -21,27 +21,28 @@
 | Gonka Broker | 🌐 海外 | 永久免费层 | 4 | 无需信用卡 | [获取](zai-org/GLM-5.3-Flash；deepseek-ai/DeepSeek-V4-Flash-0731；MiniMaxAI/MiniMax-M2.7) |
 | Z AI (Zhipu AI) | 🇨🇳 国内 | 永久免费层 | 4 | 无需信用卡 | [获取](GLM-4.7-Flash；GLM-4.6V-Flash；GLM-4.5-Air) |
 | Perch AI | 🌐 海外 | 永久免费层 | 3 | 无需信用卡 | [获取](Crouton Alpha；DeepSeek V4.1 Flash 1017；GLM 5.3 Flash) |
-| Pollinations | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Pollinations) |
-| Together AI | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Together AI) |
 | Kiro AI | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Kiro AI) |
+| Together AI | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Together AI) |
+| Pollinations | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Pollinations) |
 | Chutes.ai | 🌐 海外 | 永久免费层 | 2 | 无需信用卡 | [获取](DeepSeek-R1；Llama 3.1 70B) |
 | Grok (xAI) | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](Grok-2 Mini；Grok-2) |
 | SiliconFlow | 🇨🇳 国内 | 永久免费层 | 2 | 无需信用卡 | [获取](tencent/Hunyuan-MT-7B；XingChenAGI/Xing4.0-29B) |
 | Ollama Cloud | 🌐 海外 | 永久免费层 | 2 | 无需信用卡 | [获取](deepseek-v4-pro；minimax-m3) |
 | Cline | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](Nemotron 3.5 Lightning；cline-free/nemotron-3.5-super-vl) |
-| Upstage | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Upstage) |
-| OpenAI | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](OpenAI) |
+| Novita | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Novita) |
 | Hyperbolic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Hyperbolic) |
-| Anthropic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Anthropic) |
-| GitHub Models | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](GitHub Models) |
 | NLP Cloud | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](NLP Cloud) |
 | DeepSeek | 🇨🇳 国内 | 免费层-S | 2 | 多源确认 | [获取](DeepSeek) |
-| Novita | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Novita) |
 | Fireworks | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Fireworks AI) |
+| GitHub Models | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](GitHub Models) |
+| Upstage | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Upstage) |
+| OpenAI | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](OpenAI) |
+| Anthropic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Anthropic) |
 | Modal | 🌐 海外 | 免费层-S | 1 | 多源确认 | [获取](Modal) |
 
 ## 最近变更
 
+- 2026-11-26 **免费模型消失** 11 个：NVIDIA NIM|glm-5.3、NVIDIA NIM|kimi-k3、NVIDIA NIM|llama-3.1-nemotron-70b-instruct、NVIDIA NIM|llama-3.1-nemotron-ultra-253b-v1、NVIDIA NIM|magistral-small-2506、NVIDIA NIM|mistral-7b-instruct-v0.3、NVIDIA 
 - 2026-11-25 **免费模型消失** 8 个：Google Gemini|gemini-3.7-flash、Google Gemini|gemini-3.8-flash、Groq|llama-prompt-guard-2-22m、Groq|llama-prompt-guard-2-86m、Groq|qwen3.8-27b、Kilo Code|cohere-north-mini-code-free、NVIDIA NIM|kimi-k3.1-pr
 - 2026-11-25 **新增免费模型** 7 个：Google Gemini|gemini-embedding-001、Google Gemini|gemini-embedding-2、Groq|gpt-oss-120b、Groq|gpt-oss-20b、Groq|gpt-oss-safeguard-20b、Kilo Code|xing4.0-29b-a4b、OVHcloud AI Endpoints|olala-v1.0-translate
 - 2026-11-25 **模型数变化** Google Gemini：12 → 14
@@ -56,4 +57,3 @@
 - 2026-11-23 **模型数变化** Kilo Code：16 → 18
 - 2026-11-23 **模型数变化** Groq：9 → 6
 - 2026-11-23 **模型数变化** Cline：3 → 2
-- 2026-11-23 **模型数变化** OpenRouter：21 → 20
