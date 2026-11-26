@@ -1,0 +1,13 @@
+{
+  "FreeLLMAPI": {
+    "url": "https://freellmapi.co",
+    "steps": "1 下载桌面 App 或运行 Docker/NPM CLI（见下方安装指引）；2 打开 Dashboard → Keys 页；3 逐个添加上游供应商 API Key（你已有的 Provider 都可填在这里）；4 回到 Keys 页顶部的 Unified API Key，复制后填入本工作簿「🔐 我的密钥」对应行；5 在 Agent（如 Claude Code）配置里设置 BASE_URL=http://localhost:3001/v1 并使用该统一 Key；6 如需 MCP 集成，使用内置 MCP Server 指向 localhost:3001。",
+    "note": "本地网关不发放 Key，需要你填入各供应商的真实密钥。免费版模型目录有约 30 天延迟。免费层每月约 10.1B tokens 容量，具体速率限制以各上游为准。",
+    "install": {
+      "desktop": "macOS: https://github.com/tashfeenahmed/freellmapi/releases (桌面应用, tray icon); Windows/Linux 类似",
+      "docker": "docker run -p 3001:3001 tashfeenahmed/freellmapi:latest",
+      "cli": "npm install -g freellmapi && freellmapi launch --ui"
+    },
+    "dashboard_url": "http://localhost:3001/"
+  }
+}
