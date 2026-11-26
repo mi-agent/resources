@@ -127,7 +127,7 @@
    "models": 2
   },
   "Glhf.chat": {
-   "fails": 46,
+   "fails": 47,
    "last_ok": null,
    "first_seen": "2026-11-02",
    "status": "已移除",
@@ -169,10 +169,10 @@
    "models": 2
   },
   "Pollinations": {
-   "fails": 0,
+   "fails": 1,
    "last_ok": "2026-11-26",
    "first_seen": "2026-11-05",
-   "status": "有效",
+   "status": "观察中",
    "models": 3
   },
   "Together AI": {
