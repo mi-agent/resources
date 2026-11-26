@@ -403,7 +403,18 @@ def main():
     mk(wb,"✅ 免费可用模型",f"✅ 确认可免费使用的模型（共 {len(frows)} 个）",f"只列 ✅确认免费 / 🆓标价为0 的模型，共 {len(frows)} 个；判定依据：上游确认清单、OpenRouter 实时零价、models.dev / LiteLLM 零价。全量模型库中 {sum(1 for m in mods if m['status']=='❔ 需核对')} 个「❔需核对」模型不计入本表（该供应商有免费层，但此模型是否在免费层内未获确认，请以官网为准）。",
        ["提供商","模型","免费状态","类型","上下文","能力标签","Key 控制台"],[22,38,13,10,9,34,42],frows,"16895C",links=(7,),chips=(3,),center=(3,4,5))
     mk(wb,"其他免费资源","🧰 服务器 · 算力 · 数据库 · 域名 · 路由 · VPN · AI 工具","手工整理的补充资源，额度与政策变化快，以官网为准；状态来自每日存活探测。",
-       ["类别","名称","免费额度","时效","适合","官网","使用方法","状态","最近正常"],[16,26,44,9,24,10,70,9,19],other,"C93B6B",links=(6,),chips=(4,8),mine="J",cat=1,center=(4,8))
+      ["类别","名称","免费额度","时效","适合","官网","使用方法","状态","最近正常"],[16,26,44,9,24,10,70,9,19],other,"C93B6B",links=(6,),chips=(4,8),mine="J",cat=1,center=(4,8))
+    # ---- 🛠️ 本地网关工具（Gateway Tools） ----
+    # 这类工具本身不发 Key，需要你填入上游供应商的 Key
+    tools=[]
+    for name in ("Magpie","FreeLLMAPI"):
+        g=GUIDES.get(name) or {}
+        if not g: continue
+        ins=g.get("install","")
+        if isinstance(ins,dict): ins=" / ".join(str(v) for v in ins.values())
+        tools.append([name,ins or "见官方文档","是",g.get("url",""),g.get("steps","")[:60],g.get("note",""),"在用",STAMP[:10]])
+    mk(wb,"🛠️ 本地网关工具","🛠️ 聚合网关 / 路由工具 (不发放独立 API Key)","此类工具需要你填入已有上游供应商的 Key 后使用，它们负责聚合/路由/故障转移/MCP。对应「✅ 免费可用模型」工作表的判定规则保持不变。",
+       ["网关名","安装方式","是否开源","文档/主页","用途说明","备注","状态","最近正常"],[18,30,10,42,48,34,10,13],tools,"B7791F",links=(4,),center=(1,3,7))
     mk(wb,"变更日志","📝 变更日志","新增/下架/模型数变化/探测失败与恢复，最近 300 条。",["日期","类型","对象","详情"],[12,16,28,60],S["log"],"B7791F")
     mk(wb,"已下架","🗑 已下架","上游移除，或连续 3 次探测失败的条目。恢复后会自动回到有效表。",["名称","原因","日期"],[30,24,12],dead,"5B6781")
     # ---- 总览仪表盘 ----
@@ -430,7 +441,7 @@ def main():
         v=ov.cell(r0+2,c0,f);v.font=ft(size=28,bold=True,color=col);v.alignment=Alignment(horizontal="left",indent=1,vertical="center");ov.row_dimensions[r0+2].height=42
         ov.cell(r0+3,c0,unit).font=ft(size=9,color="9AA7C4");ov.cell(r0+3,c0).alignment=Alignment(horizontal="left",indent=1)
     ov.merge_cells("B17:I17");ov["B17"]="📚 工作表导航（点击跳转）";ov["B17"].font=ft(size=13,bold=True,color=NAVY)
-    nav=[("场景推荐","按编程、推理、看图、长文档、工具调用、中文、RAG、语音、生图等场景挑模型"),("免费API","各提供商的额度、信用卡要求、Base URL 与 Key 入口"),("✅ 免费可用模型","只列确认免费的模型，回答「哪些模型能免费用」"),("🔑 Key 获取指南","逐家的注册、验证、创建 Key 详细步骤"),("能力矩阵","一眼看各提供商支持哪些能力"),("全量模型库","每个模型的类型、上下文、视觉/推理/工具等能力、价格与免费状态"),("其他免费资源","服务器、GPU、数据库、域名、路由、VPN、AI 工具"),("变更日志","每天新增、下架与变动"),("已下架","失效条目归档")]
+    nav=[("场景推荐","按编程、推理、看图、长文档、工具调用、中文、RAG、语音、生图等场景挑模型"),("免费API","各提供商的额度、信用卡要求、Base URL 与 Key 入口"),("✅ 免费可用模型","只列确认免费的模型，回答「哪些模型能免费用」"),("🔑 Key 获取指南","逐家的注册、验证、创建 Key 详细步骤"),("🛠️ 本地网关工具","聚合网关/路由工具，填入上游 Key 后统一调用（Magpie/FreeLLMAPI）"),("能力矩阵","一眼看各提供商支持哪些能力"),("全量模型库","每个模型的类型、上下文、视觉/推理/工具等能力、价格与免费状态"),("其他免费资源","服务器、GPU、数据库、域名、路由、VPN、AI 工具"),("变更日志","每天新增、下架与变动"),("已下架","失效条目归档")]
     for i,(sh,d) in enumerate(nav,18):
         ov.merge_cells(start_row=i,start_column=2,end_row=i,end_column=3);ov.merge_cells(start_row=i,start_column=4,end_row=i,end_column=9)
         ov.cell(i,2,f'=HYPERLINK("#\'{sh}\'!A1","→ {sh}")').font=ft(size=11,bold=True,color="2F5BEA",underline="single");ov.cell(i,4,d).font=ft(size=10,color="5B6781")
