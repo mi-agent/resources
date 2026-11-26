@@ -127,7 +127,7 @@
    "models": 2
   },
   "Glhf.chat": {
-   "fails": 45,
+   "fails": 46,
    "last_ok": null,
    "first_seen": "2026-11-02",
    "status": "已移除",

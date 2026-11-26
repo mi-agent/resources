@@ -21,23 +21,23 @@
 | Gonka Broker | 🌐 海外 | 永久免费层 | 4 | 无需信用卡 | [获取](zai-org/GLM-5.3-Flash；deepseek-ai/DeepSeek-V4-Flash-0731；MiniMaxAI/MiniMax-M2.7) |
 | Z AI (Zhipu AI) | 🇨🇳 国内 | 永久免费层 | 4 | 无需信用卡 | [获取](GLM-4.7-Flash；GLM-4.6V-Flash；GLM-4.5-Air) |
 | Perch AI | 🌐 海外 | 永久免费层 | 3 | 无需信用卡 | [获取](Crouton Alpha；DeepSeek V4.1 Flash 1017；GLM 5.3 Flash) |
+| Kiro AI | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Kiro AI) |
 | Together AI | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Together AI) |
 | Pollinations | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Pollinations) |
-| Kiro AI | 🌐 海外 | 免费层-S | 3 | 多源确认 | [获取](Kiro AI) |
 | Chutes.ai | 🌐 海外 | 永久免费层 | 2 | 无需信用卡 | [获取](DeepSeek-R1；Llama 3.1 70B) |
 | Grok (xAI) | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](Grok-2 Mini；Grok-2) |
 | SiliconFlow | 🇨🇳 国内 | 永久免费层 | 2 | 无需信用卡 | [获取](tencent/Hunyuan-MT-7B；XingChenAGI/Xing4.0-29B) |
 | Ollama Cloud | 🌐 海外 | 永久免费层 | 2 | 无需信用卡 | [获取](deepseek-v4-pro；minimax-m3) |
 | Cline | 🌐 海外 | 永久免费层 | 2 | 需注册 | [获取](Nemotron 3.5 Lightning；cline-free/nemotron-3.5-super-vl) |
-| Upstage | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Upstage) |
 | Hyperbolic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Hyperbolic) |
-| OpenAI | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](OpenAI) |
-| Fireworks | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Fireworks AI) |
-| Novita | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Novita) |
-| NLP Cloud | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](NLP Cloud) |
-| DeepSeek | 🇨🇳 国内 | 免费层-S | 2 | 多源确认 | [获取](DeepSeek) |
 | Anthropic | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Anthropic) |
 | GitHub Models | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](GitHub Models) |
+| OpenAI | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](OpenAI) |
+| Fireworks | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Fireworks AI) |
+| DeepSeek | 🇨🇳 国内 | 免费层-S | 2 | 多源确认 | [获取](DeepSeek) |
+| Upstage | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Upstage) |
+| Novita | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](Novita) |
+| NLP Cloud | 🌐 海外 | 免费层-S | 2 | 多源确认 | [获取](NLP Cloud) |
 | Modal | 🌐 海外 | 免费层-S | 1 | 多源确认 | [获取](Modal) |
 
 ## 最近变更
